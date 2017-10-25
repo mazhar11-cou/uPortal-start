@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>IT Staff (PAGS)</name>
+  <description>Users with memberOf=uid=it,ou=group,dc=cpp,dc=edu</description>
+  <members>
+    <member-name>IT Service Desk SU (PAGS)</member-name>
+  </members>
+  <selection-test>
+    <test-group>
+      <test>
+        <attribute-name>memberOf</attribute-name>
+        <tester-class>org.jasig.portal.groups.pags.testers.StringEqualsIgnoreCaseTester</tester-class>
+        <test-value>uid=it_staff,ou=group,dc=cpp,dc=edu</test-value>
+      </test>
+    </test-group>
+  </selection-test>
+</pags-group>

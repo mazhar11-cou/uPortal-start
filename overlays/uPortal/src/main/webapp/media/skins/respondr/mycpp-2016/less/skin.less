@@ -1,0 +1,315 @@
+/**
+ * Licensed to Jasig under one or more contributor license
+ * agreements. See the NOTICE file distributed with this work
+ * for additional information regarding copyright ownership.
+ * Jasig licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file
+ * except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on
+ * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+/**
+ * This file is for skin-specific overrides.  NOTE, however, that the skin.less
+ * file SHOULD REMAIN COMPLETELY EMPTY in defaultSkin.  (The expectation is that
+ * skin designers will copy defaultSkin and use it as a starting point, then
+ * modify to taste.
+ */
+
+html {
+  body {
+    background: @content-background-color;
+    font-family: "Roboto", sans-serif;
+
+    #wrapper {
+      background-image: none;
+    }
+  }
+}
+
+.portal {
+  #portalPageBody::before {
+    background-image: none;
+  }
+
+  a, .bootstrap-styles a, .btn-link {
+    color: @color3;
+  }
+
+  h1.portal-logo {
+    float: left;
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 11px;
+    padding-left: 10px;
+    font-weight: normal;
+
+    img {
+      max-height: 15px;
+    }
+  }
+
+  .up-portlet-titlebar.up-standard-chrome {
+      background-image: none;
+      background-color: @color1;
+
+      .border-radiuses(0 ,0, 0, 0);
+
+      > h2 {
+        padding: 10px;
+        > a {
+            &:hover {
+                color: @portlet-titlebar-link-color;
+            }
+        }
+      }
+
+      .up-portlet-titlebar {
+        top: 5px;
+        right: 5px;
+      }
+
+      .portlet-controls {
+        color: @white;
+
+        .portlet-options-menu {
+          > a {
+            font-size: 11px;
+          }
+
+          > a:hover {
+            color: @white;
+
+            .caret {
+              border-top-color: @white;
+            }
+          }
+        }
+      }
+  }
+
+  .up-portlet-content-wrapper {
+    .border-radiuses(0 ,0, 0, 0);
+  }
+
+  #region-header-left, #region-header-right {
+    max-height: 50px;
+    padding: 0;
+    margin: 0;
+
+    section.up-portlet-wrapper {
+      margin-top: 0;
+    }
+  }
+
+  #region-header-right {
+    section.up-portlet-wrapper {
+      margin-top: 5px;
+      display: inline-block;
+      margin-left: 10px;
+
+      &.login-launcher, &.logout-launcher {
+        padding-right: 10px;
+      }
+    }
+  }
+
+  #region-header-bottom {
+    display: none;
+  }
+
+  /**
+   * Navigation
+   */
+  .row-offcanvas {
+    .portal-nav {
+      .sidebar-offcanvas {
+        ul.menu {
+          .list-group-item {
+            background-color: #ccc;
+            border: none;
+
+            &.active {
+              background-color: #f6f6f6 !important;
+            }
+
+            &.portal-navigation-add-item {
+              padding-left: 24px;
+
+              .portal-navigation-add {
+                color: @black;
+              }
+            }
+
+            a {
+              &.portal-navigation-link {
+                color: @black !important;
+
+                &:hover, &:focus {
+                  background: transparent;
+                  text-decoration: underline;
+                }
+              }
+            }
+          } /* li.list-group-item */
+          a.portal-navigation-dropdown {
+            color: @black !important;
+          }
+        } /* ul.menu */
+      } /* .sidebar-offcanvas */
+    } /* .portal-nav */
+  } /* .row-offcanvas */
+
+  .portlet-options-menu.btn-group {
+    padding-top: 5px;
+    a, a:hover {
+      color: @black;
+    }
+  }
+
+  /**
+   * Blurbs
+   */
+  .blurb {
+    font-size: 11px;
+    margin: 10px 0px;
+  }
+
+  .blurb-medium {
+    font-size: 13px;
+    margin: 10px 0px;
+  }
+
+  .btn-default, .btn-default[disabled] {
+    color: @white;
+    background-color: @color1;
+    border: none;
+  }
+
+  #customizeOptionsWrapper button {
+    text-transform: uppercase;
+  }
+
+  /**
+   * Desktop-specific customizations
+   */
+  @media only screen and (min-width: 769px) {
+    #up-sticky-nav {
+        display: none;
+    }
+    .row-offcanvas #wrapper .portal-nav .sidebar-offcanvas ul.menu .list-group-item .dropdown-menu li.portal-subnav a {
+        &:hover, &:focus {
+          background:#f6f6f6;
+          color:#444;
+        }
+    }
+  }
+
+  /**
+   * Mobile-specific customizations
+   */
+  @media only screen and (max-width: 768px) {
+    .portal-header {
+        .portal-header-main {
+            padding-top: 0px;
+            margin-top: 43px;
+        }
+    }
+
+    #region-header-left {
+      text-align: center;
+      section.cpp-portal-logo {
+        h1.portal-logo {
+          float:none;
+        }
+      }
+    }
+
+    #region-header-right { display: none; }
+
+    #region-pre-header {
+      .logout-launcher {
+        padding-right: 10px;
+      }
+    }
+
+    .portal-nav {
+      .menu {
+        .active a:focus {
+          background-color: @content-background-color;
+        }
+      }
+    }
+
+    .row-offcanvas.row-offcanvas-left .sidebar-offcanvas .list-group-horizontal .list-group-item {
+      background-color: @navbar-background-color !important;
+    }
+  }
+
+  .portal-header {
+    .menu-toggle, .menu-toggle:hover, .menu-toggle:active, .menu-toggle:focus {
+      background: transparent;
+      border-style: none;
+
+      i {
+        padding: 0px;
+      }
+    }
+  }
+
+  .up-gallery .gallery-inner .content-filters-wrapper h3 {
+    color: @white;
+  }
+
+  #region-customize {
+    button {
+      float: right;
+    }
+  }
+
+  /**
+   * Portlet drop marker
+   */
+  .fl-reorderer-dropMarker {
+    background-color: @color1;
+    border-color: @color1-darker;
+  }
+
+  #webSearchSubmit span {
+    display: block;
+  }
+
+  .searchTabsContainer h2 {
+    font-weight: normal;
+    font-size: 15.4px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+  }
+}
+
+/**
+ * jQuery UI overrides
+ */
+.ui-widget {
+  font-family: "Roboto", sans-serif;
+}
+
+.feedback .bootstrap-styles {
+  .btn-default, .btn-default:hover, .btn-default[disabled] {
+    color: @white;
+    background-color: @cpp-green;
+  }
+}
+
+.badge {
+  background-color: @cpp-badge-bg;
+}

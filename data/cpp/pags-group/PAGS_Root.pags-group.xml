@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+  Group pags_root: "PAGS Root"
+  IMPORTANT: The PAGS Root group is REQUIRED for uPortal to function. It Must be a member of the Everyone group in the
+  local group store
+-->
+
+<!--==================== Pomona Additions ====================
+    Pomona groups fall into the following hierarchy:
+    - Employees
+       |- Auxiliary Employees
+       |- Student Employees <- (IDM employee_student)
+       |- CPP Employees
+           |- Staff
+               |- IIT Staff <- move here
+                   |- Help Desk Super <- (IDM helpdesk_su (to show all centers))
+               |- Management <- (IDM management)
+                   |- Absence Managers <- (from PS AM security - not implemented)
+           |- Faculty
+    - Students
+    - Applicants <- (Not from IDM - defined for portal prob from PS - not implemented)
+    - Instructor <- (IDM instructor)
+    - Academic Advisors <- (IDM acad_advisors)
++-->
+
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>PAGS Root</name>
+  <description>Root group for all PAGS groups.  Convenience for adding PAGS groups to a local group.</description>
+  <members>
+    <member-name>All Users (PAGS)</member-name>
+    <member-name>Authenticated Users</member-name>
+    <member-name>Desktop Device Access</member-name>
+    <member-name>Mobile Device Access</member-name>
+    <member-name>Respondr Theme Users</member-name>
+    <!-- CPP PAGS Groups -->
+    <member-name>Academic Advisors (PAGS)</member-name>
+    <member-name>Applicants (PAGS)</member-name>
+    <member-name>COL-AG majors (PAGS)</member-name>
+    <member-name>COL-CBA majors (PAGS)</member-name>
+    <member-name>COL-CEIS majors (PAGS)</member-name>
+    <member-name>COL-CEU majors (PAGS)</member-name>
+    <member-name>COL-CLASS majors (PAGS)</member-name>
+    <member-name>COL-EGR majors (PAGS)</member-name>
+    <member-name>COL-ENV majors (PAGS)</member-name>
+    <member-name>COL-SCI majors (PAGS)</member-name>
+    <member-name>Employees (PAGS)</member-name>
+    <member-name>Instructor (PAGS)</member-name>
+    <member-name>IT Portal Feedback (PAGS)</member-name>
+    <member-name>Past Students (PAGS)</member-name>
+    <member-name>Pending Faculty (PAGS)</member-name>
+    <member-name>Pending Instructor (PAGS)</member-name>
+    <member-name>Pending Students (PAGS)</member-name>
+    <member-name>PeopleSoft Based Roles (PAGS)</member-name>
+    <member-name>Students (PAGS)</member-name>
+  </members>
+</pags-group>

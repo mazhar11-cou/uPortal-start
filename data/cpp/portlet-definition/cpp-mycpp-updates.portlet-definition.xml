@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+    <title>What's New in  MyCPP</title>
+    <name>What's New in MyCPP</name>
+    <fname>cpp-mycpp-updates</fname>
+    <desc>Updates to MyCPP</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>Information</category>
+    <group>Authenticated Users</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+				<div style="font-size:13px;">
+					<p>MyCPP Updates:
+					<em>2/23/2015</em>
+						<ul class="list-unstyled">
+							<li>Update CPP global header to use cpp.edu links</li>
+							<li>Update Parking Permit link. Now goes directly to site eliminating multiple clicks (suggestion received via "Feedback on MyCPP")</li>
+							<li>Update Blackboard link to cpp.edu</li>
+							<li>Update email link and preview to use Office 365 and cpp.edu addresses</li>
+						</ul>
+					<em>12/15/2014</em>
+						<ul class="list-unstyled">
+							<li>Added custom icon when adding MyCPP shortcut to mobile device</li>
+							<li>Added About MyCPP page</li>
+							<li>Added About MyCPP info and FAQs (suggestion received via "Feedback on MyCPP")</li>
+							<li>Added link to campus safety page to alerts that are triggered by campus emergency alert system</li>
+							<li>Renamed "My Control Panel" link to "Identity Managemnt Services"</li>
+							<li>Renamed "e-Help" link to "eHelp"</li>
+							<li>Customized error page</li>
+							<li>Fixed various typos</li>
+						</ul>
+				</div>
+            ]]>
+		</value>
+    </portlet-preference>
+</portlet-definition>

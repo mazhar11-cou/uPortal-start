@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor">
+    <title>Bronco Info</title>
+    <name>Bronco Info</name>
+    <fname>bronco-info</fname>
+    <desc>Bronco Name and Bronco Number</desc>
+    <type>Portlet</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/PersonalInformationPortlets</ns2:webAppName>
+        <ns2:portletName>Bronco Info</ns2:portletName>
+    </portlet-descriptor>
+    <group>Authenticated Users</group>
+    <permissions>
+        <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Authenticated Users</group>
+        </permission>
+    </permissions>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disablePortletEvents</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+</portlet-definition>

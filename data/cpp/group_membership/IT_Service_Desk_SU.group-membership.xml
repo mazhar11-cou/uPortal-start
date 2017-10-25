@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>IT Service Desk SU</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>IT Service Desk super users</description>
+  <children>
+    <group>IT Service Desk SU (PAGS)</group>
+  </children>
+</group>

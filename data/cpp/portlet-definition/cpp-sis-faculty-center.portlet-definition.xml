@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor">
+    <title>BroncoDirect Faculty Center</title>
+    <name>BroncoDirect Faculty Center</name>
+    <fname>cpp-sis-faculty-center</fname>
+    <desc>BroncoDirect Faculty Center</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>All categories</category>
+    <group>Instructors</group>
+    <group>PS Self-Service Instructor (PAGS)</group>
+    <permissions>
+        <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Instructors</group>
+            <group>PS Self-Service Instructor (PAGS)</group>
+        </permission>
+    </permissions>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disablePortletEvents</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+            	<div class="row row-sm-height row-xs-height">
+            		<div class="col-md-4 col-sm-4 col-xs-4 col-sm-height col-xs-height col-middle" style="text-align: center">
+            			<a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.SS_FACULTY.GBL?pslnkid=POM_BD_INSTR_LM_FC&amp;PORTALPARAM_PTCNAV=POM_BD_INSTR_LM_FC&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_SS&amp;EOPP.SCLabel=Instructor%20Self%20Services&amp;EOPP.SCFName=POM_BD_INSTR&amp;EOPP.SCSecondary=true&amp;EOPP.SCPTfname=POM_BD_INSTR&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_INSTR.POM_BD_INSTR_LM.POM_BD_INSTR_LM_FC&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank" title=""><img src="/uPortal/media/cpp/images/faculty-center.png" style="height:75px; width:75px" alt="Faculty in front of board" /></a>
+            		</div>
+            		<div class="col-md-8 col-sm-8 col-xs-8 col-sm-height col-xs-height">
+						<strong><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.SS_FACULTY.GBL?pslnkid=POM_BD_INSTR_LM_FC&amp;PORTALPARAM_PTCNAV=POM_BD_INSTR_LM_FC&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_SS&amp;EOPP.SCLabel=Instructor%20Self%20Services&amp;EOPP.SCFName=POM_BD_INSTR&amp;EOPP.SCSecondary=true&amp;EOPP.SCPTfname=POM_BD_INSTR&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_INSTR.POM_BD_INSTR_LM.POM_BD_INSTR_LM_FC&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" style="text-align:left; vertical-align:bottom" target="_blank" title="">Faculty Center<span class="fa fa-long-arrow-right fa-lg" style="padding-left: 10px;"></span></a></strong>
+                        <br />
+            			<div class="well well-sm blurb">
+                            In the faculty center you can view the class roster, grade roster, and your schedule.
+                        </div>
+            		</div>
+            	</div>
+            ]]>
+        </value>
+    </portlet-preference>
+</portlet-definition>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>Pending Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>All pending student members</description>
+  <children>
+    <group>Pending Students (PAGS)</group>
+  </children>
+</group>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>Announcements Editors</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>Announcements editors</description>
+  <children>
+    <group>Campus Information Announcements Editors</group>
+    <group>Employee Announcements Editors</group>
+    <group>Student Information Announcements Editors</group>
+    <group>IT Service Notice Announcements Editors</group>
+  </children>
+</group>

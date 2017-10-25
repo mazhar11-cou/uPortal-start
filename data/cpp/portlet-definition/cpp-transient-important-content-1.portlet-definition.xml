@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+    <title>Important Information</title>
+    <name>Important Information</name>
+    <fname>cpp-transient-important-content-1</fname>
+    <desc>Important Information</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>Administration</category>
+    <group>Portal Administrators</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+				<div class="page-container">
+					<div class="">
+				   		<div class="portlet-alert" >    
+				   			<div class="container-fluid" >
+								<table style="border-style: solid; border-color:#7C1D20;">
+									<tr>
+										<th><span style="vertical-align: middle;" class="fa fa-exclamation-triangle fa-fw"></span>&nbsp;Email Changes Affect CPP Students!</th>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="font-size:12px;">
+					<p><strong>The way CPP students access email changed between Friday 1/30 and Monday 2/2.</strong></p>
+                	<p>Student email was migrated to the new cpp.edu domain over the weekend of 1/30-2/1. After the migration, the username and password students use to access their CPP email changed. The username is your new @cpp.edu email address (billybronco@cpp.edu) and the password is your <strong>BroncoPassword</strong> (the same password used for MyCPP, BroncoDirect, and Blackboard).</p>
+					<p>For additional information on the migration, <a href="http://www.cpp.edu/~office365" target="_blank">click here</a>.</p>
+					<p>For information on configuration after the migration, <a href="https://ehelp.wiki.cpp.edu/Microsoft_Office_365" target="_blank">click here</a>.</p>
+				</div>
+            ]]>
+		</value>
+    </portlet-preference>
+</portlet-definition>

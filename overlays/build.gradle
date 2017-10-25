@@ -15,6 +15,9 @@ subprojects {
     repositories {
         mavenLocal()
         mavenCentral()
+        maven {
+            url "https://my-tst.cpp.edu/maven2"
+        }
     }
 
     buildscript {
@@ -44,6 +47,7 @@ subprojects {
          * do not remove the hsqldb driver jar that is already listed.
          */
         jdbc "org.hsqldb:hsqldb:${hsqldbVersion}"
+        jdbc "com.oracle:ojdbc:${oracleJdbcVersion}"
 
         /*
          * These are nearly the same uPortal dependencies declared by uPortal-webapp;

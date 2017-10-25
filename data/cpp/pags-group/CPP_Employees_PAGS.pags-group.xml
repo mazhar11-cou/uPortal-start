@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>CPP Employees (PAGS)</name>
+  <description>Both Faculty and Staff</description>
+  <members>
+    <member-name>Faculty (PAGS)</member-name>
+    <member-name>Staff (PAGS)</member-name>
+  </members>
+</pags-group>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to Jasig under one or more contributor license
+    agreements. See the NOTICE file distributed with this work
+    for additional information regarding copyright ownership.
+    Jasig licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License. You may obtain a
+    copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on
+    an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<topic
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uPortal.org/schema/announcement/topic http://www.uPortal.org/schema/announcement/topic.xsd">
+    <title>Employee Announcements</title>
+    <description>CPP employee announcements</description>
+    <allowRss>true</allowRss>
+    <subscriptionMethod>1</subscriptionMethod>
+    <audience>
+        <member>CPP Employees (PAGS)</member>
+    </audience>
+    <creator>admin</creator>
+    <moderators></moderators>
+    <admins></admins>
+    <authors></authors>
+    <announcements>
+        <announcement>
+            <title>New Employee Assitance Program Available</title>
+            <abstract>CPPLifeMatters is a new Employee Assistance Program (EAP) available to all CPP Faculty and Staff.</abstract>
+            <message><![CDATA[
+<p>CPPLifeMatters program available, providing you and your family (dependents and permanent household members) with access to services that include problem assessment, short-term counseling, referral and follow-up.</p>
+            ]]></message>
+            <startDisplay>2014-04-01</startDisplay>
+            <endDisplay>2014-12-31</endDisplay>
+            <published>true</published>
+            <link>http://www.cpp.edu/~employee-assist/index.shtml</link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>Enter your leave time.</title>
+            <abstract>Leave time entry deadline is the 1st of the month. </abstract>
+            <message><![CDATA[
+<p>Please be sure to enter your previous month's leave time by the 1st of the next month. This will allow leave time coordinator and managers ample time to review and approve.</p>
+            ]]></message>
+            <startDisplay>2014-04-16</startDisplay>
+            <endDisplay>2014-12-31</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>Campus Closure December 25, 2014 - January 2, 2015 Procedures and Guidelines</title>
+            <abstract>This memo is issued to assist employees and campus administrators to plan for this period of time for represented and non-represented employees of the campus.</abstract>
+            <message><![CDATA[
+<p>The campus will be closed from Thursday, December 25, 2014, through Friday, January 2, 2015. The campus will reopen on Monday, January 5, 2015. Be advised that December 25, 2014, December 26, 2014, December 29, 2014, and January 1, 2015, are all <a href="http://www.cpp.edu/~payroll/holidays_ph.shtml" target="_blank">University designated holidays.</a> December 30, 2014, December 31, 2014, and January 2, 2015, are not designated as holidays, and time off for these days may be charged to accrued vacation leave credits, Personal Holiday, and any earned CTO (Compensatory Time Off) balances. Sick leave credits cannot be used for the campus closure.&nbsp;</p>
+<p>This memo is issued to assist employees and campus administrators to plan for this period of time for represented and non-represented employees of the campus.</p>
+<p><strong>UAPD Unit 1:</strong>&nbsp; Employees affected by campus closure will need to use vacation or Personal Holiday leave credits since they are not eligible to earn CTO time.</p>
+<p><strong>CSUEU Units 2, 5, 7, and 9: </strong>&nbsp;If an employee does not have sufficient leave credits or CTO and will be on &ldquo;dock&rdquo; pay status for December 30, 2014, December 31, 2014, and January 2, 2015,&nbsp; of the campus closure, a manager may apply <a href="http://www.calstate.edu/LaborRel/Contracts_HTML/CSEA_Contract/Article14.shtml" target="_blank">Article 14.22</a> of the contract. This section reads:&nbsp; <strong><em>&ldquo;Should an employee not have vacation accrued, sufficient CTO balance or Personal Holiday to cover the scheduled days of closure,</em></strong> <strong><em>he/she shall be provided sufficient work prior to the scheduled closure to prevent any loss of pay or benefits. Such time worked shall be in accordance with Article 19, Overtime.&rdquo; </em></strong>&nbsp;For example, if a non-exempt employee needs 24 hours of pay to cover wages lost due to the closure on December 30, 2014, December 31, 2014, and January 2, 2015, the employee should be allowed to work 16 overtime hours to make up the pay equivalent of 24 regular hours.&nbsp; To document CTO earned, the employee and the manager must complete the <a href="http://www.cpp.edu/~payroll/forms/CTO_ADO_HC_CPP_FORM-April%202009.xls" target="_blank">Compensatory Time Off, Alternate Day Off, Holiday Credit Authorization form</a><strong>.</strong></p>
+<p>*Exempt CSUEU employees cannot earn CTO. Therefore, an exempt employee should be provided sufficient work in advance to cover the closure and must work a full day to cover each day of closure.&nbsp; To document exempt employees&rsquo; advance work authorization, please complete the <a href="http://www.cpp.edu/~payroll/forms/Exempt_Advance_Work_Athorization.pdf" target="_blank">Holiday Closure Advance Work Authorization &amp; Log for Exempt Employees form</a><strong>.</strong></p>
+<p><em>Note:</em>&nbsp; If an employee is on an alternate work schedule (such as 4/10 or 9/80) when a holiday is observed on a non-work day, the language of <a href="http://www.calstate.edu/LaborRel/Contracts_HTML/CSEA_Contract/Article14.shtml" target="_blank">Article 14.16 (b)</a> will apply.&nbsp; The employee shall be entitled to a day equal to his/her normal workday. The rescheduled holiday must be used within one hundred and eighty (180) days after the holiday was observed.</p>
+<p><strong>APC Unit 4: </strong>&nbsp;The APC contract allows in <a href="http://www.calstate.edu/LaborRel/Contracts_HTML/APC_Contract/article25.pdf" target="_blank">Article 25.7-8</a> employees to use accrued vacation or CTO hours to cover the campus closure.&nbsp; If an employee does not have sufficient leave credits or CTO and will be on &ldquo;dock&rdquo; pay status for December 30, 2014, December 31, 2014, and January 2, 2015, for the campus closure, <strong>he/she shall be provided sufficient work to prevent any loss of pay or benefits.&nbsp; Such work shall be compensated at the appropriate rate and shall be performed prior to the scheduled day(s) of closure<em>. </em></strong>&nbsp;For example, if a non-exempt employee needs 24 hours of pay to cover wages lost due to the closure on December 30, 2014, December 31, 2014, and January 2, 2015, the employee should be allowed to work 16 overtime hours to make up the pay equivalent of 24 regular hours.&nbsp; To document CTO earned, the employee and the manager must complete the <a href="http://www.cpp.edu/~payroll/forms/CTO_ADO_HC_CPP_FORM-April%202009.xls" target="_blank">Compensatory Time Off, Alternate Day Off, Holiday Credit Authorization form</a><strong>.</strong></p>
+<p><em>Note:</em>&nbsp; If a holiday is observed on a Monday through Friday when an APC employee is not scheduled to work, they shall be entitled to observe the holiday on another scheduled workday. The rescheduled holiday must be used within ninety (90) days after the holiday was observed. Please see <a href="http://www.calstate.edu/LaborRel/Contracts_HTML/APC_Contract/article25.pdf" target="_blank">Article 25.4.</a></p>
+<p>*Exempt APC employees do not earn CTO. If an exempt employee is permitted to work additional time in advance to cover the closure, that employee must work a full day to cover each day of the closure.&nbsp; To document exempt employees&rsquo; advance work authorization, please complete the <a href="http://www.cpp.edu/~payroll/forms/Exempt_Advance_Work_Athorization.pdf" target="_blank">Holiday Closure Advance Work Authorization &amp; Log for Exempt Employees form<strong>.</strong></a></p>
+<p><strong>SETC Unit 6:</strong>&nbsp; &ldquo;Should a new employee, because of length of service, not have vacation accrued or sufficient CTO balance to cover the scheduled days of closure, <strong><em>he/she shall be provided sufficient work to prevent any loss of pay or benefits</em></strong><em>.</em> Such time shall be provided no later than sixty (60) days after such a scheduled day(s) of closure.&rdquo; <a href="http://www.calstate.edu/LaborRel/Contracts_HTML/SETC/2012/Article17.pdf" target="_blank">Article 17.8</a>&nbsp; &ldquo;An employee shall be permitted to use accrued vacation or CTO if the President closes the campus and there is an insufficient number of holidays scheduled to be observed during the closure.&rdquo;&nbsp;<a href="http://www.calstate.edu/LaborRel/Contracts_HTML/SETC/2012/Article17.pdf" target="_blank">Article 17.7</a>&nbsp; For example, if a non-exempt employee needs 24 hours of pay to cover wages lost due to the closure on December 30, 2014, December 31, 2014, and January 2, 2015, the employee should be allowed to work 16 overtime hours to make up the pay equivalent of 24 regular hours.&nbsp; To document CTO earned, the employee and the manager must complete the <a href="http://www.cpp.edu/~payroll/forms/CTO_ADO_HC_CPP_FORM-April%202009.xls" target="_blank">Compensatory Time Off, Alternate Day Off, Holiday Credit Authorization form</a><strong>.</strong></p>
+<p><em>Note:</em>&nbsp; For SETC employees on an alternate work schedule, per <a href="http://www.calstate.edu/LaborRel/Contracts_HTML/SETC/2012/Article17.pdf" target="_blank">Article 17.13</a>:&nbsp; &ldquo;If the holiday is officially observed on a day the employee is not scheduled to work, the employee is entitled to the number of holiday hours equal to their normal workday. This holiday shall be used within ninety (90) days after the holiday was officially observed on a day mutually agreed to by the employee and the appropriate administrator, so that the holiday shall not be lost.&rdquo;</p>
+<p>Also, &ldquo;The campus may also notify the affected employee, at least 14 days in advance that during the week in which the holiday falls their alternate work schedule shall revert to an 8 hour per day 5 day per week schedule to accommodate the observation of the holiday.&rdquo;</p>
+<p><strong>SUPA Unit 8: </strong>&nbsp;Given the 24/7 campus obligations, staff are not affected by the campus closure.</p>
+<p><strong>Hourly Employees:</strong>&nbsp; Hourly employees can charge leave credits for December 30, 2014, December 31, 2014, and/or January 2, 2015 only IF these dates fall on their <em>normal work</em> schedule.</p>
+<p><strong>Confidential/Others not Covered by a Bargaining Unit:</strong>&nbsp; Should the employee not have vacation accrued, sufficient CTO balance or Personal Holiday to cover the closure, the manager will provide sufficient work prior to the scheduled closure to prevent any loss of pay or benefits.</p>
+<p><strong>*Exempt Employees (including MPP):</strong>&nbsp; If an exempt employee either has: (a) sufficient vacation/personal holiday time to cover the campus closure day, but does not want to use it, or (b) does not have sufficient vacation or personal holiday time (such as a new employee), then the employee will be required to perform up to 3 days&rsquo; worth of work to cover the 3 designated campus closure days of December 30, 2014, December 31, 2014, and January 2, 2015.</p>
+<p>To document exempt employees&rsquo; advance work authorization, please complete the <a href="http://www.cpp.edu/~payroll/forms/Exempt_Advance_Work_Athorization.pdf" target="_blank">Holiday Closure Advance Work Authorization &amp; Log for Exempt Employees form</a><strong>.</strong></p>
+<p><strong>Employees on Jury Service:</strong>&nbsp; If employees wish to receive their regular pay for jury service during the three non-holidays of the campus closure, December 30, 2014, December 31, 2014, and January 2, 2015, they may use accrued vacation leave credits, Personal Holiday, and any earned CTO (Compensatory Time Off).&nbsp; The paid holidays are: December 25, 26, 29, 2014 and January 1, 2015.&nbsp; As a reminder, state employees no longer receive state Jury Fees.</p>
+<p>Managers are encouraged to work with the employees who will not have sufficient vacation, Personal Holiday, or CTO to cover the three days of closure. Opportunities provided for employees to earn the necessary time must be in accordance with the bargaining unit agreements noted above and/or applicable federal and state statutes.</p>
+<p>&nbsp;</p>
+<p>To review leave credit balances, employees/managers may log onto <a href="http://www.cpp.edu/broncodirect/?tab=PAPP_GUEST" target="_blank">BroncoDirect/PeopleSoft</a>. For payroll specific questions please contact <a href="http://www.cpp.edu/~payroll/my_payroll_tech.shtml" target="_blank">your payroll technician</a>. For questions regarding the contents in this memo, please contact Ms. Angie Hernandez at extension 5392 or Ms. Margaret Montpas at extension 2267.</p>            ]]></message>
+            <startDisplay>2014-10-21</startDisplay>
+            <endDisplay>2015-01-05</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+    </announcements>
+</topic>

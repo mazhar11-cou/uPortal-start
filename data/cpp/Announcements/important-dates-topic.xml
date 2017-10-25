@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to Jasig under one or more contributor license
+    agreements. See the NOTICE file distributed with this work
+    for additional information regarding copyright ownership.
+    Jasig licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License. You may obtain a
+    copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on
+    an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<topic
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.uPortal.org/schema/announcement/topic http://www.uPortal.org/schema/announcement/topic.xsd">
+    <title>Important Dates</title>
+    <description>Important dates for members of the campus community</description>
+    <allowRss>false</allowRss>
+    <subscriptionMethod>1</subscriptionMethod>
+    <audience>
+        <member>Authenticated Users</member>
+    </audience>
+    <creator>admin</creator>
+    <moderators></moderators>
+    <admins></admins>
+    <authors></authors>
+    <announcements>
+        <announcement>
+            <title>November 3 - 21: Winter Registration</title>
+            <abstract>Winter registration occurs between November 3 and November 21.</abstract>
+            <message><![CDATA[
+<p>Winter registration occurs between November 3 and November 21.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-10-20</startDisplay>
+            <endDisplay>2014-11-22</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>November 11: Veterans Day, Campus Closed</title>
+            <abstract>On Tuesday November 11, the campus will be closed in observance of Veterean's Day.</abstract>
+            <message><![CDATA[
+<p>On Tuesday November 11, the campus will be closed in observance of Veterean's Day.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-10-21</startDisplay>
+            <endDisplay>2014-11-12</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>November 27 - 28: Thanksgiving Break, Campus Closed</title>
+            <abstract>On Thursday November 27 and Friday November 28, the campus will be closed in observance of Thanksgiving.</abstract>
+            <message><![CDATA[
+<p>On Thursday November 27 and Friday November 28, the campus will be closed in observance of Thanksgiving.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-10-22</startDisplay>
+            <endDisplay>2014-11-29</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>December 8: Winter Fees Due</title>
+            <abstract>On Monday December 8, Winter Quarter fees are due.</abstract>
+            <message><![CDATA[
+<p>On Monday December 8, Winter Quarter fees are due.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-10-23</startDisplay>
+            <endDisplay>2014-12-10</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>December 8 - 12: Final Exams</title>
+            <abstract>Between Monday December 8 and Friday December 12, Fall Quarter final exams are administered.</abstract>
+            <message><![CDATA[
+<p>Between Monday December 8 and Friday December 12, Fall Quarter final exams are administered.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-11-01</startDisplay>
+            <endDisplay>2014-12-13</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>December 17: Grades Posted</title>
+            <abstract>Fall grades will be posted no later than Wednesday December 17.</abstract>
+            <message><![CDATA[
+<p>Fall grades will be posted no later than Wednesday December 17.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~academic-programs/Documents/2014_2015AcademicCalendarFinal.pdf" target="_blank">Academic Programs Calendar</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-11-01</startDisplay>
+            <endDisplay>2014-12-13</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>December 19 - January 9: Winter Add/Drop Period</title>
+            <abstract>Winter 2015 Add/Drop Period is from December 19, 2014 - January 9, 2015.</abstract>
+            <message><![CDATA[
+<p>Winter 2015 Add/Drop Period is from December 19, 2014 - January 9, 2015.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-11-12</startDisplay>
+            <endDisplay>2015-01-10</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>December 25 - January 2: Winter Break - Campus Closed</title>
+            <abstract>The campus is closed for winter break from December 25, 2014 - January 2, 2015.</abstract>
+            <message><![CDATA[
+<p>The campus is closed for winter break from December 25, 2014 - January 2, 2015.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-11-12</startDisplay>
+            <endDisplay>2015-01-06</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+        <announcement>
+            <title>January 5: Winter Classes Begin</title>
+            <abstract>Classes for Winter 2015 begin on January 5, 2015.</abstract>
+            <message><![CDATA[
+<p>Classes for Winter 2015 begin on January 5, 2015.</p>
+<p>See:&nbsp;<a href="http://www.cpp.edu/~registrar/calendars/index.shtml" target="_blank">Important Dates &amp; Deadlines</a></p>
+<p>&nbsp;</p>
+            ]]></message>
+            <startDisplay>2014-11-12</startDisplay>
+            <endDisplay>2015-01-06</endDisplay>
+            <published>true</published>
+            <link></link>
+            <author>admin</author>
+        </announcement>
+    </announcements>
+</topic>

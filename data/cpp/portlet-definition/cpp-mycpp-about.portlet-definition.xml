@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+    <title>About MyCPP</title>
+    <name>About MyCPP</name>
+    <fname>cpp-mycpp-about</fname>
+    <desc>About MyCPP</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>Information</category>
+    <group>Authenticated Users</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+				<div style="font-size:13px;">
+					<p><strong>What is MyCPP</strong></p>
+					<p>MyCPP is Cal Poly Pomona's campus portal. It is an online service that provides information and access to other online services. There are a few ideas behind MyCPP:
+						<ul class="list-unstyled">
+							<li><span class="fa fa-check fa-fw" style="color:#006800;"></span>Provide users access to multiple online services with a single login.</li>
+							<li><span class="fa fa-check fa-fw" style="color:#006800;"></span>Provide users information that they would otherwise have to access various services to get.</li>
+							<li><span class="fa fa-check fa-fw" style="color:#006800;"></span>Provide a place for users to "see" items of interest.</li>
+							<li><span class="fa fa-check fa-fw" style="color:#006800;"></span>Start simple. Add features regularly.</li>
+						</ul>
+					</p>
+					<p><strong>Provide users access to multiple online services with a single login.</strong></p>
+					<p>
+						Nobody wants to keep typing in their BroncoName and BroncoPassword over, and over, and over. We implemented a single sign-on to allow users to login once, and gain access to many online services. At this time not all CPP online services take advantage of this. We will continue to implement this with many more services in the future. Eventually every service available from MyCPP will be accessible without having to sign in again.
+					</p>
+					<p><strong>Provide users information that they would otherwise have to access various services to get.</strong></p>
+					<p>
+						The University has many systems that users interact with regularly. Many of these sytems contain information that is important to users in regards to their role within the University. With MyCPP, we plan on pulling information out of many different services and displaying it to users to save them the effort of going many places to get the information the need. Additional data from different services will be added over time.
+					</p>
+					<p><strong>Provide a place for users to "see" items of interest.</strong></p>
+					<p>
+						MyCPP is designed to be a place for users to "see" information, but not "do" things with that information. Instead, MyCPP provides links to the service that the information comes from in order to provide access to more details, or to take some action related to the information displayed. This allows us to focus on adding more content to MyCPP instead of recreating functionality that currently exists elsewere.
+					</p>
+					<p><strong>Start simple. Add features regularly.</strong></p>
+					<p>
+						A service like MyCPP could easily become overwhelmed and bloated. If we included everything we could think of MyCPP would never have seen the light of day. We made a purposeful decision to start simple by providing a handful of features with plans to add more features over time taking user <a href="/uPortal/p/feedback/max/render.uP">feedback</a> and requests into consideration.
+					</p>
+				</div>
+            ]]>
+		</value>
+    </portlet-preference>
+</portlet-definition>

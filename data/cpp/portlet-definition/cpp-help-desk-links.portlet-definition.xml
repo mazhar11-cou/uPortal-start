@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Help Desk Links</title>
+    <name>Help Desk Links</name>
+    <fname>cpp-help-desk-links</fname>
+    <desc>Links for help desk users</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>All categories</category>
+    <group>IT Service Desk SU</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+<ul>
+  <li><a href="/uPortal/p/announcementsAdmin/max/render.uP">Announcements Administration</a></li>
+  <li><a href="/uPortal/p/user-administration/max/render.uP">User Administration</a></li>
+</ul>
+            ]]>
+</value>
+    </portlet-preference>
+</portlet-definition>

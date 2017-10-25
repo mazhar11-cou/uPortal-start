@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>CPP JavaScript Footer</title>
+    <name>CPP JavaScript Footer</name>
+    <fname>cpp-js-footer</fname>
+    <desc>CPP JavaScript Footer</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>All categories</category>
+    <group>Everyone</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>false</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+<script>
+var base_url = "${environment.build.uportal.protocol}://${environment.build.uportal.server}${environment.build.uportal.context}";
+var base_url_length = base_url.length;
+
+var cas_url = "${environment.build.cas.protocol}://${environment.build.cas.server}";
+var legacy_cas_url = "https://auth.cpp.edu/cas";
+
+var hide_customize_fragments = [
+    'home-lo',
+    'my-status-lo',
+    'cpp-employee-lo',
+    'cpp-campus-lo',
+    'online-services-lo',
+    'my-personal-info-lo'
+];
+
+function qualifyURL(url) {
+    var img = document.createElement('img');
+    img.src = url; // set string url
+    url = img.src; // get qualified url
+    img.src = null; // no server request
+    return url;
+}
+
+function hideCustomize() {
+    if(typeof up.analytics.pageData === 'undefined') {
+        return;
+    }
+
+    var pageData = up.analytics.pageData;
+
+    if(typeof pageData.tab === 'undefined') {
+        return;
+    }
+
+    if(typeof pageData.tab.fragmentName === 'undefined') {
+        return;
+    }
+
+    var fragmentName = pageData.tab.fragmentName;
+
+    if(hide_customize_fragments.indexOf(fragmentName) > -1) {
+        up.jQuery('#customizeOptionsWrapper').fadeOut();
+    }
+}
+
+up.jQuery(document).ready(function ($) {
+    hideCustomize();
+
+    $("a").click(function (e) {
+        if(!base_url) {
+            return;
+        }
+
+        var href = $(this).attr('href');
+        var target = $(this).attr('target');
+
+        if(href.search("javascript:") == 0) {
+            return;
+        }
+
+        if(href.search("mailto:") == 0) {
+            return;
+        }
+
+        if(target && target === '_blank') {
+            return;
+        }
+
+        if(href.indexOf(cas_url) == 0) {
+            return;
+        }
+
+        if(href.indexOf(legacy_cas_url) == 0) {
+            return;
+        }
+
+        var link_location2 = qualifyURL(href);
+
+        // if the link clicked is external
+        if (link_location2.substr(0, base_url.length) != base_url) {
+            if (!(confirm("You are about to leave the website without logging out. Please press CANCEL to go back and Log Out."))) {
+                e.preventDefault();
+            }
+        }
+    });
+
+    $(document.body).on('click', 'a', function() {
+        if(typeof ga === 'undefined')
+            return;
+
+        var a = $(this);
+
+        var urls = [
+            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?gsmobile=0&pt_fname=POM_BD_SS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS&IsFolder=true?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID',
+            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=POM_BD_SS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS&IsFolder=true?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID&gsmobile=0',
+            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?gsmobile=0',
+            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID&gsmobile=0',
+            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?gsmobile=1',
+        ];
+
+        var trackOutbound = (a.attr('data-ga-track-outbound') == 'true');
+
+        var href = a.attr('href');
+        var eventLabel = a.attr('data-ga-event-label') || a.text().trim();
+
+        if(trackOutbound || urls.indexOf(href) > -1 ) {
+            ga('send', 'event', 'Outbound Link', 'click', eventLabel);
+        }
+    });
+});
+</script>
+            ]]>
+		</value>
+    </portlet-preference>
+</portlet-definition>

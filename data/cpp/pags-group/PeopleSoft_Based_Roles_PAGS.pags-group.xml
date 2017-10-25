@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>PeopleSoft Based Roles (PAGS)</name>
+  <description></description>
+  <members>
+    <member-name>PS Absence Manager (PAGS)</member-name>
+    <member-name>PS Applicants (PAGS)</member-name>
+    <member-name>PS Financial Aid Recipients (PAGS)</member-name>
+    <member-name>PS Self-Service Advisor (PAGS)</member-name>
+    <member-name>PS Self-Service Instructor (PAGS)</member-name>
+    <member-name>PS Self-Service Student (PAGS)</member-name>
+    <member-name>PS Timekeeper (PAGS)</member-name>
+  </members>
+</pags-group>

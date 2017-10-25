@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Skip to Content</title>
+    <name>Skip to Content</name>
+    <fname>skip-to-content</fname>
+    <desc></desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <group>Everyone</group>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disablePortletEvents</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+        <![CDATA[
+            <style>.skip-to-content { top: -14px; }</style>
+            <a href="#portalPageBody" class="sr-only sr-only-focusable"><small>Skip to Content</small></a>
+        ]]>
+        </value>
+    </portlet-preference>
+</portlet-definition>

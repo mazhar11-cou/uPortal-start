@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+    <title>Maintenance Info</title>
+    <name>Maintenance Info</name>
+    <fname>cpp-maintenance-info</fname>
+    <desc>Information about unavailability and maintenance of various IT related services at Cal Poly Pomona.</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>Information</category>
+    <group>Authenticated Users</group>
+    <permissions>
+        <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Authenticated Users</group>
+        </permission>
+    </permissions>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+	<parameter>
+        <name>iconUrl</name>
+        <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/status/network-offline.png</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+<![CDATA[
+<strong><span style="color:#7C1D20">The affected services may be unavailable during maintenance. </span> </strong><br />
+      <span class="fa fa-fw fa-times" style="color:#7C1D20"></span>&nbsp;MyCPP - 3/17/2016, 3:00 pm (Thursday) to 4:59pm
+			<!--<span class="fa fa-fw fa-times" style="color:#7C1D20"></span>&nbsp;BroncoDirect – 9/10/2015, 5:30 pm (Thursday) to 9/11/2015, 2:30 p.m. (Friday)--><!--<br />
+			<span class="fa fa-fw fa-times" style="color:#7C1D20"></span>&nbsp;Blackboard will be undergoing system maintenance between 12:00pm on Wednesday 6/17/2015 and 12:00pm on Friday 6/19/2015. --> <!-- Use this when there are multiple windows for the same service --> <!--ul style="padding-left: 40px;">
+            									<li>Window 1</li>
+            									<li>Window 2</li>
+            								</ul--><br />
+			<a href="https://cpp.service-now.com/ehelp?id=kb_article&sys_id=130fc54e6fe8e600e020f35d5d3ee43a" target="_blank">Detailed Maintenance Information &raquo; </a>
+]]>
+</value>
+    </portlet-preference>
+</portlet-definition>

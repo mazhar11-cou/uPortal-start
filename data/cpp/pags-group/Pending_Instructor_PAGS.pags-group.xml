@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>Pending Instructor (PAGS)</name>
+  <description>Users with eduPersonAffiliation=pending_instructor</description>
+  <selection-test>
+    <test-group>
+      <test>
+        <attribute-name>cppEduPersonAffiliation</attribute-name>
+        <tester-class>org.jasig.portal.groups.pags.testers.StringEqualsIgnoreCaseTester</tester-class>
+        <test-value>pending_instructor</test-value>
+      </test>
+    </test-group>
+  </selection-test>
+</pags-group>

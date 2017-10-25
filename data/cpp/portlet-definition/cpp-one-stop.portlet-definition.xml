@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+    <title>One Stop Student Services</title>
+    <name>One Stop Student Services</name>
+    <fname>cpp-one-stop</fname>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>All categories</category>
+    <group>Authenticated Users</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+              <div class="row row-sm-height row-xs-height">
+                <div class="col-md-4 col-sm-4 col-xs-4 col-sm-height col-xs-height col-middle" style="text-align: center">
+                  <a href="https://cpp.service-now.com/nav_to.do?uri=ess/student_services" target="_blank" title=""><img src="/uPortal/media/cpp/images/one-stop.png" style="height:75px; width:75px" alt="1Stop Student Services" /></a>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-8 col-sm-height col-xs-height">
+                  <strong><a href="https://cpp.service-now.com/nav_to.do?uri=ess/student_services" style="text-align:left; vertical-align:bottom" target="_blank">One Stop Student Services<span class="fa fa-long-arrow-right fa-lg" style="padding-left: 10px;"></span></a></strong>
+                  <br />
+                  <div class="well well-sm blurb">
+                    Today, OneStop allows you to open IT service tickets, but in the future you will be able to get help in numerous Student Services areas and even schedule in-person appointments when needed.
+                  </div>
+                </div>
+              </div>
+            ]]>
+		</value>
+    </portlet-preference>
+</portlet-definition>

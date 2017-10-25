@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>IT Service Notice Announcements Editors</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>IT Service Notice announcements topic editors</description>
+  <children>
+    <group>IT Service Desk SU</group>
+  </children>
+</group>

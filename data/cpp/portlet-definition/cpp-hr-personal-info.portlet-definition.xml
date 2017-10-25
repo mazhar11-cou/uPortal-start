@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+    <title>Personal Info</title>
+    <name>Personal Info</name>
+    <fname>cpp-hr-personal-info</fname>
+    <desc>Links to view/update personal information</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>All categories</category>
+    <group>Employees</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+            <![CDATA[
+            <ul class="list-unstyled">
+              <li><a href="/uPortal/f/my-personal-info">View/Update Personal Information</a></li>
+              <li><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.HR_DISABILITY.GBL?NAVSTACK=Clear&pslnkid=POM_BD_PERS_DISABILITY_STATUS&PORTALPARAM_PTCNAV=POM_BD_PERS_DISABILITY_STATUS&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=POM_BD_SS&EOPP.SCLabel=View%2fUpdate%20Personal%20Data&EOPP.SCFName=POM_BD_PERSONAL_DATA&EOPP.SCSecondary=true&EOPP.SCPTfname=POM_BD_PERSONAL_DATA&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_PERSONAL_DATA.POM_BD_PERS_DISABILITY_STATUS&IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank">View/Update Disability Status</a></li>
+              <li><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/ROLE_EMPLOYEE.HR_VETERAN_STATUS.GBL?NAVSTACK=Clear&pslnkid=POM_BD_PERS_VETERAN_STATUS&PORTALPARAM_PTCNAV=POM_BD_PERS_VETERAN_STATUS&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=POM_BD_SS&EOPP.SCLabel=View%2fUpdate%20Personal%20Data&EOPP.SCFName=POM_BD_PERSONAL_DATA&EOPP.SCSecondary=true&EOPP.SCPTfname=POM_BD_PERSONAL_DATA&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_PERSONAL_DATA.POM_BD_PERS_VETERAN_STATUS&IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank">View/Update Veteran Status</a></li>
+            </ul>
+            ]]>
+        </value>
+    </portlet-preference>
+</portlet-definition>

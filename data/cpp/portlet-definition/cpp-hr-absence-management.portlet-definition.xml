@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Absence Management</title>
+    <name>Absence Management</name>
+    <fname>cpp-hr-absence-management</fname>
+    <desc>Links to Employee Absence Management</desc>
+    <type>Advanced CMS</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <category>All categories</category>
+    <group>CPP Employees (PAGS)</group>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>true</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>false</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+        <![CDATA[
+        <ul class="list-unstyled">
+          <li><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/CSU_ABSENCE_MANAGEMENT.CSU_AM_EMP_BI_L.GBL?pslnkid=POM_BD_ABSENCE_BAL&amp;PORTALPARAM_PTCNAV=POM_BD_ABSENCE_BAL&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_EMPL&amp;EOPP.SCLabel=Employee%20Self%20Services&amp;EOPP.SCPTfname=POM_BD_EMPL&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_ABSENCE.POM_BD_ABSENCE_BAL&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank">View Absence Balances</a></li>
+          <li><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/CSU_AM_SS.CSU_AM_EESS_REQM_L.GBL?pslnkid=POM_BD_ABSENCE_RPT_TIME&amp;PORTALPARAM_PTCNAV=POM_BD_ABSENCE_RPT_TIME&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_EMPL&amp;EOPP.SCLabel=Employee%20Self%20Services&amp;EOPP.SCPTfname=POM_BD_EMPL&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_ABSENCE.POM_BD_ABSENCE_RPT_TIME&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank">Report and View Absences</a></li>
+          <li><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/POM_MENU_HR_SS.POM_SSH_VIEW_SCHED.USA?pslnkid=POM_BD_ABSENCE_SCH&amp;PORTALPARAM_PTCNAV=POM_BD_ABSENCE_SCH&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_EMPL&amp;EOPP.SCLabel=Employee%20Self%20Services&amp;EOPP.SCPTfname=POM_BD_EMPL&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_ABSENCE.POM_BD_ABSENCE_SCH&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank">View Monthly Schedule</a></li>
+        </ul>
+        ]]>
+        </value>
+    </portlet-preference>
+</portlet-definition>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>Campus Information Announcements Editors</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>Campus information announcements topic editors</description>
+  <children>
+    <literal>mmquiroz</literal>
+  </children>
+</group>

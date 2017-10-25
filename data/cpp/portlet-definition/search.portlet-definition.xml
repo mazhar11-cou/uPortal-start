@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd">
+    <title>Search MyCPP</title>
+    <name>Search</name>
+    <fname>search</fname>
+    <desc>Search the portal, directory, and campus web.</desc>
+    <type>Portlet</type>
+    <timeout>30000</timeout>
+    <portlet-descriptor>
+        <ns2:isFramework>true</ns2:isFramework>
+        <ns2:portletName>Search</ns2:portletName>
+    </portlet-descriptor>
+    <category>Information</category>
+    <group>Everyone</group>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>default</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disablePortletEvents</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>iconUrl</name>
+        <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/actions/system-search.png</value>
+    </parameter>
+    <parameter>
+        <name>mobileIconUrl</name>
+        <value>/uPortal/media/skins/icons/mobile/search.png</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+</portlet-definition>

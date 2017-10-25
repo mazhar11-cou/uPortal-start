@@ -1,0 +1,11 @@
+import org.apereo.portal.start.gradle.plugins.GradlePlutoPlugin
+
+apply plugin: GradlePlutoPlugin
+
+dependencies {
+    runtime "edu.cpp.campusapps:StudentTrackersPortlets:${studentTrackersPortletsVersion}@war"
+}
+
+war {
+    archiveName 'StudentTrackersPortlets.war'
+}
