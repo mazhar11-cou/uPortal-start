@@ -86,6 +86,4 @@ searchjQ["${n}"].jQuery( "#${n}webSearchForm" ).submit(function( event ) {
     }
 
 });
-
-})(up.jQuery);
 </rs:compressJs></script>
