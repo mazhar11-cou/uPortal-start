@@ -44,7 +44,7 @@
     <folder ID="s9" hidden="false" immutable="true" name="Customize folder" type="customize" unremovable="true">
       <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n10"/>
     </folder>
-    <folder ID="s13" hidden="false" immutable="true" name="Pre Header folder" type="pre-header" unremovable="true">
+    <folder ID="s13" hidden="false" immutable="true" name="Eyebrow folder" type="eyebrow" unremovable="true">
       <channel fname="notification-icon" unremovable="false" hidden="false" immutable="false" ID="n15"/>
       <channel fname="it-support-chatter" unremovable="false" hidden="false" immutable="false" ID="n17"/>
       <channel fname="search-launcher-icon" unremovable="false" hidden="false" immutable="false" ID="n19"/>
