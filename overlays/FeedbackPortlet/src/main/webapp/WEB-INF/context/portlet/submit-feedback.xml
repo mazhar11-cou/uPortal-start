@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+
+    Licensed to Apereo under one or more contributor license
+    agreements. See the NOTICE file distributed with this work
+    for additional information regarding copyright ownership.
+    Apereo licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License.  You may obtain a
+    copy of the License at the following location:
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ehcache="http://www.springmodules.org/schema/ehcache"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springmodules.org/schema/ehcache http://www.springmodules.org/schema/cache/springmodules-ehcache.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    
+    <!-- Controllers -->
+    
+    <!-- User feedback submission controller -->
+    <bean id="submitFeedbackController"
+        class="org.jasig.portlets.FeedbackPortlet.web.SubmitFeedbackFormController">
+        <property name="feedbackStore" ref="feedbackStore"/>
+        <property name="userPropertiesResolver" ref="userPropertiesResolver"/>
+        <property name="feedbackSubmissionListeners">
+            <list>
+                <!-- 
+                    Uncomment the following line to forward all feedback to 
+                    an email address.  Feedback will still be saved in the
+                    portlet's database.  You will also need to configure the
+                    email options below.
+                -->
+                <ref bean="emailForwardingListener"/>
+            </list>
+        </property>
+        <property name="feedbackRows" value="${feedback.rows}"/>
+        <property name="feedbackWidth" value="${feedback.width}"/>
+        <property name="feedbackMaxChars" value="${feedback.max_chars}"/>
+        <property name="feedbackPoliteFlag" value="${feedback.polite_flag}"/>
+        <property name="feedbackAssertiveFlag" value="${feedback.assertive_flag}"/>
+    </bean>
+    
+    <bean id="userPropertiesResolver" class="org.jasig.portlets.FeedbackPortlet.PortletUserPropertiesResolver">
+        <property name="idKey" value="user.login.id"/>
+        <property name="nameKey" value="displayName"/>
+        <property name="emailKey" value="mail"/>
+        <!-- 
+            To make the feedback portlet role-aware, uncomment this line and set the roleKey to match
+            the appropriate user attribute key
+        -->
+        <property name="userRoles">
+            <list>
+                <value>student</value>
+                <value>faculty</value>
+                <value>staff</value>
+                <value>Applicants</value>
+                <value>Pending Students</value>
+                <value>Past Students</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- EMAIL OPTIONS -->
+    <!-- 
+        After enabling the email forwarding listener in the controller above, set the SMTP server
+        and TO address for email messages.
+    -->
+
+    <bean id="emailForwardingListener" class="org.jasig.portlets.FeedbackPortlet.service.EmailForwardingListener">
+        <property name="mailSender" ref="mailSender"/>
+        <property name="mailMessage" ref="mailMessage"/>
+    </bean>
+
+    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="smtp.cpp.edu"/>
+    </bean>
+
+    <bean id="mailMessage" class="org.springframework.mail.SimpleMailMessage">
+        <property name="from">
+            <value>it_portal_feedbk@cpp.edu</value>
+        </property>
+        <property name="to">
+            <value>itserviceportal@cpp.edu</value>
+        </property>
+        <property name="subject">
+            <value>MyCPP Feedback</value>
+        </property>
+        <property name="text">
+            <value><![CDATA[User name: %USERNAME%
+Role: %USERROLE%
+Browser: %USERAGENT%
+Page name: %TABNAME%
+
+Feedback type: %FEEDBACKTYPE%
+%FEEDBACK%]]></value>
+        </property>
+    </bean>
+
+    <!-- Handler Mapping -->
+    
+    <bean id="parameterMappingInterceptor"
+        class="org.springframework.web.portlet.handler.ParameterMappingInterceptor"/>
+    
+    <bean id="portletModeParameterHandlerMapping"
+        class="org.springframework.web.portlet.handler.PortletModeParameterHandlerMapping">
+        <property name="order" value="1"/>
+        <property name="interceptors">
+            <list>
+                <ref bean="parameterMappingInterceptor"/>
+            </list>
+        </property>
+        <property name="portletModeParameterMap">
+            <map>
+                <entry key="view">
+                    <map>
+                        <entry key="submit" value-ref="submitFeedbackController"/>
+                    </map>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    
+    <bean id="portletModeHandlerMapping"
+        class="org.springframework.web.portlet.handler.PortletModeHandlerMapping">
+        <property name="order" value="2"/>
+        <property name="portletModeMap">
+            <map>
+                <entry key="view" value-ref="submitFeedbackController"/>
+            </map>
+        </property>
+    </bean>
+    
+    <bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:/feedback.properties"/>
+    </bean>
+    
+    <bean id="feedbackValidator" 
+		class="org.jasig.portlets.FeedbackPortlet.web.FeedbackValidator">
+		<property name="feedbackMaxChars" value="${feedback.max_chars}" />
+	</bean>
+		
+</beans>
