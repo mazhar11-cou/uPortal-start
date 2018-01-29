@@ -139,10 +139,6 @@ up.jQuery(document).ready(function ($) {
             return;
         }
 
-        if(href.indexOf(legacy_cas_url) == 0) {
-            return;
-        }
-
         var link_location2 = qualifyURL(href);
 
         // if the link clicked is external
@@ -153,29 +149,6 @@ up.jQuery(document).ready(function ($) {
         }
     });
 
-    $(document.body).on('click', 'a', function() {
-        if(typeof ga === 'undefined')
-            return;
-
-        var a = $(this);
-
-        var urls = [
-            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?gsmobile=0&pt_fname=POM_BD_SS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS&IsFolder=true?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID',
-            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=POM_BD_SS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS&IsFolder=true?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID&gsmobile=0',
-            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?gsmobile=0',
-            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID&gsmobile=0',
-            'https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?gsmobile=1',
-        ];
-
-        var trackOutbound = (a.attr('data-ga-track-outbound') == 'true');
-
-        var href = a.attr('href');
-        var eventLabel = a.attr('data-ga-event-label') || a.text().trim();
-
-        if(trackOutbound || urls.indexOf(href) > -1 ) {
-            ga('send', 'event', 'Outbound Link', 'click', eventLabel);
-        }
-    });
 });
 </script>
             ]]>
