@@ -7,6 +7,7 @@ plugins {
 
 dependencies {
     runtime "org.jasig.portal:uPortal-webapp:${uPortalVersion}@war"
+    runtime "edu.cpp.campusapps:SearchServices:${searchServices}@jar"
     compile configurations.jdbc
 }
 
