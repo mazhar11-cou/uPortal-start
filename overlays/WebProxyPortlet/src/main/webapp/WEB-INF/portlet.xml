@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to Apereo under one or more contributor license
+    agreements. See the NOTICE file distributed with this work
+    for additional information regarding copyright ownership.
+    Apereo licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file
+    except in compliance with the License.  You may obtain a
+    copy of the License at the following location:
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+                            http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    version="2.0">
+
+    <portlet>
+        <portlet-name>WebProxyPortlet</portlet-name>
+        <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+        <init-param>
+            <name>contextConfigLocation</name>
+            <value>/WEB-INF/context/portlet/webproxy-portlet.xml</value>
+        </init-param>
+        <expiration-cache>0</expiration-cache>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+            <portlet-mode>edit</portlet-mode>
+            <portlet-mode>config</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>WebProxy Portlet</title>
+        </portlet-info>
+        <portlet-preferences>
+            <!-- The connection is attempted 5 times prior to stopping so the actual time before failure will be
+                 5 times this setting.
+                 Suggested way of testing Connection Timeout is by hitting a domain with a port that is firewalled:
+                 ie. http://www.google.com:81 -->
+            <preference>
+                <name>httpClientConnectionTimeout</name>
+                <value>10000</value>
+            </preference>
+            <!-- Suggested way of testing Socket Timeout is by using a tool locally to connect but not respond.
+                 Example tool: bane
+                 http://blog.danielwellman.com/2010/09/introducing-bane-a-test-harness-for-server-connections.html
+                 usage: $bane 10010 NeverRespond
+                 ie http://localhost:10010 -->
+            <preference>
+                <name>httpClientSocketTimeout</name>
+                <value>10000</value>
+            </preference>
+            <!-- Character encoding of the page being proxied.  See bean 'pageCharacterEncodings' for a list of
+                 valid values.  If this preference is set to the wrong value, the proxied content may display
+                 graphic characters for those characters it is unable to properly decode.  For more information
+                 see http://www.w3schools.com/tags/ref_charactersets.asp. -->
+            <preference>
+                <name>sourcePageCharacterEncoding</name>
+                <value>UTF-8</value>
+            </preference>
+            <!-- Indicates which approaches to search will be employed in responding to the uportal-search-api;
+                 e.g. 'Anchor' or 'GSA' -->
+            <preference>
+                <name>searchStrategies</name>
+            </preference>
+        </portlet-preferences>
+
+        <supported-processing-event>
+            <qname xmlns:x="https://source.jasig.org/schemas/uportal/search">x:SearchRequest</qname>
+        </supported-processing-event>
+        <supported-publishing-event>
+            <qname xmlns:x="https://source.jasig.org/schemas/uportal/search">x:SearchResults</qname>
+        </supported-publishing-event>
+    </portlet>
+
+    <portlet>
+        <portlet-name>XsltPortlet</portlet-name>
+        <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+        <init-param>
+            <name>contextConfigLocation</name>
+            <value>/WEB-INF/context/portlet/xslt-portlet.xml</value>
+        </init-param>
+        <expiration-cache>0</expiration-cache>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Xslt Portlet</title>
+        </portlet-info>
+    </portlet>
+
+    <portlet>
+        <portlet-name>JsonPortlet</portlet-name>
+        <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+        <init-param>
+            <name>contextConfigLocation</name>
+            <!-- Change this file to be NewWebProxyPortlet-portlet.xml after creation
+                (rename the file and reference it here). -->
+            <value>/WEB-INF/context/portlet/json-portlet.xml</value>
+        </init-param>
+        <expiration-cache>0</expiration-cache>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Json Portlet</title>
+        </portlet-info>
+    </portlet>
+
+    <portlet>
+        <portlet-name>GatewayPortlet</portlet-name>
+        <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+        <init-param>
+            <name>contextConfigLocation</name>
+            <value>/WEB-INF/context/portlet/gateway-sso-portlet.xml</value>
+        </init-param>
+        <expiration-cache>0</expiration-cache>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>view</portlet-mode>
+            <portlet-mode>edit</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>Gateway Portlet</title>
+        </portlet-info>
+
+        <portlet-preferences>
+            <preference>
+                <name>openInNewPage</name>
+                <value>true</value>
+            </preference>
+        </portlet-preferences>
+
+        <security-role-ref>
+            <role-name>Faculty</role-name>
+            <role-link>Faculty</role-link>
+        </security-role-ref>
+
+        <security-role-ref>
+            <role-name>Staff</role-name>
+            <role-link>Staff</role-link>
+        </security-role-ref>
+
+        <security-role-ref>
+            <role-name>Students</role-name>
+            <role-link>Students</role-link>
+        </security-role-ref>
+
+
+    </portlet>
+
+    <event-definition>
+        <qname xmlns:x="https://source.jasig.org/schemas/uportal/search">x:SearchRequest</qname>
+        <value-type>org.jasig.portal.search.SearchRequest</value-type>
+    </event-definition>
+    <event-definition>
+        <qname xmlns:x="https://source.jasig.org/schemas/uportal/search">x:SearchResults</qname>
+        <value-type>org.jasig.portal.search.SearchResults</value-type>
+    </event-definition>
+
+</portlet-app>
