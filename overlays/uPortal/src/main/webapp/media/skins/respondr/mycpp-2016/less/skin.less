@@ -44,6 +44,12 @@ html {
     color: @color3;
   }
 
+  a {
+    &.btn-primary, &.btn-success {
+      color: @white;
+    }
+  }
+
   h1.portal-logo {
     float: left;
     font-size: 16px;
@@ -305,6 +311,14 @@ html {
       }
     }
   }
+}
+
+/**
+ * Bootstrap overrides
+ */
+.btn-primary, .btn-primary:hover, .btn-success, .btn-success:hover {
+  background-color: @cpp-green;
+  border-color: @cpp-green;
 }
 
 /**
