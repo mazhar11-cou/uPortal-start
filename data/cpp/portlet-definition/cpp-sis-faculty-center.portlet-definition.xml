@@ -80,20 +80,20 @@
         <name>content</name>
         <readOnly>false</readOnly>
         <value>
-            <![CDATA[
-            	<div class="row row-sm-height row-xs-height">
-            		<div class="col-md-4 col-sm-4 col-xs-4 col-sm-height col-xs-height col-middle" style="text-align: center">
-            			<a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.SS_FACULTY.GBL?pslnkid=POM_BD_INSTR_LM_FC&amp;PORTALPARAM_PTCNAV=POM_BD_INSTR_LM_FC&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_SS&amp;EOPP.SCLabel=Instructor%20Self%20Services&amp;EOPP.SCFName=POM_BD_INSTR&amp;EOPP.SCSecondary=true&amp;EOPP.SCPTfname=POM_BD_INSTR&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_INSTR.POM_BD_INSTR_LM.POM_BD_INSTR_LM_FC&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" target="_blank" title=""><img src="/uPortal/media/cpp/images/faculty-center.png" style="height:75px; width:75px" alt="Faculty in front of board" /></a>
-            		</div>
-            		<div class="col-md-8 col-sm-8 col-xs-8 col-sm-height col-xs-height">
-						<strong><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.SS_FACULTY.GBL?pslnkid=POM_BD_INSTR_LM_FC&amp;PORTALPARAM_PTCNAV=POM_BD_INSTR_LM_FC&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_SS&amp;EOPP.SCLabel=Instructor%20Self%20Services&amp;EOPP.SCFName=POM_BD_INSTR&amp;EOPP.SCSecondary=true&amp;EOPP.SCPTfname=POM_BD_INSTR&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_INSTR.POM_BD_INSTR_LM.POM_BD_INSTR_LM_FC&amp;IsFolder=false${environment.build.cpp.psURLSuffix}" style="text-align:left; vertical-align:bottom" target="_blank" title="">Faculty Center<span class="fa fa-long-arrow-right fa-lg" style="padding-left: 10px;"></span></a></strong>
-                        <br />
-            			<div class="well well-sm blurb">
-                            In the faculty center you can view the class roster, grade roster, and your schedule.
-                        </div>
-            		</div>
-            	</div>
-            ]]>
+        <![CDATA[
+        <div class="row row-sm-height row-xs-height">
+            <div class="col-md-4 col-sm-4 col-xs-4 col-sm-height col-xs-height col-middle" style="text-align: center">
+                <a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.SS_FACULTY.GBL?pslnkid=POM_BD_INSTR_LM_FC&amp;amp;PORTALPARAM_PTCNAV=POM_BD_INSTR_LM_FC&amp;amp;EOPP.SCNode=HRMS&amp;amp;EOPP.SCPortal=EMPLOYEE&amp;amp;EOPP.SCName=POM_BD_SS&amp;amp;EOPP.SCLabel=Instructor%20Self%20Services&amp;amp;EOPP.SCFName=POM_BD_INSTR&amp;amp;EOPP.SCSecondary=true&amp;amp;EOPP.SCPTfname=POM_BD_INSTR&amp;amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_INSTR.POM_BD_INSTR_LM.POM_BD_INSTR_LM_FC&amp;amp;IsFolder=false?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" target="_blank" title=""><img src="/uPortal/media/cpp/images/faculty-center.png" style="height:75px; width:75px" alt="Faculty in front of board" /></a>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 col-sm-height col-xs-height">
+                <strong><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.SS_FACULTY.GBL?pslnkid=POM_BD_INSTR_LM_FC&amp;amp;PORTALPARAM_PTCNAV=POM_BD_INSTR_LM_FC&amp;amp;EOPP.SCNode=HRMS&amp;amp;EOPP.SCPortal=EMPLOYEE&amp;amp;EOPP.SCName=POM_BD_SS&amp;amp;EOPP.SCLabel=Instructor%20Self%20Services&amp;amp;EOPP.SCFName=POM_BD_INSTR&amp;amp;EOPP.SCSecondary=true&amp;amp;EOPP.SCPTfname=POM_BD_INSTR&amp;amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_INSTR.POM_BD_INSTR_LM.POM_BD_INSTR_LM_FC&amp;amp;IsFolder=false?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" style="text-align:left; vertical-align:bottom" target="_blank" title="">Faculty Center<span class="fa fa-long-arrow-right fa-lg" style="padding-left: 10px;"></span></a></strong>
+                <br />
+                <div class="well well-sm blurb">
+                    In the faculty center you can view the class roster, grade roster, and your schedule.
+                </div>
+            </div>
+        </div>
+        ]]>
         </value>
     </portlet-preference>
 </portlet-definition>

@@ -76,20 +76,20 @@
         <name>content</name>
         <readOnly>false</readOnly>
         <value>
-            <![CDATA[
-                <div class="row row-sm-height row-xs-height">
-                    <div class="col-md-4 col-sm-4 col-xs-4 col-sm-height col-xs-height col-middle" style="text-align: center">
-            			<a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&amp;IsFolder=false&amp;IgnoreParamTempl=FolderPath%2cIsFolder${environment.build.cpp.psURLSuffix}" target="_blank" title=""><img src="/uPortal/media/cpp/images/student-center.png" style="height:75px; width:75px" alt="Student with graduation cap" /></a>
-            		</div>
-            		<div class="col-md-8 col-sm-8 col-xs-8 col-sm-height col-xs-height">
-						<strong><a href="${environment.build.cpp.psURLPrefix}/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&amp;IsFolder=false&amp;IgnoreParamTempl=FolderPath%2cIsFolder${environment.build.cpp.psURLSuffix}" style="text-align:left; vertical-align:bottom" target="_blank" title="">Student Center<span class="fa fa-long-arrow-right fa-lg" style="padding-left: 10px;"></span></a></strong>
-                        <br />
-                        <div class="well well-sm blurb">
-                            In the student center, you can view holds, search and register for classes, view to dos, view/update personal information, view/pay fees, and view/accept/decline aid.
-                        </div>
-            		</div>
-            	</div>
-            ]]>
-		</value>
+        <![CDATA[
+        <div class="row row-sm-height row-xs-height">
+            <div class="col-md-4 col-sm-4 col-xs-4 col-sm-height col-xs-height col-middle" style="text-align: center">
+                <a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&amp;amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&amp;amp;IsFolder=false&amp;amp;IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" target="_blank" title=""><img src="/uPortal/media/cpp/images/student-center.png" style="height:75px; width:75px" alt="Student with graduation cap" /></a>
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 col-sm-height col-xs-height">
+                <strong><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&amp;amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&amp;amp;IsFolder=false&amp;amp;IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" style="text-align:left; vertical-align:bottom" target="_blank" title="">Student Center<span class="fa fa-long-arrow-right fa-lg" style="padding-left: 10px;"></span></a></strong>
+                <br />
+                <div class="well well-sm blurb">
+                    In the student center, you can view holds, search and register for classes, view to dos, view/update personal information, view/pay fees, and view/accept/decline aid.
+                </div>
+            </div>
+        </div>
+        ]]>
+        </value>
     </portlet-preference>
 </portlet-definition>
