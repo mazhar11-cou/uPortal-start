@@ -10,10 +10,6 @@
         <ns2:webAppName>/StudentTrackersPortlets</ns2:webAppName>
         <ns2:portletName>AdmissionStatus</ns2:portletName>
     </portlet-descriptor>
-    <lifecycle>
-        <approved user="abgodoy">2016-12-13T10:09:20.591-08:00</approved>
-        <published user="abgodoy">2016-12-13T10:09:20.591-08:00</published>
-    </lifecycle>
     <group>Applicants</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
