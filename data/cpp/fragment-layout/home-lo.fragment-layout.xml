@@ -53,19 +53,19 @@
           <name>width</name>
           <value>70%</value>
         </structure-attribute>
-        <channel fname="welcome-to-mycpp" unremovable="true" hidden="false" immutable="false" ID="n89" dlm:moveAllowed="false"/>
-        <channel fname="announcements" unremovable="false" hidden="false" immutable="false" ID="n82" dlm:moveAllowed="false"/>
-        <channel fname="cpp-important-dates" unremovable="true" hidden="false" immutable="false" ID="n79" dlm:moveAllowed="false"/>
-        <channel fname="cpp-email-preview"  unremovable="false" hidden="false" immutable="false" ID="n21" dlm:moveAllowed="false"/>
+        <channel fname="welcome-to-mycpp" unremovable="true" hidden="false" immutable="false" ID="n89" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="announcements" unremovable="false" hidden="false" immutable="false" ID="n82" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="cpp-important-dates" unremovable="true" hidden="false" immutable="false" ID="n79" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="cpp-email-preview" unremovable="false" hidden="false" immutable="false" ID="n21" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
       </folder>
       <folder ID="s20" hidden="false" immutable="false" name="Column 2" type="regular" unremovable="false" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
         <structure-attribute>
           <name>width</name>
           <value>30%</value>
         </structure-attribute>
-        <channel fname="search-launcher" unremoveable="false" immutable="false" ID="n90" dlm:moveAllowed="false"/>
-        <channel fname="cpp-online-services-menu" unremoveable="false" immutable="false" ID="n16" dlm:moveAllowed="false"/>
-        <channel fname="feedback" unremovable="false" hidden="false" immutable="false" ID="n85" dlm:moveAllowed="false"/>
+        <channel fname="search-launcher" unremovable="false" hidden="false" immutable="false" ID="n90" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="cpp-online-services-menu" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="feedback" unremovable="false" hidden="false" immutable="false" ID="n85" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
       </folder>
     </folder>
   </folder>

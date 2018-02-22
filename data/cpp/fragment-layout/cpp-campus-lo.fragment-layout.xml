@@ -46,19 +46,19 @@
           <name>width</name>
           <value>40%</value>
         </structure-attribute>
-        <channel fname="cpp-ask-billy" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false"/>
-        <channel fname="weather" unremovable="false" hidden="false" immutable="false" ID="n10" dlm:moveAllowed="false"/>
-        <channel fname="calendar" unremovable="false" hidden="false" immutable="false" ID="n13" dlm:moveAllowed="false"/>
+        <channel fname="cpp-ask-billy" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="weather" unremovable="false" hidden="false" immutable="false" ID="n10" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="calendar" unremovable="false" hidden="false" immutable="false" ID="n13" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
       </folder>
       <folder ID="s12" hidden="false" immutable="false" name="Column 2" type="regular" unremovable="false" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
         <structure-attribute>
           <name>width</name>
           <value>60%</value>
         </structure-attribute>
-        <channel fname="cpp-news-polycentric" unremovable="false" hidden="false" immutable="false" ID="n17" dlm:moveAllowed="false"/>
-        <channel fname="cpp-news-athletics" unremovable="false" hidden="false" immutable="false" ID="n18" dlm:moveAllowed="false"/>
-        <channel fname="feedback" unremovable="false" hidden="false" immutable="false" ID="n15" dlm:moveAllowed="false"/>
-        <channel fname="accessibility-feedback" unremovable="false" hidden="false" immutable="false" ID="n19" dlm:moveAllowed="false"/>
+        <channel fname="cpp-news-polycentric" unremovable="false" hidden="false" immutable="false" ID="n17" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="cpp-news-athletics" unremovable="false" hidden="false" immutable="false" ID="n18" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="feedback" unremovable="false" hidden="false" immutable="false" ID="n15" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="accessibility-feedback" unremovable="false" hidden="false" immutable="false" ID="n19" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
       </folder>
     </folder>
   </folder>
