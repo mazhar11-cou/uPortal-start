@@ -164,7 +164,7 @@
                                                 <c:set var="annLinkClass" value="announcement-link"/>
                                             </c:otherwise>
                                         </c:choose>
-                                        <h1><a title="<c:out value="${annLinkTitle}"/>" class="${annLinkClass}" href="<portlet:renderURL><portlet:param name="action" value="displayFullAnnouncement"/><portlet:param name="announcementId" value="${announcement.id}"/></portlet:renderURL>"><c:out value="${announcement.title}"/></a></h1>
+                                        <h3><a title="<c:out value="${annLinkTitle}"/>" class="${annLinkClass}" href="<portlet:renderURL><portlet:param name="action" value="displayFullAnnouncement"/><portlet:param name="announcementId" value="${announcement.id}"/></portlet:renderURL>"><c:out value="${announcement.title}"/></a></h3>
                                         <c:if test="${not hideAbstract}">
                                             <p><c:out value="${announcement.abstractText}"/></p>
                                         </c:if>

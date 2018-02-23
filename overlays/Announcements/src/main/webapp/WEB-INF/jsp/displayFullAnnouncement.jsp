@@ -67,7 +67,7 @@
         <div class="ann-display-item-full">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2><c:out value="${announcement.title}"/></h2>
+                    <h3><c:out value="${announcement.title}"/></h3>
                     <c:if test="${displayPublishDate}">
                         <p><spring:message code="displayFull.displayBegin"/> <fmt:formatDate value="${announcement.startDisplay}" dateStyle="long"/></p>
                     </c:if>
