@@ -1,2 +1,3 @@
+data/cpp/group_membership/Fragment_Owners.group-membership.xml
 data/base/permission_owner/UP_PORTLET_SUBSCRIBE.permission-owner.xml
 data/base/portlet-definition/reset-my-layout.portlet-definition.xml

@@ -29,7 +29,6 @@
     <literal>all-lo</literal>
     <literal>fragmentTemplate</literal>
     <literal>guest-lo</literal>
-    <group>Subscribable Fragments</group>
     <!-- CPP-delivered layouts -->
     <literal>cpp-campus-lo</literal>
     <literal>cpp-employee-lo</literal>
