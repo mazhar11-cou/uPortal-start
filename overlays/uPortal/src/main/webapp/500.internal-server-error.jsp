@@ -46,7 +46,7 @@
                 <div class="col-md-12">
                     <p><strong>We're sorry, but an error has occurred.</strong></p>
                     <p>It's possible the error has resolved itself. Please go back and retry the action that brought you here.</p>
-                    <p>If the error continues, please log a <a href="https://cpp.service-now.com/ehelp">Service Desk ticket</a> or call them at 909-979-6776 and provide the following
+                    <p>If the error continues, please log a <a href="https://cpp.service-now.com/ehelp">Service Desk ticket</a> or call them at <a href="tel:+19098696776">909-869-6776</a> and provide the following
                     information:</p>
                     <ul>
                         <li>Your name and BroncoName</li>
