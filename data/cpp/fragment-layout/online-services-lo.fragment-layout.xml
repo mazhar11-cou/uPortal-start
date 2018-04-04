@@ -41,12 +41,12 @@
           <name>externalId</name>
           <value>online-services</value>
       </structure-attribute>
-      <folder ID="s8" hidden="false" immutable="false" name="Column 1" type="regular" unremovable="false"  dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
+      <folder ID="s8" dlm:addChildAllowed="false" hidden="false" immutable="false" name="Column 1" type="regular" unremovable="false">
         <structure-attribute>
           <name>width</name>
           <value>100%</value>
         </structure-attribute>
-        <channel fname="online-services" unremovable="true" hidden="false" immutable="false" ID="n9" dlm:moveAllowed="false"/>
+        <channel fname="online-services" unremovable="true" hidden="false" immutable="false" ID="n9" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
   </folder>
   </folder>

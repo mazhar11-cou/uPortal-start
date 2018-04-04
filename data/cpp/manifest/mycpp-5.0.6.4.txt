@@ -1,1 +1,2 @@
 data/cpp/portlet-definition/online-services.portlet-definition.xml
+data/cpp/fragment-layout/online-services-lo.fragment-layout.xml
