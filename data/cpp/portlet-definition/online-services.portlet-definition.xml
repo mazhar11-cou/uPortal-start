@@ -7,8 +7,8 @@
     <type>Portlet</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
-        <ns2:webAppName>/WebProxyPortlet</ns2:webAppName>
-        <ns2:portletName>WebProxyPortlet</ns2:portletName>
+        <ns2:webAppName>/OnlineServices</ns2:webAppName>
+        <ns2:portletName>Online Services</ns2:portletName>
     </portlet-descriptor>
     <group>Authenticated Users</group>
     <permissions>
