@@ -24,9 +24,9 @@
     <dlm:audience evaluatorFactory="org.jasig.portal.layout.dlm.providers.GroupMembershipEvaluatorFactory">
       <paren mode="OR">
         <attribute mode="deepMemberOf" name="Applicants"/>
-        <attribute mode="deepMemberOf" name="Past Students (PAGS)"/>
-        <attribute mode="deepMemberOf" name="Pending Students (PAGS)"/>
-        <attribute mode="deepMemberOf" name="Students (PAGS)"/>
+        <attribute mode="deepMemberOf" name="Past Students"/>
+        <attribute mode="deepMemberOf" name="Pending Students"/>
+        <attribute mode="deepMemberOf" name="Students"/>
         <attribute mode="deepMemberOf" name="Portal Administrators"/>
         <attribute mode="deepMemberOf" name="Portal Developers"/>
       </paren>
