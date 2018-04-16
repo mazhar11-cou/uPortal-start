@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- LAST ID = n17 -->
+<!-- Next ID = 18 -->
 <!--
 
     Licensed to Jasig under one or more contributor license
@@ -41,6 +41,7 @@
     <folder ID="s7" hidden="false" immutable="true" name="Header Bottom folder" type="header-bottom" unremovable="true"/>
     <folder ID="s18" hidden="false" immutable="true" type="pre-content" unremovable="true">
       <channel fname="emergency-alert" unremovable="false" hidden="false" immutable="false" ID="n8"/>
+      <channel fname="feedback-navigation" unremovable="true" hidden="true" immutable="false" ID="n17"/>
     </folder>
     <folder ID="s13" hidden="false" immutable="true" name="Page Bottom folder" type="page-bottom" unremovable="true">
       <channel fname="cpp-server-node" unremovable="true" hidden="false" immutable="false" ID="n43"/>
