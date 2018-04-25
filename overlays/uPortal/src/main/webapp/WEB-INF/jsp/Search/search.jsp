@@ -25,14 +25,23 @@
 <portlet:resourceURL var="autocompleteUrl" id="retrieveSearchJSONResults"/>
 <c:set var="n"><portlet:namespace/></c:set>
 
+<%
+/**
+ * The following modifies the tabKeys variable such that the defaultTabKey is first,
+ * resulting in the search results showing uPortal search results first.
+ *
+ * Out of the box, this view would do two sets of loops to render search results:
+ * uPortal, then the others. The following changes that behavior such that there's only
+ * one main loop to render the search results from both uPortal and external search providers.
+ */
+java.util.ArrayList<String> modifiedTabKeys = (java.util.ArrayList)request.getAttribute("tabKeys");
+modifiedTabKeys.add(0, (String)request.getAttribute("defaultTabKey"));
+
+request.setAttribute("tabKeys", modifiedTabKeys);
+%>
+
 <!-- Portlet -->
 <div class="fl-widget portlet search-portlet" role="section">
-
-    <!-- Portlet Titlebar
-        <div class="fl-widget-titlebar titlebar portlet-titlebar" role="sectionhead">
-        <h2 class="title" role="heading"><spring:message code="search"/></h2>
-    </div>
-    -->
 
     <!-- Portlet Body -->
     <div class="fl-widget-content portlet-body" role="main">
@@ -57,62 +66,41 @@
 
                 <c:choose>
                 <c:when test="${not empty results}">
-                    <h3><spring:message code="${defaultTabKey}"/></h3>
-                    <c:choose>
-                    <c:when test="${not empty results[defaultTabKey]}">
-                    <p>Showing ${fn:length(results[defaultTabKey])} result(s)</p>
-                    <c:forEach items="${ results[defaultTabKey] }" var="result">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <a class="result_link" href="${result.second}"><span class="result_title"><i class="fa fa-arrow-circle-right"></i> ${ result.first.title }</span></a>
-                        </div>
-                        <div class="panel-body">
-                            <p class="result_excerpt">${ result.first.summary }</p>
-                        </div>
-                        <%-- Start of display marketplace specific information --%>
-                        <c:if test="false">
-                        <c:if test="${up:contains(result.first.type, 'marketplace')}">
-                            <div class="panel-footer">
-                                <p><a class="marketplace_entry_link" href="${pURL:getStringFromPortletUrl(result.first.portletUrl, pageContext.request)}">About this app</a>
-                            </div>
-                        </c:if>
-                        </c:if>
-                        <%-- End of display marketplace specific information --%>
-                    </div>
-                    </c:forEach>
-                    </c:when>
-                    <c:otherwise>
-                        <p><spring:message code="no.results"/></p>
-                    </c:otherwise>
-                    </c:choose>
-                    <c:forEach var="tabKey" items="${tabKeys}" varStatus="loopStatus">
-                    <div id="${n}_${loopStatus.index}"  role="tabpanel"class="tab-pane ${tabKey}">
-                        <h3><spring:message code="${tabKey}"/></h3>
-                        <c:choose>
-                        <c:when test="${not empty results[tabKey]}">
-                        <p>Showing ${fn:length(results[tabKey])} result(s)</p>
-                        <div class="search-results">
-                            <c:forEach items="${ results[tabKey] }" var="result">
-                                <div class="search-result">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <a class="result_link" href="${result.second}" target="_blank"><span class="result_title"><i class="fa fa-external-link"></i> ${ result.first.title }</span></a>
-                                        </div>
-                                        <div class="panel-body">
-                                            <p class="result_excerpt">${ result.first.summary }</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </c:forEach>
-                        </div>
-                        </c:when>
-                        <c:otherwise>
-                            <p><spring:message code="no.results"/></p>
-                        </c:otherwise>
-                        </c:choose>
-                    </div>
-                    </c:forEach>
+                  <h3>Search Results</h3>
+
+                  <div id="${n}_${loopStatus.index}" role="tabpanel" class="tab-pane">
+                      <div class="search-results">
+                          <c:forEach var="tabKey" items="${tabKeys}" varStatus="loopStatus">
+                          <c:forEach items="${ results[tabKey] }" var="result">
+                              <div class="search-result">
+                                  <div class="panel panel-default">
+                                      <div class="panel-heading">
+                                          <c:choose>
+                                            <c:when test="${tabKey.equals(defaultTabKey)}">
+                                            <a class="result_link" href="${result.second}">
+                                              <span class="result_title">${ result.first.title }</span>
+                                            </a>
+                                            </c:when>
+                                            <c:otherwise>
+                                            <a class="result_link" href="${result.second}" target="_blank">
+                                              <span class="result_title">${ result.first.title } <i class="fa fa-external-link"></i></span>
+                                            </a>
+                                            </c:otherwise>
+                                          </c:choose>
+                                      </div>
+                                      <div class="panel-body">
+                                          <p class="result_excerpt">${ result.first.summary }</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </c:forEach>
+                          </c:forEach>
+                      </div>
+                  </div>
                 </c:when>
+                <c:otherwise>
+                    <p><spring:message code="no.results"/></p>
+                </c:otherwise>
                 </c:choose>
             </div>
         </div>
