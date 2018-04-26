@@ -56,7 +56,6 @@
         </structure-attribute>
         <channel fname="phone-numbers" unremovable="false" hidden="false" immutable="false" ID="n193" dlm:deleteAllowed="false" />
         <channel fname="emergency-contacts" unremovable="false" hidden="false" immutable="false" ID="n194" dlm:deleteAllowed="false" />
-        <channel fname="feedback" unremovable="false" hidden="false" immutable="false" ID="n195" dlm:deleteAllowed="false" />
       </folder>
     </folder>
   </folder>

@@ -65,7 +65,6 @@
         </structure-attribute>
         <channel fname="search-launcher" unremovable="false" hidden="false" immutable="false" ID="n90" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
         <channel fname="cpp-online-services-menu" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
-        <channel fname="feedback" unremovable="false" hidden="false" immutable="false" ID="n85" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
       </folder>
     </folder>
   </folder>

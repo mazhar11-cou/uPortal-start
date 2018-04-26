@@ -1,0 +1,3 @@
+data/quickstart/group_membership/Services.group-membership.xml
+data/quickstart/portlet-definition/feedback-navigation.portlet-definition.xml
+data/cpp/fragment-layout/all-lo.fragment-layout.xml
