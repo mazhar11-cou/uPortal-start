@@ -1,3 +1,10 @@
+data/cpp/group_membership/Services.group-membership.xml
 data/cpp/portlet-definition/online-services.portlet-definition.xml
+data/cpp/portlet-definition/feedback-navigation.portlet-definition.xml
 data/cpp/fragment-definition/respondr-lo.fragment-definition.xml
+data/cpp/fragment-layout/all-lo.fragment-layout.xml
+data/cpp/fragment-layout/cpp-campus-lo.fragment-layout.xml
+data/cpp/fragment-layout/home-lo.fragment-layout.xml
+data/cpp/fragment-layout/my-personal-info-lo.fragment-layout.xml
+data/cpp/fragment-layout/my-status-lo.fragment-layout.xml
 data/cpp/fragment-layout/online-services-lo.fragment-layout.xml
