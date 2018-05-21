@@ -34,8 +34,10 @@
  * uPortal, then the others. The following changes that behavior such that there's only
  * one main loop to render the search results from both uPortal and external search providers.
  */
-java.util.ArrayList<String> modifiedTabKeys = (java.util.ArrayList)request.getAttribute("tabKeys");
-modifiedTabKeys.add(0, (String)request.getAttribute("defaultTabKey"));
+java.util.ArrayList<String> modifiedTabKeys = new java.util.ArrayList<>();
+
+modifiedTabKeys.add( (String)request.getAttribute("defaultTabKey") );
+modifiedTabKeys.add( "googleInstitution.results" );
 
 request.setAttribute("tabKeys", modifiedTabKeys);
 %>
