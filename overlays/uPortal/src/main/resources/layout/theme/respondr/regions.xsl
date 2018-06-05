@@ -292,19 +292,15 @@
     <!-- ========== TEMPLATE: FOOTER FIRST REGION =============== -->
     <!-- ======================================================== -->
     <!--
-     | This template renders region intended to hold the site navigation.
+     | This template renders the footer-first region if there is content available for it.  In the
+     | quickstart data set, this region contains the sitemap portlet.
      -->
     <xsl:template name="region.footer.first">
-        <!-- Following condition should be '//region[@name='footer-first']/channel'
-             but needs to be 'true()' as long as the footer.nav template is present
-             and desired -->
-        <xsl:if test="true()">
+        <xsl:if test="//region[@name='footer-first']/channel">
             <footer id="region-footer-first">
                 <xsl:for-each select="//region[@name='footer-first']/channel">
                     <xsl:call-template name="regions.portlet.decorator" />
                 </xsl:for-each>
-                <!-- TODO:  This XSLT template needs to be converted to a portlet somehow -->
-                <xsl:call-template name="footer.nav" />
             </footer>
         </xsl:if>
     </xsl:template>
@@ -314,8 +310,8 @@
     <!-- ========== TEMPLATE: FOOTER SECOND REGION (License links) =============== -->
     <!-- ========================================================================= -->
     <!--
-     | This template renders region intended to hold the license portlet.
-     | TODO:  Move footer.nav to footer.first and convert to a portlet (see UP-4103)
+     | This template renders the footer-second region if there is content available for it.  In the
+     | quickstart data set, this region contains the legal-footer portlet.
      -->
     <xsl:template name="region.footer.second">
         <xsl:if test="//region[@name='footer-second']/channel">
@@ -387,7 +383,7 @@
      | This template decorates a portlet that appears in a region (in lieu of chrome).
     -->
     <xsl:template name="regions.portlet.decorator">
-        <section id="portlet_{@ID}" class="up-portlet-wrapper {@fname}">
+        <section id="portlet_{@ID}" class="up-portlet-wrapper {@fname}" aria-selected="false">
             <xsl:if test="@portletMode!='edit' and @portletMode!='config' and @windowState!='minimized'">
                 <xsl:call-template name="regions.hover-menu"/>
             </xsl:if>
