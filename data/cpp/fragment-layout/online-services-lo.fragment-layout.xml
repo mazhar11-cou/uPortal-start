@@ -20,8 +20,7 @@
     under the License.
 
 -->
-<layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn"
-  username="online-services-lo" >
+<layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn" username="online-services-lo">
   <folder ID="s1" hidden="false" immutable="false" name="Root folder" type="root" unremovable="true">
     <!--
      | Hidden folders do not propagate to regular users, and fragment owner
@@ -33,13 +32,13 @@
       <channel fname="dynamic-respondr-skin" unremovable="false" hidden="false" immutable="false" ID="n3"/>
       <channel fname="fragment-admin-exit" unremovable="false" hidden="false" immutable="false" ID="n4"/>
     </folder>
-	<folder ID="s5" hidden="true" immutable="true" name="Customize folder" type="customize" unremovable="true">
-		<channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n6"/>
+    <folder ID="s5" hidden="true" immutable="true" name="Customize folder" type="customize" unremovable="true">
+      <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n6"/>
     </folder>
-    <folder ID="s7" hidden="false" immutable="false" name="Online Services" type="regular" unremovable="false"  dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
+    <folder ID="s7" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Online Services" type="regular" unremovable="false">
       <structure-attribute>
-          <name>externalId</name>
-          <value>online-services</value>
+        <name>externalId</name>
+        <value>online-services</value>
       </structure-attribute>
       <folder ID="s8" dlm:addChildAllowed="false" hidden="false" immutable="false" name="Column 1" type="regular" unremovable="false">
         <structure-attribute>
@@ -48,6 +47,6 @@
         </structure-attribute>
         <channel fname="online-services" unremovable="true" hidden="false" immutable="false" ID="n9" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
-  </folder>
+    </folder>
   </folder>
 </layout>

@@ -20,8 +20,7 @@
     under the License.
 
 -->
-<layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn"
-  username="cpp-campus-lo" >
+<layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn" username="cpp-campus-lo">
   <folder ID="s1" hidden="false" immutable="false" name="Root folder" type="root" unremovable="true">
     <!--
      | Hidden folders do not propagate to regular users, and fragment owner
@@ -36,28 +35,28 @@
     <folder ID="s5" hidden="true" immutable="true" name="Customize folder" type="customize" unremovable="true">
       <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n6"/>
     </folder>
-    <folder ID="s7" hidden="false" immutable="false" name="Campus" type="regular" unremovable="false" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
+    <folder ID="s7" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Campus" type="regular" unremovable="false">
       <structure-attribute>
-          <name>externalId</name>
-          <value>campus</value>
+        <name>externalId</name>
+        <value>campus</value>
       </structure-attribute>
-      <folder ID="s8" hidden="false" immutable="false" name="Column 1" type="regular" unremovable="false" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
+      <folder ID="s8" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Column 1" type="regular" unremovable="false">
         <structure-attribute>
           <name>width</name>
           <value>40%</value>
         </structure-attribute>
-        <channel fname="cpp-ask-billy" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
-        <channel fname="weather" unremovable="false" hidden="false" immutable="false" ID="n10" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
-        <channel fname="calendar" unremovable="false" hidden="false" immutable="false" ID="n13" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="cpp-ask-billy" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
+        <channel fname="weather" unremovable="false" hidden="false" immutable="false" ID="n10" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
+        <channel fname="calendar" unremovable="false" hidden="false" immutable="false" ID="n13" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
-      <folder ID="s12" hidden="false" immutable="false" name="Column 2" type="regular" unremovable="false" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false">
+      <folder ID="s12" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Column 2" type="regular" unremovable="false">
         <structure-attribute>
           <name>width</name>
           <value>60%</value>
         </structure-attribute>
-        <channel fname="cpp-news-polycentric" unremovable="false" hidden="false" immutable="false" ID="n17" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
-        <channel fname="cpp-news-athletics" unremovable="false" hidden="false" immutable="false" ID="n18" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
-        <channel fname="accessibility-feedback" unremovable="false" hidden="false" immutable="false" ID="n19" dlm:moveAllowed="false" dlm:deleteAllowed="false" />
+        <channel fname="cpp-news-polycentric" unremovable="false" hidden="false" immutable="false" ID="n17" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
+        <channel fname="cpp-news-athletics" unremovable="false" hidden="false" immutable="false" ID="n18" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
+        <channel fname="accessibility-feedback" unremovable="false" hidden="false" immutable="false" ID="n19" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
     </folder>
   </folder>

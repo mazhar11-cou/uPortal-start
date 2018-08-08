@@ -20,11 +20,9 @@
     under the License.
 
 -->
-<layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn"
-  username="all-lo" >
+<layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn" username="all-lo">
   <folder ID="s1" hidden="false" immutable="false" name="Root folder" type="root" unremovable="true">
-    <folder ID="s16" hidden="false" immutable="true" name="Page Top folder" type="page-top" unremovable="true">
-    </folder>
+    <folder ID="s16" hidden="false" immutable="true" name="Page Top folder" type="page-top" unremovable="true"/>
     <!--
      | Hidden folders do not propagate to regular users, and fragment owner
      | accounts don't receive (other) fragments at all;  Fragment owners must
@@ -39,7 +37,7 @@
       <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n6"/>
     </folder>
     <folder ID="s7" hidden="false" immutable="true" name="Header Bottom folder" type="header-bottom" unremovable="true"/>
-    <folder ID="s18" hidden="false" immutable="true" type="pre-content" unremovable="true">
+    <folder ID="s18" hidden="false" immutable="true" name="" type="pre-content" unremovable="true">
       <channel fname="emergency-alert" unremovable="false" hidden="false" immutable="false" ID="n8"/>
       <channel fname="feedback-navigation" unremovable="true" hidden="true" immutable="false" ID="n17"/>
     </folder>
@@ -49,7 +47,6 @@
       <channel fname="google-analytics-config" unremovable="true" hidden="false" immutable="false" ID="n15"/>
       <channel fname="cpp-js-footer" unremovable="true" hidden="false" immutable="false" ID="n41"/>
     </folder>
-    <folder ID="s45" hidden="false" immutable="true" name="Hidden bottom folder" type="hidden-bottom" unremovable="true">
-    </folder>
+    <folder ID="s45" hidden="false" immutable="true" name="Hidden bottom folder" type="hidden-bottom" unremovable="true"/>
   </folder>
 </layout>
