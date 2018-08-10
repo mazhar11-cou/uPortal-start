@@ -10,9 +10,6 @@
         <ns2:webAppName>/StudentTrackersPortlets</ns2:webAppName>
         <ns2:portletName>EnrollmentAppointments</ns2:portletName>
     </portlet-descriptor>
-    <lifecycle>
-        <entry name="PUBLISHED" user="system">2018-08-08T08:06:27.571-07:00</entry>
-    </lifecycle>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
