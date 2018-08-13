@@ -24,6 +24,7 @@
     <dlm:audience evaluatorFactory="org.jasig.portal.layout.dlm.providers.GroupMembershipEvaluatorFactory">
       <paren mode="OR">
         <attribute mode="deepMemberOf" name="Announcements Editors"/>
+        <attribute mode="deepMemberOf" name="Content Curators"/>
         <attribute mode="deepMemberOf" name="Impersonators"/>
         <attribute mode="deepMemberOf" name="IT Portal Feedback (PAGS)"/>
         <attribute mode="deepMemberOf" name="Portal Administrators"/>

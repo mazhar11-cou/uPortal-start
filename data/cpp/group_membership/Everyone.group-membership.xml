@@ -28,6 +28,7 @@
     <group>Advisors</group>
     <group>Applicants</group>
     <group>Authenticated Users</group>
+    <group>Content Curators</group>
     <group>Financial Aid Recipients</group>
     <group>PAGS Root</group>
     <group>Instructors</group>
@@ -36,8 +37,6 @@
     <group>Guests</group>
     <group>Past Students</group>
     <group>Pending Students</group>
-    <group>Portal Administrators</group>
-    <group>Portal Developers</group>
     <group>Portal System</group>
     <group>Portlet Administrators</group>
     <group>Staff</group>
