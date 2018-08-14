@@ -43,5 +43,6 @@ data/cpp/group_membership/Undeclared_Students.group-membership.xml
 data/cpp/group_membership/Students.group-membership.xml
 data/cpp/group_membership/Portal_Administrators.group-membership.xml
 data/cpp/group_membership/Everyone.group-membership.xml
+data/cpp/group_membership/All_categories.group-membership.xml
 data/cpp/portlet-definition/portlet-admin.portlet-definition.xml
 data/cpp/portlet-definition/portal-administration.portlet-definition.xml
