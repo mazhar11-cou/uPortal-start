@@ -3,7 +3,7 @@
   <name>EGR Students</name>
   <entity-type>org.jasig.portal.security.IPerson</entity-type>
   <creator>system</creator>
-  <description>EGR Students</description>
+  <description>College of Engineering Students</description>
   <children>
     <group>COL-EGR minors (PAGS)</group>
     <group>COL-EGR majors (PAGS)</group>
