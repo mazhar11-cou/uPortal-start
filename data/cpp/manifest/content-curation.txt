@@ -1,7 +1,3 @@
-data/cpp/group_membership/Recommended.group-membership.xml
-data/cpp/group_membership/Recommended_Content_Curators.group-membership.xml
-data/cpp/group_membership/Content_Curators.group-membership.xml
-data/cpp/group_membership/Everyone.group-membership.xml
 data/cpp/permission-set/Content_Curators__SELECT_PORTLET_TYPE.permission-set.xml
 data/cpp/permission-set/Content_Curators__VIEW_GROUP__ALL_CATEGORIES.permission-set.xml
 data/cpp/permission-set/Content_Curators__VIEW_GROUP__ALL_GROUPS.permission-set.xml
@@ -10,5 +6,3 @@ data/cpp/permission-set/Recommended_Curators__MANAGE_APPROVED.permission-set.xml
 data/cpp/permission-set/Recommended_Curators__MANAGE.permission-set.xml
 data/cpp/permission-set/Recommended_Curators__MANAGE_EXPIRED.permission-set.xml
 data/cpp/permission-set/Recommended_Curators__MANAGE_MAINTENANCE.permission-set.xml
-data/cpp/portlet-definition/portlet-admin.portlet-definition.xml
-data/cpp/portlet-definition/portal-administration.portlet-definition.xml
