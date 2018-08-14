@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>AG Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>Don B. Huntley College of Agriculture Students</description>
+  <children>
+    <group>COL-AG minors (PAGS)</group>
+    <group>COL-AG majors (PAGS)</group>
+    <group>COL-AG ugrad majors (PAGS)</group>
+    <group>COL-AG ugrad minors (PAGS)</group>
+    <group>COL-AG grad majors (PAGS)</group>
+  </children>
+</group>

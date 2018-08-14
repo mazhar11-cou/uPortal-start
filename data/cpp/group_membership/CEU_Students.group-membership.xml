@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>CEU Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>College of the Extended University Students</description>
+  <children>
+    <group>COL-CEU majors (PAGS)</group>
+    <!--
+    <group>COL-CEU ugrad majors (PAGS)</group>
+    <group>COL-CEU grad majors (PAGS)</group>
+    -->
+  </children>
+</group>

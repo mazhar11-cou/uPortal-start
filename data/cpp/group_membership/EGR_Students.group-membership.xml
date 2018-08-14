@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>EGR Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>EGR Students</description>
+  <children>
+    <group>COL-EGR minors (PAGS)</group>
+    <group>COL-EGR majors (PAGS)</group>
+    <group>COL-EGR ugrad majors (PAGS)</group>
+    <group>COL-EGR ugrad minors (PAGS)</group>
+    <group>COL-EGR grad majors (PAGS)</group>
+  </children>
+</group>

@@ -26,6 +26,15 @@
   <description>All student members</description>
   <children>
     <group>Students (PAGS)</group>
+    <group>AG Students</group>
+    <group>CBA Students</group>
+    <group>CEIS Students</group>
+    <group>CEU Students</group>
+    <group>CLASS Students</group>
+    <group>EGR Students</group>
+    <group>ENV Students</group>
+    <group>SCI Students</group>
+    <group>Undeclared Students</group>
     <literal>student</literal>
     <literal>student-lo</literal>
   </children>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>CEIS Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>College of Education and Integrative Studies Students</description>
+  <children>
+    <group>COL-CEIS minors (PAGS)</group>
+    <group>COL-CEIS majors (PAGS)</group>
+    <group>COL-CEIS ugrad majors (PAGS)</group>
+    <group>COL-CEIS ugrad minors (PAGS)</group>
+    <group>COL-CEIS grad majors (PAGS)</group>
+  </children>
+</group>

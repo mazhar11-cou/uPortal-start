@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>COL-CLASS grad majors (PAGS)</name>
+  <description>Users with memberOf=uid=col-class_grad_majors,ou=group,dc=cpp,dc=edu</description>
+  <selection-test>
+    <test-group>
+      <test>
+        <attribute-name>memberOf</attribute-name>
+        <tester-class>org.jasig.portal.groups.pags.testers.StringEqualsIgnoreCaseTester</tester-class>
+        <test-value>uid=col-class_grad_majors,ou=group,dc=cpp,dc=edu</test-value>
+      </test>
+    </test-group>
+  </selection-test>
+</pags-group>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>ENV Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>College of Environmental Design Students</description>
+  <children>
+    <group>COL-ENV minors (PAGS)</group>
+    <group>COL-ENV majors (PAGS)</group>
+    <group>COL-ENV ugrad majors (PAGS)</group>
+    <group>COL-ENV ugrad minors (PAGS)</group>
+    <group>COL-ENV grad majors (PAGS)</group>
+  </children>
+</group>

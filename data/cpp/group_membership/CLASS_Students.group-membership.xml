@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>CLASS Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>College of Letters, Arts, and Social Sciences Students</description>
+  <children>
+    <group>COL-CLASS minors (PAGS)</group>
+    <group>COL-CLASS majors (PAGS)</group>
+    <group>COL-CLASS ugrad majors (PAGS)</group>
+    <group>COL-CLASS ugrad minors (PAGS)</group>
+    <group>COL-CLASS grad majors (PAGS)</group>
+  </children>
+</group>

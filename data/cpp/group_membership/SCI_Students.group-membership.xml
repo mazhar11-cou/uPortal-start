@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
+  <name>SCI Students</name>
+  <entity-type>org.jasig.portal.security.IPerson</entity-type>
+  <creator>system</creator>
+  <description>College of Science Students</description>
+  <children>
+    <group>COL-SCI minors (PAGS)</group>
+    <group>COL-SCI majors (PAGS)</group>
+    <group>COL-SCI ugrad majors (PAGS)</group>
+    <group>COL-SCI ugrad minors (PAGS)</group>
+    <group>COL-SCI grad majors (PAGS)</group>
+  </children>
+</group>
