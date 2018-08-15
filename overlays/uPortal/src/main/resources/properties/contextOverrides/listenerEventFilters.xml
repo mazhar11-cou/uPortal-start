@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+    <!--
+    | List of event filters to apply to all event listeners that handle newly fired events.
+    +-->
+    <util:list id="listenerEventFilters">
+        <!-- Can be used to filter events based on event type using an instanceof check -->
+        <bean class="org.apereo.portal.spring.context.ClassApplicationEventFilter">
+            <property name="supportedEvents">
+                <list>
+                    <value>org.apereo.portal.events.PortalEvent</value>
+                </list>
+            </property>
+            <!-- Can configure a list of events to ignore based on event type using an instanceof check. For example
+            if you are using Google Analytics, you can ignore most PortletExecutionEvents (retain
+            PortletActionExecutionEvent for logging Search Events for the search terms) and some other Events.
+            You may want to retain login, logout, layout changes, Portlet hung, and tenant events.
+            Note that the PortletExecutionEvents include information about time to execute the portlet event
+            (action, render, event, and resource events) which could be helpful to report on times that
+            individual portlets are taking to do their operations.  At the moment though there are currently
+            no reports shipping in uPortal to aggregate and report on that information (you could write it and
+            contribute it though!).  It is an example of information that Google Analytics would not currently
+            report on.
+            <property name="ignoredEvents">
+                <list>
+                    <value>org.apereo.portal.events.PortletEventExecutionEvent</value>
+                    <!- - <value>org.apereo.portal.events.PortletActionExecutionEvent</value> retain for Search terms - ->
+                    <value>org.apereo.portal.events.PortletRenderExecutionEvent</value>
+                    <value>org.apereo.portal.events.PortletRenderHeaderExecutionEvent</value>
+                    <value>org.apereo.portal.events.PortletResourceExecutionEvent</value>
+                    <value>org.apereo.portal.events.PortalRenderEvent</value>
+                </list>
+            </property>
+            -->
+            <property name="ignoredEvents">
+                <list>
+                    <value>org.apereo.portal.events.PortletEventExecutionEvent</value>
+                    <value>org.apereo.portal.events.PortletRenderExecutionEvent</value>
+                    <value>org.apereo.portal.events.PortletRenderHeaderExecutionEvent</value>
+                    <value>org.apereo.portal.events.PortletResourceExecutionEvent</value>
+                </list>
+            </property>
+        </bean>
+        <!-- Can be used to filter events based on who generated the event
+        <bean class="org.apereo.portal.events.handlers.UserFilteringPortalEventHandler">
+            <property name="ignoredUserNamePatterns">
+                <list>
+                    <value>user\..*</value>
+                    <value>vptest-user.*</value>
+                </list>
+            </property>
+            <property name="supportGuest" value="true" />
+        </bean>
+        -->
+    </util:list>
+
+</beans>

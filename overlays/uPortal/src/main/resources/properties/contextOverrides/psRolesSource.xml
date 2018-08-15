@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+    <bean id="psRolesSource" class="org.apereo.services.persondir.support.CachingPersonAttributeDaoImpl">
+        <property name="usernameAttributeProvider" ref="usernameAttributeProvider" />
+        <property name="cacheNullResults" value="true" />
+        <property name="userInfoCache">
+            <bean class="org.apereo.portal.utils.cache.MapCacheFactoryBean">
+                <property name="cacheFactory" ref="cacheFactory" />
+                <property name="cacheName" value="org.apereo.services.persondir.USER_INFO.psroleuser" />
+            </bean>
+        </property>
+        <property name="cacheKeyGenerator" ref="userAttributeCacheKeyGenerator" />
+        <property name="cachedPersonAttributesDao" >
+            <bean class="org.apereo.services.persondir.support.jdbc.NamedParameterJdbcPersonAttributeDao">
+                <property name="dataSource" ref="PortalDb" />
+                <property name="sql">
+                    <value>
+                        SELECT ROLENAME AS psRole
+                        FROM CPP_RESTRICTED.PSROLEUSER
+                        WHERE ROLEUSER = :calstateEduPersonEmplID
+                    </value>
+                </property>
+                <property name="usernameAttributeProvider" ref="usernameAttributeProvider" />
+                <property name="userAttributeNames" value="psRole" />
+            </bean>
+        </property>
+    </bean>
+
+</beans>

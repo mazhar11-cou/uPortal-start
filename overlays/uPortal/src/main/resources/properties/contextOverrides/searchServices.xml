@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+    <util:list id="searchServices">
+
+        <!-- Uncomment and fill in your Google Custom Search ID to use
+        <bean class="org.apereo.portal.portlets.search.google.GoogleCustomSearchService">
+            <property name="customSearchId" value="" />
+        </bean>
+         -->
+
+        <!-- Uncomment and fill in your Google Search Appliance URL and Site to use -->
+        <bean class="edu.cpp.campusapps.SearchServices.gsa.GsaSearchService">
+            <property name="baseUrl" value="http://gsa.cpp.edu/search"/>
+            <property name="site" value="default_collection"/>
+        </bean>
+
+        <!--Toggle one of the next two via comment
+          Marketplace and PortletRegistry search are very similar.  Marketplace provides searching of
+          portlet preferences marked as screen_capture_x and will include a link to the marketplace
+          entry and possibly more to come
+         -->
+
+        <bean class="org.apereo.portal.portlets.search.portletregistry.PortletRegistrySearchService"/>
+
+        <!--
+        <bean class="org.apereo.portal.portlet.marketplace.MarketplaceSearchService" />
+        -->
+    </util:list>
+
+</beans>
