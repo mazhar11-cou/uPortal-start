@@ -1,8 +1,0 @@
-data/cpp/permission-set/Content_Curators__SELECT_PORTLET_TYPE.permission-set.xml
-data/cpp/permission-set/Content_Curators__VIEW_GROUP__ALL_CATEGORIES.permission-set.xml
-data/cpp/permission-set/Content_Curators__VIEW_GROUP__ALL_GROUPS.permission-set.xml
-data/cpp/permission-set/Recommended_Curators__MANAGE_CREATED.permission-set.xml
-data/cpp/permission-set/Recommended_Curators__MANAGE_APPROVED.permission-set.xml
-data/cpp/permission-set/Recommended_Curators__MANAGE.permission-set.xml
-data/cpp/permission-set/Recommended_Curators__MANAGE_EXPIRED.permission-set.xml
-data/cpp/permission-set/Recommended_Curators__MANAGE_MAINTENANCE.permission-set.xml
