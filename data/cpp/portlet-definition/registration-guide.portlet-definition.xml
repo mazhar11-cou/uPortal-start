@@ -3,7 +3,7 @@
     <title>Registration Guide</title>
     <name>Registration Guide</name>
     <fname>registration-guide</fname>
-    <desc>Week 11 &amp; 12</desc>
+    <desc>Week 11, 12, 13</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -13,6 +13,7 @@
     <lifecycle>
         <entry name="CREATED" user="jinahyoung">2018-08-28T14:09:05.946-07:00</entry>
         <entry name="CREATED" user="jinahyoung">2018-08-28T14:09:42.558-07:00</entry>
+        <entry name="CREATED" user="jinahyoung">2018-08-28T14:49:45.925-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
     <group>Students</group>

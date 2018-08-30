@@ -3,6 +3,7 @@
     <title>LRC</title>
     <name>LRC</name>
     <fname>lrc</fname>
+    <desc>Week 11, 12, 13</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
