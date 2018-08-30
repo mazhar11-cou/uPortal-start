@@ -20,3 +20,22 @@ task tomcatInstallShared() {
         }
     }
 }
+
+task tomcatPackage {
+    group 'Tomcat'
+    description 'Create a .tar.gz file of Tomcat (base) with uPortal and portlets'
+    dependsOn ':portalProperties'
+    mustRunAfter ':tomcatInstall'
+    mustRunAfter allprojects.collect { it.tasks.matching { it.name.equals('tomcatDeploy') } }
+
+    doLast {
+        String serverBase = rootProject.ext.buildProperties.getProperty('server.base')
+        ant.tar(destfile: 'tomcat-uportal.tar.gz', compression: 'gzip', longfile: 'gnu') {
+            tarfileset (
+                dir: "${serverBase}",
+                prefix: 'tomcat',
+                excludes: 'logs/**/*, temp/**/*, work/**/*, webapps/docs/**/*, webapps/examples/**/*, webapps/host-manager/**/*, webapps/manager/**/*, webapps/ROOT/**/*'
+            )
+        }
+    }
+}
