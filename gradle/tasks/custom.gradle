@@ -21,21 +21,44 @@ task tomcatInstallShared() {
     }
 }
 
-task tomcatPackage {
-    group 'Tomcat'
-    description 'Create a .tar.gz file of Tomcat (base) with uPortal and portlets'
+task mycppPackage(type: Tar) {
+    group 'MyCPP'
+    description 'Create a .tar.gz file with uPortal and portlets'
+    dependsOn ':portalProperties'
+    dependsOn ':configureMyCPPTar'
+    mustRunAfter ':tomcatInstall'
+    mustRunAfter allprojects.collect { it.tasks.matching { it.name.equals('tomcatDeploy') } }
+
+    destinationDir(new File("${rootProject.projectDir}"))
+
+    baseName 'mycpp'
+    extension 'tar.gz'
+
+    compression Compression.GZIP
+    includeEmptyDirs false
+}
+
+task configureMyCPPTar {
     dependsOn ':portalProperties'
     mustRunAfter ':tomcatInstall'
     mustRunAfter allprojects.collect { it.tasks.matching { it.name.equals('tomcatDeploy') } }
 
     doLast {
         String serverBase = rootProject.ext.buildProperties.getProperty('server.base')
-        ant.tar(destfile: 'tomcat-uportal.tar.gz', compression: 'gzip', longfile: 'gnu') {
-            tarfileset (
-                dir: "${serverBase}",
-                prefix: 'tomcat',
-                excludes: 'logs/**/*, temp/**/*, work/**/*, webapps/docs/**/*, webapps/examples/**/*, webapps/host-manager/**/*, webapps/manager/**/*, webapps/ROOT/**/*'
-            )
+
+        configure(tasks.'mycppPackage') {
+            from("${serverBase}") {
+                into 'tomcat'
+
+                exclude 'logs'
+                exclude 'temp'
+                exclude 'work'
+                exclude 'webapps/docs'
+                exclude 'webapps/examples'
+                exclude 'webapps/host-manager'
+                exclude 'webapps/manager'
+                exclude 'webapps/ROOT'
+            }
         }
     }
 }
