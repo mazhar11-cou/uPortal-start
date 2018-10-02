@@ -1,0 +1,2 @@
+data/cpp/portlet-definition/travel-resources.portlet-definition.xml
+data/cpp/fragment-layout/cpp-employee-lo.fragment-layout.xml
