@@ -32,7 +32,9 @@
         </structure-attribute>
         <channel fname="cpp-hr-view-pay-compensation" unremovable="false" hidden="false" immutable="false" ID="n74" dlm:moveAllowed="false"/>
         <channel fname="cpp-hr-view-benefits" unremovable="false" hidden="false" immutable="false" ID="n75" dlm:moveAllowed="false"/>
+        <!--
         <channel fname="travel-resources" unremovable="false" hidden="false" immutable="false" ID="n79" dlm:moveAllowed="false"/>
+        -->
         <channel fname="cpp-hr-employee-training" unremovable="false" hidden="false" immutable="false" ID="n73" dlm:moveAllowed="false"/>
       </folder>
     </folder>
