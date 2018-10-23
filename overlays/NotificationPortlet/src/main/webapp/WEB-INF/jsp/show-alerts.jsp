@@ -295,14 +295,14 @@
 <div id="${n}emergencyAlert" style="display: none;">
 
     <div id="${n}safety-alert-container" class="container" >
-        <span class="sr-only">  IMPORTANT!! This is an alert.  Please reed content below.  </span>
+        <span class="sr-only">IMPORTANT!! This is an alert.  Please reed content below.</span>
         <div id="${n}safety-alert-row" class="row">
             <div class="view-alert template hidden" role="section">
 
                 <!-- Portlet Titlebar -->
                 <div id="${n}header" class="col-xs-3 col-xs-offset-1">
                     <center>
-                        <div id=class="row">
+                        <div class="row">
                             <div id="${n}alert-image" class="col-xs-4">
                                 <img id="${n}dimensions" src="//www.cpp.edu/common/resources/img/safety-alert-icon.png" alt="image of safety">
                             </div>
