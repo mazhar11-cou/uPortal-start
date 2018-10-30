@@ -10,11 +10,6 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <lifecycle>
-        <entry name="CREATED" user="jinahyoung">2018-08-28T10:51:21.364-07:00</entry>
-        <entry name="CREATED" user="jinahyoung">2018-08-28T14:01:46.990-07:00</entry>
-        <entry name="CREATED" user="jinahyoung">2018-08-28T14:37:47.285-07:00</entry>
-    </lifecycle>
     <category>Recommended</category>
     <group>Students</group>
     <permissions>
