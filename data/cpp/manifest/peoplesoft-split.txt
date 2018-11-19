@@ -6,3 +6,4 @@ data/cpp/portlet-definition/cpp-hr-employee-training.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-personal-info.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-view-benefits.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-view-pay-compensation.portlet-definition.xml
+data/cpp/fragment-definition/my-personal-info-lo.fragment-definition.xml

@@ -27,6 +27,8 @@
         <attribute mode="deepMemberOf" name="Past Students"/>
         <attribute mode="deepMemberOf" name="Pending Students"/>
         <attribute mode="deepMemberOf" name="Students"/>
+        <attribute mode="deepMemberOf" name="Portal Administrators"/>
+        <attribute mode="deepMemberOf" name="Portal Developers"/>
       </paren>
     </dlm:audience>
   </dlm:fragment>
