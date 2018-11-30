@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- LAST ID = 79 -->
+<!-- LAST ID = 80 -->
 <layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn" username="cpp-employee-lo">
   <folder ID="s1" hidden="false" immutable="false" name="Root folder" type="root" unremovable="true">
     <folder ID="s2" hidden="true" immutable="true" name="Page Top folder" type="page-top" unremovable="true">
@@ -24,6 +24,7 @@
         <channel fname="cpp-hr-absence-management-timekeeper" unremovable="false" hidden="false" immutable="false" ID="n77" dlm:moveAllowed="false"/>
         <channel fname="cpp-hr-absence-management" unremovable="false" hidden="false" immutable="false" ID="n71" dlm:moveAllowed="false"/>
         <channel fname="cpp-hr-personal-info" unremovable="false" hidden="false" immutable="false" ID="n72" dlm:moveAllowed="false"/>
+        <channel fname="hr-personal-info" unremovable="false" hidden="false" immutable="false" ID="n80" dlm:moveAllowed="false"/>
       </folder>
       <folder ID="s10" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Column 3" type="regular" unremovable="true">
         <structure-attribute>

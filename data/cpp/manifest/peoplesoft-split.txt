@@ -1,3 +1,5 @@
+data/cpp/pags-group/Employees_PAGS.pags-group.xml
+data/cpp/group_membership/Auxiliary_Employees.group-membership.xml
 data/cpp/portlet-definition/cpp-hr-absence-management-am-manager.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-absence-management-timekeeper.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-absence-management.portlet-definition.xml
@@ -6,4 +8,6 @@ data/cpp/portlet-definition/cpp-hr-employee-training.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-personal-info.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-view-benefits.portlet-definition.xml
 data/cpp/portlet-definition/cpp-hr-view-pay-compensation.portlet-definition.xml
+data/cpp/portlet-definition/hr-personal-info.portlet-definition.xml
 data/cpp/fragment-definition/my-personal-info-lo.fragment-definition.xml
+data/cpp/fragment-layout/cpp-employee-lo.fragment-layout.xml
