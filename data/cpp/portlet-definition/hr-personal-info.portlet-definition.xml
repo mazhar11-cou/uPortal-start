@@ -66,9 +66,7 @@
         <value>
             <![CDATA[
             <ul class="list-unstyled">
-              <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/h/?tab=DEFAULT" target="_blank" rel="noopener noreferrer">View/Update Personal Information</a></li>
-              <!--
-              <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/POM_MENU_HR_SS.POM_SSH_PERS_INFO.USA?NAVSTACK=Clear&amp;pslnkid=POM_BD_PERSONAL_DATA_INFO&amp;PORTALPARAM_PTCNAV=POM_BD_PERSONAL_DATA_INFO&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_EMPL&amp;EOPP.SCLabel=Employee%20Self%20Services&amp;EOPP.SCPTfname=POM_BD_EMPL&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_PERSONAL_DATA.POM_BD_PERSONAL_DATA_INFO&amp;IsFolder=false?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" target="_blank" rel="noopener noreferrer">View/Update Personal Information</a></li>-->
+              <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/CC_PORTFOLIO.SSS_PRSNLDATA_SUMM.GBL?1=1" target="_blank" rel="noopener noreferrer">View/Update Personal Information</a></li>
             </ul>
             ]]>
         </value>
