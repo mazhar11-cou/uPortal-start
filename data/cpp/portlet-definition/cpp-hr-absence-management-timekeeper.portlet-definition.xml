@@ -66,7 +66,7 @@
         <value>
         <![CDATA[
         <ul class="list-unstyled">
-          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/CSU_AM_SS.CSU_AM_TKPR_REVW_L.GBL?PORTALPARAM_PTCNAV=CSU_AM_TKPR_REVW_L_GBL&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" target="_blank">Approve Time and Absences</a></li>
+          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/CSU_AM_SS.CSU_AM_TKPR_REVW_L.GBL?PORTALPARAM_PTCNAV=CSU_AM_TKPR_REVW_L_GBL&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE?cmd=start&amp;amp;amp;languageCd=ENG&amp;amp;amp;userid=PS&amp;amp;amp;pwd=z&amp;amp;amp;calstateEduPersonEmplID" target="_blank">Approve Time and Absences</a></li>
         </ul>
         ]]>
         </value>
