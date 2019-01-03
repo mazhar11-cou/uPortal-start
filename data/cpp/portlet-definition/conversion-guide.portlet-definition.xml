@@ -59,7 +59,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/conversion-guide-400.png</value>
+        <value>//www.cpp.edu/~mycpp/img/conversion-guide-400.PNG</value>
     </parameter>
     <parameter>
         <name>printable</name>
