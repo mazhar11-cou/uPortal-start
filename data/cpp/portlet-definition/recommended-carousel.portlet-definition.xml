@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Recommended Carousel</title>
+    <name>Recommended Carousel</name>
+    <fname>recommended-carousel</fname>
+    <desc/>
+    <type>Portlet</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <group>Students</group>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>no-chrome</value>
+    </parameter>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>chromeStyle</name>
+        <value>no-chrome</value>
+    </parameter>
+    <parameter>
+        <name>configurable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>disablePortletEvents</name>
+        <value>true</value>
+    </parameter>
+    <parameter>
+        <name>editable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasAbout</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hasHelp</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>hideFromMobile</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>iconUrl</name>
+        <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/status/dialog-warning.png</value>
+    </parameter>
+    <parameter>
+        <name>mobileIconUrl</name>
+        <value>/uPortal/media/skins/icons/mobile/bullhorn.png</value>
+    </parameter>
+    <parameter>
+        <name>printable</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>false</value>
+    </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>true</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+        <![CDATA[
+        <style>.recommended-carousel .up-portlet-titlebar { display: none }</style>
+        <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
+        <script src="/resource-server/webjars/uportal__content-carousel/dist/content-carousel.min.js"></script>
+
+        <content-carousel
+            type="portlet"
+            source="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Recommended"
+            slick-options='{ "slidesToShow": 6, "infinite": true, "arrows": true, "responsive": [ {"breakpoint": 768, "settings": { "slidesToShow": 3 } } ] }'>
+            <div slot="header">
+              <h3>Recommended</h3>
+              <style>
+              @font-face {
+                font-family: 'slick';
+                font-weight: normal;
+                font-style: normal;
+
+                src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot');
+                src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.svg#slick') format('svg');
+              }
+
+              .slick-prev {
+                left: -10px;
+              }
+
+              .slick-next {
+                right: -15px;
+              }
+
+              .slick-next::before, .slick-prev::before {
+                color: #000;
+              }
+
+              .slick-item .slick-image {
+                min-height: 7rem;
+                margin: 0px;
+              }
+
+              @media only screen and (min-width: 1200px) {
+                .slick-item .slick-image {
+                  min-height: 18rem;
+                }
+              }
+              </style>
+            </div>
+        </content-carousel>
+        ]]>
+        </value>
+    </portlet-preference>
+</portlet-definition>
