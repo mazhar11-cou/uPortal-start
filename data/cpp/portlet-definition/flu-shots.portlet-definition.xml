@@ -59,7 +59,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/Flu Shots The-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/flu_shots-the-resize.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>

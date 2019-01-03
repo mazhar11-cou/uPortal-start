@@ -58,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/Mobile Pantry6-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/mobile_pantry6-resize.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>

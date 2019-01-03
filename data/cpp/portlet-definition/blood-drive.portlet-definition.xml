@@ -58,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/Blood Drive Bermel-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/blood_drive-bermel-resize.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
