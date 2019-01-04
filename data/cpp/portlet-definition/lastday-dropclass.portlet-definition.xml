@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Blood Drive - January 22, 23 and 24</title>
-    <name>Blood Drive - January 22, 23 and 24</name>
-    <fname>blood-drive</fname>
+    <title>Last Day to Drop Classes and Receive Full Refund - January 18</title>
+    <name>Last Day to Drop Classes and Receive Full Refund - January 18</name>
+    <fname>lastday-dropclass</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~healthcounseling/wellness-services/services/blood-drives.shtml</value>
+        <value>//www.cpp.edu/~student-accounting/tuition-fees/spring2019.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -61,7 +61,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/blood_drive-bermel-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/calendar-illustration-2-resize.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>

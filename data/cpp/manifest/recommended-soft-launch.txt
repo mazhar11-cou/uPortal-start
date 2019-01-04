@@ -1,9 +1,15 @@
 data/base/layout/system.layout.xml
 data/cpp/group_membership/Favorites_Starter_Pack.group-membership.xml
+data/cpp/portlet-definition/blood-drive.portlet-definition.xml
 data/cpp/portlet-definition/bronco-bookstore.portlet-definition.xml
 data/cpp/portlet-definition/campus-map.portlet-definition.xml
 data/cpp/portlet-definition/campus-rec-portal.portlet-definition.xml
 data/cpp/portlet-definition/dining-hours.portlet-definition.xml
+data/cpp/portlet-definition/download-a-planner-sheet.portlet-definition.xml
+data/cpp/portlet-definition/fafsa-priority.portlet-definition.xml
+data/cpp/portlet-definition/lastday-dropclass.portlet-definition.xml
+data/cpp/portlet-definition/mlkjr-day.portlet-definition.xml
 data/cpp/portlet-definition/parking-permits.portlet-definition.xml
 data/cpp/portlet-definition/rideshare-program.portlet-definition.xml
+data/cpp/portlet-definition/recommended-carousel.portlet-definition.xml
 data/cpp/fragment-layout/home-lo.fragment-layout.xml
