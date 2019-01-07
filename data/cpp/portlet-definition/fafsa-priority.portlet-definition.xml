@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//fafsa.ed.gov/</value>
+        <value>//www.cpp.edu/~financial-aid/how-tos/index.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

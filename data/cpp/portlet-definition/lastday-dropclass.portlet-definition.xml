@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~student-accounting/tuition-fees/spring2019.shtml</value>
+        <value>//www.cpp.edu/~student-accounting/tuition-fees/spring2019.shtml#S10</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~studentsuccess/academic-calendar/index.shtml</value>
+        <value>//www.cpp.edu/~registrar/calendars/index.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
