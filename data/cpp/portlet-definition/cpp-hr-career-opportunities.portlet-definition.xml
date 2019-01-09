@@ -10,10 +10,10 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <group>CPP Employees (PAGS)</group>
+    <group>CPP Employees</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>CPP Employees (PAGS)</group>
+            <group>CPP Employees</group>
         </permission>
     </permissions>
     <parameter>

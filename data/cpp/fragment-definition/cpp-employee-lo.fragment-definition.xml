@@ -23,8 +23,8 @@
     <dlm:fragment name="CPP Employees" ownerID="cpp-employee-lo" precedence="180">
         <dlm:audience evaluatorFactory="org.jasig.portal.layout.dlm.providers.GroupMembershipEvaluatorFactory">
             <paren mode="OR">
-            	<attribute mode="deepMemberOf" name="CPP Employees (PAGS)"/>
-            	<attribute mode="deepMemberOf" name="Auxiliary Employees (PAGS)"/>
+            	<attribute mode="deepMemberOf" name="CPP Employees"/>
+            	<attribute mode="deepMemberOf" name="Auxiliary Employees"/>
             </paren>
         </dlm:audience>
     </dlm:fragment>

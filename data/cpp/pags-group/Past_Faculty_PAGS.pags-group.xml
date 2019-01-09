@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
-  <name>Staff (PAGS)</name>
-  <description>Users with eduPersonAffiliation=staff</description>
+  <name>Past Faculty (PAGS)</name>
+  <description>Users with eduPersonAffiliation=past_faculty</description>
   <selection-test>
     <test-group>
       <test>
-        <attribute-name>eduPersonAffiliation</attribute-name>
+        <attribute-name>cppEduPersonAffiliation</attribute-name>
         <tester-class>org.jasig.portal.groups.pags.testers.StringEqualsIgnoreCaseTester</tester-class>
-        <test-value>staff</test-value>
+        <test-value>past_faculty</test-value>
       </test>
     </test-group>
   </selection-test>
