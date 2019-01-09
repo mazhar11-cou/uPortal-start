@@ -1,0 +1,6 @@
+data/cpp/pags-group/PAGS_Root.pags-group.xml
+data/cpp/portlet-definition/dynamic-respondr-skin.portlet-definition.xml
+data/base/portlet-definition/personalization-gallery.portlet-definition.xml
+data/cpp/user/non-tenant-lo.user.xml
+data/cpp/fragment-definition/non-tenant-lo.fragment-definition.xml
+data/cpp/fragment-layout/non-tenant.fragment-layout.xml
