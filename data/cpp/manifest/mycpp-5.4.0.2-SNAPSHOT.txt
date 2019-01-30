@@ -4,3 +4,6 @@ data/base/portlet-definition/personalization-gallery.portlet-definition.xml
 data/cpp/user/non-tenant-lo.user.xml
 data/cpp/fragment-definition/non-tenant-lo.fragment-definition.xml
 data/cpp/fragment-layout/non-tenant.fragment-layout.xml
+data/cpp/fragment-definition/_favorite-lo.fragment-definition.xml
+data/cpp/fragment-layout/_favorite-lo.fragment-layout.xml
+data/cpp/user/favorite-lo.user.xml
