@@ -12,6 +12,7 @@ dependencies {
 
     // Webjars included with resource-server
     runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}@jar"
+    runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}@jar"
     runtime "org.webjars.npm:uportal__content-carousel:${contentCarouselVersion}@jar"
     runtime "org.webjars.npm:uportal__esco-content-menu:${escoContentMenuVersion}@jar"
     runtime "org.webjars.npm:uportal__dashboard-carousel:${dashboardCarouselVersion}@jar"

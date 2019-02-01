@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+<portlet-definition version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <title>Enrollment Dates</title>
     <name>Enrollment Dates</name>
     <fname>enrollment-dates</fname>
@@ -7,8 +7,8 @@
     <type>Portlet</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
-        <ns2:webAppName>/StudentTrackersPortlets</ns2:webAppName>
-        <ns2:portletName>EnrollmentAppointments</ns2:portletName>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <group>Students</group>
     <permissions>
@@ -17,12 +17,20 @@
         </permission>
     </permissions>
     <parameter>
-        <name>blockImpersonation</name>
-        <value>false</value>
+        <name>disableDynamicTitle</name>
+        <value>true</value>
     </parameter>
     <parameter>
         <name>chromeStyle</name>
         <value>default</value>
+    </parameter>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>blockImpersonation</name>
+        <value>false</value>
     </parameter>
     <parameter>
         <name>configurable</name>
@@ -34,7 +42,7 @@
     </parameter>
     <parameter>
         <name>disablePortletEvents</name>
-        <value>false</value>
+        <value>true</value>
     </parameter>
     <parameter>
         <name>editable</name>
@@ -53,7 +61,34 @@
         <value>false</value>
     </parameter>
     <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>iconUrl</name>
+        <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/status/dialog-warning.png</value>
+    </parameter>
+    <parameter>
+        <name>mobileIconUrl</name>
+        <value>/uPortal/media/skins/icons/mobile/bullhorn.png</value>
+    </parameter>
+    <parameter>
         <name>printable</name>
         <value>false</value>
     </parameter>
+    <portlet-preference>
+        <name>cleanContent</name>
+        <readOnly>false</readOnly>
+        <value>true</value>
+    </portlet-preference>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
+        <![CDATA[
+        <script src="/resource-server/webjars/enrollment-appointments-webcomponent/js/enrollment-appointments-webcomponent.min.js"></script>
+        <x-enrollment-appointments></x-enrollment-appointments>
+        ]]>
+        </value>
+    </portlet-preference>
 </portlet-definition>
