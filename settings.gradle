@@ -22,9 +22,9 @@ include 'overlays:uPortal'
 include 'overlays:WeatherPortlet'
 include 'overlays:WebProxyPortlet'
 
+include 'overlays:FeedsAggregator'
 include 'overlays:ImportantDatesPortlet'
 include 'overlays:OnBasePortlet'
 include 'overlays:OnlineServices'
 include 'overlays:PersonalInformationPortlets'
 include 'overlays:StudentTrackersPortlets'
-
