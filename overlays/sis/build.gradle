@@ -1,0 +1,7 @@
+dependencies {
+    runtime "edu.cpp.mobwebapps:SISMicroservices:${sisMicroservicesVersion}"
+}
+
+war {
+    archiveName 'sis.war'
+}
