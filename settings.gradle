@@ -26,5 +26,5 @@ include 'overlays:ImportantDatesPortlet'
 include 'overlays:OnBasePortlet'
 include 'overlays:OnlineServices'
 include 'overlays:PersonalInformationPortlets'
+include 'overlays:sis'
 include 'overlays:StudentTrackersPortlets'
-
