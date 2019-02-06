@@ -3,5 +3,5 @@ dependencies {
 }
 
 war {
-    archiveName 'FeedsAggregator.war'
+    archiveName 'feeds.war'
 }
