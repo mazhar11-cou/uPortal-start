@@ -1,0 +1,3 @@
+data/cpp/user/favorite-lo.user.xml
+data/cpp/fragment-definition/_favorite-lo.fragment-definition.xml
+data/cpp/fragment-layout/_favorite-lo.fragment-layout.xml
