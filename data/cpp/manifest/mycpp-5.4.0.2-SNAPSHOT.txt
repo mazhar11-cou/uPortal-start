@@ -2,6 +2,7 @@ data/cpp/pags-group/PAGS_Root.pags-group.xml
 data/base/portlet-definition/personalization-gallery.portlet-definition.xml
 data/cpp/portlet-definition/class-schedule.portlet-definition.xml
 data/cpp/portlet-definition/dynamic-respondr-skin.portlet-definition.xml
+data/cpp/portlet-definition/enrollment-dates.portlet-definition.xml
 data/cpp/portlet-definition/news-announcements-carousel.portlet-definition.xml
 data/cpp/user/non-tenant-lo.user.xml
 data/cpp/fragment-definition/non-tenant-lo.fragment-definition.xml
