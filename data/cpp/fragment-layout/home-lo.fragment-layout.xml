@@ -23,6 +23,7 @@
       <folder ID="s92" hidden="false" immutable="true" type="pre-content" unremovable="true">
         <channel fname="popular-online-services" unremovable="true" hidden="false" immutable="false" ID="n88"/>
         <channel fname="recommended-carousel" unremovable="true" hidden="false" immutable="false" ID="n95" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false"/>
+        <channel fname="news-announcements-carousel" unremovable="false" hidden="false" immutable="false" ID="n98" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
       <!--
       <folder ID="s87" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="" type="regular" unremovable="false">
@@ -57,7 +58,6 @@
           <name>width</name>
           <value>100%</value>
         </structure-attribute>
-        <channel fname="news-announcements-carousel" unremovable="false" hidden="false" immutable="false" ID="n98" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
     </folder>
   </folder>
