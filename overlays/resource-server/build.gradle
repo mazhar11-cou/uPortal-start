@@ -11,14 +11,15 @@ dependencies {
     runtime "org.jasig.resourceserver:resource-server-webapp:${resourceServer13Version}@war"
 
     // Webjars included with resource-server
-    runtime "edu.cpp.mobwebapps:class-schedule-web-component:${classScheduleWebComponent}"
-    runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}@jar"
-    runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}@jar"
     runtime "org.webjars.npm:uportal__content-carousel:${contentCarouselVersion}@jar"
     runtime "org.webjars.npm:uportal__esco-content-menu:${escoContentMenuVersion}@jar"
     runtime "org.webjars.npm:uportal__dashboard-carousel:${dashboardCarouselVersion}@jar"
     runtime "org.webjars.npm:uportal__waffle-menu:${waffleMenuVersion}@jar"
     runtime "org.webjars.npm:vue:${vueVersion}@jar"
+
+    runtime "edu.cpp.mobwebapps:class-schedule-web-component:${classScheduleWebComponent}"
+    runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}@jar"
+    runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}@jar"
 }
 
 war {
