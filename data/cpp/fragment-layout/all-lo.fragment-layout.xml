@@ -41,12 +41,13 @@
       <channel fname="emergency-alert" unremovable="false" hidden="false" immutable="false" ID="n8"/>
       <channel fname="feedback-navigation" unremovable="true" hidden="true" immutable="false" ID="n17"/>
     </folder>
+    <folder ID="s600" hidden="false" immutable="true" name="Legal Footer" type="footer-second" unremovable="true">
+      <channel fname="mycpp-footer" unremovable="true" hidden="false" immutable="false" ID="n610"/>
+    </folder>
     <folder ID="s13" hidden="false" immutable="true" name="Page Bottom folder" type="page-bottom" unremovable="true">
-      <channel fname="cpp-server-node" unremovable="true" hidden="false" immutable="false" ID="n43"/>
       <channel fname="attachments" unremovable="true" hidden="false" immutable="false" ID="n14"/>
       <channel fname="google-analytics-config" unremovable="true" hidden="false" immutable="false" ID="n15"/>
       <channel fname="cpp-js-footer" unremovable="true" hidden="false" immutable="false" ID="n41"/>
     </folder>
-    <folder ID="s45" hidden="false" immutable="true" name="Hidden bottom folder" type="hidden-bottom" unremovable="true"/>
   </folder>
 </layout>
