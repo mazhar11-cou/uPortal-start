@@ -40,7 +40,6 @@
           <value>70%</value>
         </structure-attribute>
         <channel fname="welcome-to-mycpp" unremovable="true" hidden="false" immutable="false" ID="n89" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
-        <channel fname="announcements" unremovable="false" hidden="false" immutable="false" ID="n82" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="cpp-important-dates" unremovable="true" hidden="false" immutable="false" ID="n79" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="cpp-email-preview" unremovable="false" hidden="false" immutable="false" ID="n21" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
