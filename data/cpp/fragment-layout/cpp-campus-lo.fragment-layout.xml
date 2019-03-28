@@ -56,7 +56,6 @@
         </structure-attribute>
         <channel fname="cpp-news-polycentric" unremovable="false" hidden="false" immutable="false" ID="n17" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="cpp-news-athletics" unremovable="false" hidden="false" immutable="false" ID="n18" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
-        <channel fname="accessibility-feedback" unremovable="false" hidden="false" immutable="false" ID="n19" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
     </folder>
   </folder>
