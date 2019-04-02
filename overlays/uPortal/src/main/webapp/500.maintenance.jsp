@@ -44,16 +44,16 @@
                 <div class="col-md-12">
                     <h1>MyCPP is Currently Unavailable</h1>
                     <p>We are performing a scheduled system maintenance. We should be back online shortly. Thanks for your patience.</p>
-                    <p>To access other online services as such as BroncoDirect, Blackboard or Email, please use one of the following links:</p>
+                    <p>To access other online services such as BroncoDirect, Blackboard or Email, please use one of the following links:</p>
                     <ul>
                       <li><a href="https://blackboard.cpp.edu/webapps/bb-auth-provider-cas-bb_bb60/execute/casLogin?cmd=login&authProviderId=_164_1&redirectUrl=https%3A%2F%2Fblackboard.cpp.edu%2Fwebapps%2Fportal%2Fframeset.jsp" target="_blank">Blackboard</a></li>
                       <li>
-                        <a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?pt_fname=POM_BD_SS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS&IsFolder=true?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID" target="_blank">BroncoDirect</a>
+                        <a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/s/WEBLIB_PTPP_SC.HOMEPAGE.FieldFormula.IScript_AppHP?1=1" target="_blank">BroncoDirect</a>
                         <ul>
-                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.CLASS_SEARCH.GBL?pslnkid=POM_BD_ADV_LM_CSS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_ASV.POM_BD_ADV_LM.POM_BD_ADV_LM_CSS&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID" target="_blank">Class Schedule Search</a></li>
-                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/ESTABLISH_COURSES.CATALOG_SEARCH.GBL?pslnkid=POM_BD_ADV_LM_CCS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_ASV.POM_BD_ADV_LM.POM_BD_ADV_LM_CCS&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID" target="_blank">Course Catalog Search</a></li>
-                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?pslnkid=POM_BD_STDNT_SC&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_STDNT.POM_BD_STDNT_SC&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID" target="_blank">Student Center</a></li>
-                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSF_SS_ACCT_SUMM.GBL?Page=SSF_SS_ACCT_SUMM?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID" target="_blank">View Charges/Make Payment</a></li>
+                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?1=1" target="_blank">Class Schedule Search</a></li>
+                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/ESTABLISH_COURSES.CATALOG_SEARCH.GBL?1=1" target="_blank">Course Catalog Search</a></li>
+                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?1=1" target="_blank">Student Center</a></li>
+                          <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSF_SS_ACCT_SUMM.GBL?1=1" target="_blank">View Charges/Make Payment</a></li>
                         </ul>
                       </li>
                       <li><a href="//outlook.office365.com/cpp.edu" target="_blank">Email</a></li>
