@@ -10,11 +10,14 @@
 %>
 
 <style type="text/css">
+    .legal-footer .row .address {
+        text-align: left;
+    }
     .legal-footer .row .address .footer-logo {
         max-width: 150px;
     }
     .legal-footer .row .footer-links {
-        text-align: right
+        text-align: right;
     }
     .legal-footer .row .footer-links a {
         font-size: 1em;
