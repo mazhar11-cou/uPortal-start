@@ -219,6 +219,10 @@
      -->
 
     <!-- FILTER ORDER IS VERY IMPORTANT. DO NOT CHANGE ORDER WITHOUT VERY GOOD REASON -->
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
     <filter-mapping>
         <filter-name>corsFilter</filter-name>
@@ -233,14 +237,6 @@
     <filter-mapping>
         <filter-name>ExceptionLoggingFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </filter-mapping>
-
-    <filter-mapping>
-        <filter-name>CharacterEncodingFilter</filter-name>
-        <servlet-name>AuthenticationDispatcherServlet</servlet-name>
-        <servlet-name>RenderingDispatcherServlet</servlet-name>
-        <servlet-name>JsonRenderingDispatcherServlet</servlet-name>
-        <servlet-name>MVCDispatcherServlet</servlet-name>
     </filter-mapping>
 
     <filter-mapping>
@@ -359,6 +355,16 @@
     </servlet>
 
     <servlet>
+        <servlet-name>HealthCheckServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:properties/contexts/servlet/healthCheckServletContext.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
         <servlet-name>RenderingDispatcherServlet</servlet-name>
         <servlet-class>org.apereo.portal.spring.web.servlet.NoMultipartDispatcherServlet</servlet-class>
         <init-param>
@@ -435,6 +441,11 @@
         <servlet-name>AuthenticationDispatcherServlet</servlet-name>
         <url-pattern>/Login</url-pattern>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HealthCheckServlet</servlet-name>
+        <url-pattern>/health-check</url-pattern>
     </servlet-mapping>
 
     <mime-mapping>
