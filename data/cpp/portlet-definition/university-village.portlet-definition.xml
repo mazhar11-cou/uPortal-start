@@ -11,6 +11,7 @@
     </portlet-descriptor>
     <category>Favorites Starter Pack</category>
     <category>Recommended</category>
+    <category>Online Services</category>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
