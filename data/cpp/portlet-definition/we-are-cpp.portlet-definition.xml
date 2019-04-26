@@ -9,7 +9,6 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <category>Recommended</category>
     <category>Online Services</category>
     <group>Authenticated Users</group>
     <permissions>
@@ -19,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>https://weare.cpp.edu/</value>
+        <value>//weare.cpp.edu/</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

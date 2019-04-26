@@ -9,7 +9,12 @@
         <ns2:webAppName>/OnBasePortlet</ns2:webAppName>
         <ns2:portletName>OnBasePortlet</ns2:portletName>
     </portlet-descriptor>
+    <category>Online Services</category>
     <group>Everyone</group>
+    <parameter>
+        <name>alternativeMaximizedLink</name>
+        <value>//polydoc.cpp.edu/AppNet/Login.aspx</value>
+    </parameter>
     <parameter>
         <name>blockImpersonation</name>
         <value>false</value>
