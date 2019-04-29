@@ -18,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/h/?tab=DEFAULT&ticket=ST-1556299461218-OKdUzP6qUtD47UKEZGugxZDDY&cmd=login&errorCode=111&languageCd=ENG</value>
+        <value>https://idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/h/?tab=DEFAULT&amp;1=1</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
