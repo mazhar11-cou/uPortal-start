@@ -58,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/gradesfirst.png</value>
+        <value>//www.cpp.edu/~mycpp/img/grades.png</value>
     </parameter>
     <parameter>
         <name>printable</name>

@@ -58,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/identity-management-services.png</value>
+        <value>//www.cpp.edu/~mycpp/img/idm-resize.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
