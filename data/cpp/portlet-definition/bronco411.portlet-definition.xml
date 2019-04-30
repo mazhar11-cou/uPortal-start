@@ -10,6 +10,7 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
+    <category>Recommended</category>
     <category>Online Services</category>
     <group>Authenticated Users</group>
     <permissions>
@@ -59,7 +60,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/directory-bronco411.png</value>
+        <value>//www.cpp.edu/~mycpp/img/411.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
