@@ -47,6 +47,10 @@
         <name>hideFromMobile</name>
         <value>false</value>
     </parameter>
+        <parameter>
+        <name>iconUrl</name>
+        <value>//www.cpp.edu/~mycpp/img/polydoc-resize.png</value>
+    </parameter>
     <parameter>
         <name>printable</name>
         <value>false</value>

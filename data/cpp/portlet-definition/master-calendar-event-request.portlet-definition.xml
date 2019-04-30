@@ -58,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/wi-fi.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/MasterCalendarIcon.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
