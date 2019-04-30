@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Bronco Bookstore</title>
-    <name>Bronco Bookstore</name>
-    <fname>bronco-bookstore</fname>
+    <title>BroncoDirect Advisor Center</title>
+    <name>BroncoDirect Advisor Center</name>
+    <fname>broncodirect-advisor-center</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <category>Recommended</category>
     <category>Online Services</category>
     <group>Authenticated Users</group>
     <permissions>
@@ -19,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.broncobookstore.com/buy_main.asp</value>
+        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/SSR_ADVISEE_OVRD.SSS_ADVISEE_LIST.GBL?pslnkid=POM_BD_ADV_LM_AC&PORTALPARAM_PTCNAV=POM_BD_ADV_LM_AC&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=POM_BD_ASV&EOPP.SCLabel=Advisor%20Self%20Services&EOPP.SCPTfname=POM_BD_ASV&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_ASV.POM_BD_ADV_LM.POM_BD_ADV_LM_AC&IsFolder=false?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -59,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/BroncoBookstore.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/advisors-icon-D4.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
