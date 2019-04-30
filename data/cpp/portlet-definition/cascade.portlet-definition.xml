@@ -58,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/cascade.PNG</value>
+        <value>//www.cpp.edu/~mycpp/img/cascade-icon.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
