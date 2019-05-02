@@ -101,15 +101,6 @@
             <div slot="header">
               <h3>Recommended</h3>
               <style>
-              @font-face {
-                font-family: 'slick';
-                font-weight: normal;
-                font-style: normal;
-
-                src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot');
-                src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.svg#slick') format('svg');
-              }
-
               .slick-prev {
                 left: -10px;
               }
@@ -129,7 +120,19 @@
 
               @media only screen and (min-width: 1200px) {
                 .slick-item .slick-image {
-                  min-height: 18rem;
+                  min-height: 10rem;
+                }
+              }
+
+              @media only screen and (min-width: 1440px) {
+                .slick-item .slick-image {
+                  min-height: 12rem;
+                }
+              }
+
+              @media only screen and (min-width: 1920px) {
+                .slick-item .slick-image {
+                  min-height: 16rem;
                 }
               }
               </style>
