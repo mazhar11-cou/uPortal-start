@@ -83,7 +83,7 @@
         <style>.news-announcements-carousel .up-portlet-titlebar { display: none }</style>
 
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
-        <script type="text/javascript" src="/resource-server/webjars/uportal__content-carousel/dist/content-carousel.min.js"></script>
+        <script type="text/javascript" src="/resource-server/webjars/uportal__content-carousel/dist/content-carousel.min.js" defer></script>
         <content-carousel
             type="authenticated-rss"
             source="/feeds/api/v0/personalized-feed"
