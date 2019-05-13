@@ -19,9 +19,9 @@ dependencies {
 
     runtime "edu.cpp.mobwebapps:communication-preferences-component:${communicationPrefsComponentVersion}"
     runtime "edu.cpp.mobwebapps:class-schedule-web-component:${classScheduleWebComponent}"
-    runtime "org.webjars.npm:uportal__user-profile-menu:${userProfileMenuVersion}@jar"
     runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}"
     runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}"
+    runtime "org.webjars.npm:uportal__user-profile-menu:${userProfileMenuVersion}"
 }
 
 war {
