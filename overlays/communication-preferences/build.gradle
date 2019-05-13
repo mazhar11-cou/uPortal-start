@@ -1,0 +1,7 @@
+dependencies {
+    runtime "edu.cpp.mobwebapps:CommunicationPreferences:${communicationPrefsVersion}@war"
+}
+
+war {
+    archiveName 'communication-preferences.war'
+}

@@ -17,10 +17,11 @@ dependencies {
     runtime "org.webjars.npm:uportal__waffle-menu:${waffleMenuVersion}@jar"
     runtime "org.webjars.npm:vue:${vueVersion}@jar"
 
+    runtime "edu.cpp.mobwebapps:communication-preferences-component:${communicationPrefsComponentVersion}"
     runtime "edu.cpp.mobwebapps:class-schedule-web-component:${classScheduleWebComponent}"
-    runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}@jar"
-    runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}@jar"
     runtime "org.webjars.npm:uportal__user-profile-menu:${userProfileMenuVersion}@jar"
+    runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}"
+    runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}"
 }
 
 war {
