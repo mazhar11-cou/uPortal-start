@@ -13,11 +13,13 @@
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
         <entry name="EXPIRED" user="jmt">2019-02-25T08:02:00.069-08:00</entry>
     </lifecycle>
-    <category>Recommended</category>
+    <category>Recommended</category>   
+    <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Students</group>
+                <group>Recommended Content Curators</group>
+                <group>Students</group>
         </permission>
     </permissions>
     <parameter>

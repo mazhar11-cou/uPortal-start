@@ -17,9 +17,11 @@
         <entry name="EXPIRED" user="jinahyoung">2019-04-08T13:14:02.403-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Recommended Content Curators</group>
             <group>Students</group>
         </permission>
     </permissions>

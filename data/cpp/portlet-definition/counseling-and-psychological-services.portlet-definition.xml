@@ -20,9 +20,11 @@
         <entry name="EXPIRED" user="jmt">2019-04-02T09:02:35.034-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Recommended Content Curators</group>
             <group>Students</group>
         </permission>
     </permissions>

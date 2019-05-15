@@ -18,9 +18,13 @@
         <entry name="PUBLISHED" user="jmt">2019-05-02T10:23:05.120-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <group>Recommended Content Curators</group>
+    <group>Students</group>
     <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Recommended Content Curators</group>
+            <group>Students</group>
             <group>Authenticated Users</group>
         </permission>
     </permissions>

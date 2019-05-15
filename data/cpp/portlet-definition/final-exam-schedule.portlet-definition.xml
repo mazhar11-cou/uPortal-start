@@ -15,8 +15,10 @@
     </lifecycle>
     <category>Recommended</category>
     <group>Students</group>
+    <group>Recommended Content Curators</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Recommended Content Curators</group>
             <group>Students</group>
         </permission>
     </permissions>

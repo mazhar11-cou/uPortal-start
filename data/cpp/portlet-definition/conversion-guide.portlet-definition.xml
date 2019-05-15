@@ -15,10 +15,12 @@
         <entry name="CREATED" user="jinahyoung">2018-08-28T14:00:48.758-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Students</group>
+                <group>Recommended Content Curators</group>
+                <group>Students</group>
         </permission>
     </permissions>
     <parameter>
