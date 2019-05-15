@@ -13,15 +13,15 @@
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
-    <group>Employees</group>
+    <group>CPP Employees</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Employees</group>
+            <group>CPP Employees</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/POM_MENU_HR_SS.POM_SSH_PERS_INFO.USA?NAVSTACK=Clear&pslnkid=POM_BD_PERSONAL_DATA_INFO&PORTALPARAM_PTCNAV=POM_BD_PERSONAL_DATA_INFO&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=POM_BD_EMPL&EOPP.SCLabel=Employee%20Self%20Services&EOPP.SCPTfname=POM_BD_EMPL&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_PERSONAL_DATA.POM_BD_PERSONAL_DATA_INFO&IsFolder=false?cmd=start&amp;amp;languageCd=ENG&amp;amp;userid=PS&amp;amp;pwd=z&amp;amp;calstateEduPersonEmplID</value>
+        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/POM_MENU_HR_SS.POM_SSH_PERS_INFO.USA?1=1</value>
     </parameter>
 
     <parameter>

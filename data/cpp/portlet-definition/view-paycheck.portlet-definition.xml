@@ -2,7 +2,7 @@
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
     <title>View Paycheck</title>
     <name>View Paycheck</name>
-    <fname>paycheck</fname>
+    <fname>view-paycheck</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -13,17 +13,16 @@
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
-    <group>Employees</group>
+    <group>CPP Employees</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Employees</group>
+            <group>CPP Employees</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/POM_MENU_HR_SS.POM_SSH_EE_PAY_INQ.USA?pslnkid=POM_BD_PAY_CHK&amp;PORTALPARAM_PTCNAV=POM_BD_PAY_CHK&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_EMPL&amp;EOPP.SCLabel=Employee%20Self%20Services&amp;EOPP.SCPTfname=POM_BD_EMPL&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_VIEW_PAY_COMP.POM_BD_PAY_CHK&amp;IsFolder=false?cmd=start&amp;amp;languageCd=ENG&amp;amp;userid=PS&amp;amp;pwd=z&amp;amp;calstateEduPersonEmplID</value>
+        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/POM_MENU_HR_SS.POM_SSH_EE_PAY_INQ.USA?1=1</value>
     </parameter>
-
     <parameter>
         <name>blockImpersonation</name>
         <value>false</value>

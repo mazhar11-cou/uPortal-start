@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/W3EB_MENU.W3EB_GRID.GBL?NAVSTACK=Clear&amp;pslnkid=POM_BD_BENEFITS_SUM&amp;PORTALPARAM_PTCNAV=POM_BD_BENEFITS_SUM&amp;EOPP.SCNode=HRMS&amp;EOPP.SCPortal=EMPLOYEE&amp;EOPP.SCName=POM_BD_EMPL&amp;EOPP.SCLabel=Employee%20Self%20Services&amp;EOPP.SCPTfname=POM_BD_EMPL&amp;FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_EMPL.POM_BD_VIEW_BENEFITS.POM_BD_BENEFITS_SUM&amp;IsFolder=false?cmd=start&amp;amp;languageCd=ENG&amp;amp;userid=PS&amp;amp;pwd=z&amp;amp;calstateEduPersonEmplID</value>
+        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/c/W3EB_MENU.W3EB_GRID.GBL?1=1</value>
     </parameter>
 
     <parameter>

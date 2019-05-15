@@ -13,10 +13,10 @@
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
-    <group>Employees</group>
+    <group>CPP Employees</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Employees</group>
+            <group>CPP Employees</group>
         </permission>
     </permissions>
     <parameter>
