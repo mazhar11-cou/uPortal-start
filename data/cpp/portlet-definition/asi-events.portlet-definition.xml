@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
     <title>ASI Events</title>
     <name>ASI Events</name>
     <fname>asi-events</fname>
@@ -11,11 +11,22 @@
     </portlet-descriptor>
     <lifecycle>
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-02-25T08:04:47.744-08:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-03-08T10:03:11.051-08:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-03-10T12:00:00-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-03-25T12:45:45.482-07:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-04-02T09:02:14.763-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-04-23T14:27:58.427-07:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-05-02T10:21:34.689-07:00</entry>
+        <entry name="EXPIRED" user="jinahyoung">2019-05-06T11:23:06.960-07:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-05-15T08:24:25.123-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
+            <group>Recommended Content Curators</group>
             <group>Students</group>
         </permission>
     </permissions>
@@ -61,7 +72,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/asi-events.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/asi-events-16x9.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>

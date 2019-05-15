@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Summer Session</title>
-    <name>Summer Session</name>
-    <fname>summer</fname>
+    <title>Counseling and Psychological Services</title>
+    <name>Counseling and Psychological Services</name>
+    <fname>counseling-and-psychological-services</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -11,10 +11,13 @@
     </portlet-descriptor>
     <lifecycle>
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
-        <entry name="PUBLISHED" user="jmt">2019-02-25T08:07:01.710-08:00</entry>
-        <entry name="EXPIRED" user="jmt">2019-04-02T09:03:09.060-07:00</entry>
-        <entry name="PUBLISHED" user="jinahyoung">2019-04-23T14:27:40.455-07:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-04-29T12:51:39.344-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-02-12T07:29:16.652-08:00</entry>
+        <entry name="EXPIRED" user="jinahyoung">2019-02-18T08:52:39.218-08:00</entry>
+        <entry name="APPROVED" user="jmt">2019-02-28T12:10:04.618-08:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-03-03T12:00:00-08:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-03-18T07:50:59.855-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-03-25T12:46:25.687-07:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-04-02T09:02:35.034-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
     <group>Recommended Content Curators</group>
@@ -27,7 +30,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~summer/</value>
+        <value>//www.cpp.edu/~caps/index.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -67,7 +70,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/sunflowers.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/shcs.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
