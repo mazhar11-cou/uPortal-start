@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Campus Blood Drives</title>
-    <name>Campus Blood Drives</name>
-    <fname>blood-drive</fname>
+    <title>Library Workshops</title>
+    <name>Library Workshops</name>
+    <fname>library-workshops</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -10,16 +10,13 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <lifecycle>
-        <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-02-06T09:59:46.950-08:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-02-08T10:36:39.119-08:00</entry>
-        <entry name="PUBLISHED" user="jinahyoung">2019-02-11T09:42:36.654-08:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-02-18T08:50:30.118-08:00</entry>
-        <entry name="APPROVED" user="jmt">2019-03-08T10:06:22.039-08:00</entry>
-        <entry name="PUBLISHED" user="jmt">2019-03-10T12:00:00-07:00</entry>
-        <entry name="EXPIRED" user="jmt">2019-03-18T07:50:47.500-07:00</entry>
-        <entry name="PUBLISHED" user="jinahyoung">2019-04-08T13:11:39.028-07:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-04-10T09:57:59.165-07:00</entry>
+        <entry name="PUBLISHED" user="system">2019-03-04T07:44:26.554-08:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-03-08T10:04:11.695-08:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-03-10T12:00:00-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-03-25T12:45:29.643-07:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-04-02T09:02:50.640-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-04-17T10:36:32.547-07:00</entry>
+        <entry name="EXPIRED" user="jinahyoung">2019-04-29T12:50:39.068-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
     <group>Authenticated Users</group>
@@ -30,7 +27,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~healthcounseling/wellness-services/services/blood-drives.shtml</value>
+        <value>//cpp.libcal.com/calendar/events/?cid=5014&amp;t=d&amp;d=0000-00-00&amp;cal=5014</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -70,7 +67,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/blood_drive-bermel-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/library_open_house_book2-resize.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>

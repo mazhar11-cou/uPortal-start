@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
     <title>Registration Guide</title>
     <name>Registration Guide</name>
     <fname>registration-guide</fname>
-    <desc>Week 11, 12, 13</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
+    <lifecycle>
+        <entry name="CREATED" user="jinahyoung">2018-08-28T14:09:05.946-07:00</entry>
+        <entry name="CREATED" user="jinahyoung">2018-08-28T14:09:42.558-07:00</entry>
+        <entry name="CREATED" user="jinahyoung">2018-08-28T14:49:45.925-07:00</entry>
+        <entry name="APPROVED" user="jmt">2019-02-28T12:09:01.675-08:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-03-03T12:00:00-08:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-03-08T10:04:53.283-08:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-03-10T12:00:00-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-03-25T12:44:40.485-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-03-25T12:44:52.118-07:00</entry>
+        <entry name="EXPIRED" user="jinahyoung">2019-04-29T12:51:23.449-07:00</entry>
+    </lifecycle>
     <category>Recommended</category>
     <group>Students</group>
     <permissions>

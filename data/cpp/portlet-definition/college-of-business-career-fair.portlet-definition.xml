@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Campus Blood Drives</title>
-    <name>Campus Blood Drives</name>
-    <fname>blood-drive</fname>
+    <title>College of Business Career Fair: February 21</title>
+    <name>College of Business Career Fair: February 21</name>
+    <fname>college-of-business-career-fair</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -11,26 +11,18 @@
     </portlet-descriptor>
     <lifecycle>
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-02-06T09:59:46.950-08:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-02-08T10:36:39.119-08:00</entry>
-        <entry name="PUBLISHED" user="jinahyoung">2019-02-11T09:42:36.654-08:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-02-18T08:50:30.118-08:00</entry>
-        <entry name="APPROVED" user="jmt">2019-03-08T10:06:22.039-08:00</entry>
-        <entry name="PUBLISHED" user="jmt">2019-03-10T12:00:00-07:00</entry>
-        <entry name="EXPIRED" user="jmt">2019-03-18T07:50:47.500-07:00</entry>
-        <entry name="PUBLISHED" user="jinahyoung">2019-04-08T13:11:39.028-07:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-04-10T09:57:59.165-07:00</entry>
+        <entry name="EXPIRED" user="jmt">2019-02-25T08:02:04.818-08:00</entry>
     </lifecycle>
     <category>Recommended</category>
-    <group>Authenticated Users</group>
+    <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Students</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~healthcounseling/wellness-services/services/blood-drives.shtml</value>
+        <value>//www.eventbrite.com/e/cal-poly-pomona-college-of-business-administration-career-fair-tickets-52479485554?fbclid=IwAR1DrhQuqNwmjqySj3SMxshvzrSCYnRlzEjZEft2DeriJ38L35ZIKpD3VF</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -70,7 +62,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/blood_drive-bermel-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/cb-career-fair.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
