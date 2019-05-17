@@ -25,7 +25,7 @@
         <value>
             <![CDATA[
             <h1 class="portal-logo">
-                <a href="//www.cpp.edu?utm_source=mycpp&utm_medium=referral&utm_campaign=mycpp"><img src="/uPortal/img/cpp-logotype.svg" alt="Cal Poly Pomona" /></a> <a href='/uPortal' style="vertical-align: middle;">MyCPP</a>
+                <a href="//www.cpp.edu?utm_source=mycpp&utm_medium=referral&utm_campaign=mycpp"><img src="/uPortal/img/cpp-logotype.svg" alt="Cal Poly Pomona" /></a> <a href="//my.cpp.edu" style="vertical-align: middle;">MyCPP</a>
             </h1>
             ]]>
         </value>
