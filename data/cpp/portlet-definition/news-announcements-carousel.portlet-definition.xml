@@ -87,11 +87,24 @@
         <content-carousel
             type="authenticated-rss"
             source="/feeds/api/v0/personalized-feed"
-            slick-options='{ "slidesToShow": 6, "infinite": true, "arrows": true, "responsive":[{"breakpoint":480,"settings":{"slidesToShow":1}},{"breakpoint":768,"settings":{"slidesToShow":3}}] }'
+            slick-options='{ "slidesToShow": 6, "infinite": true, "arrows": true, "responsive":[{"breakpoint":993,"settings":{"slidesToShow":4}},{"breakpoint":769,"settings":{"slidesToShow":3}},{"breakpoint":481,"settings":{"slidesToShow":1}}] }'
         >
             <div slot="header">
                   <h3>News &amp; Announcements</h3>
                   <style>
+                  :root {
+                    --cc-slick-item-height: auto;
+                  }
+
+                  @font-face {
+                      font-family: 'slick';
+                      font-weight: normal;
+                      font-style: normal;
+
+                      src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot');
+                      src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.svg#slick') format('svg');
+                  }
+
                   .slick-prev {
                     left: -10px;
                   }
