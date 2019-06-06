@@ -23,7 +23,7 @@
     <portlet-preference>
         <name>base_url</name>
         <readOnly>true</readOnly>
-        <value>https://my.cpp.edu/uPortal/</value>
+        <value>https://my.cpp.edu/</value>
     </portlet-preference>
     <portlet-preference>
         <name>cas_url</name>
