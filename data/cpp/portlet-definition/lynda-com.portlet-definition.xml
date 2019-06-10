@@ -18,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://idp.cpp.edu/idp/shibboleth&target=https://shib.lynda.com/InCommon</value>
+        <value>//shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://idp.cpp.edu/idp/shibboleth&amp;target=https://shib.lynda.com/InCommon</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

@@ -3,7 +3,7 @@
     <title>Bronco411</title>
     <name>Bronco411</name>
     <fname>bronco411</fname>
-    <description>Directory</description>
+    <desc>Directory</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
