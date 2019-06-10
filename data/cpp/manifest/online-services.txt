@@ -1,3 +1,5 @@
+data/cpp/group_membership/Online_Services.group-membership.xml
+data/cpp/group_membership/All_categories.group-membership.xml
 data/cpp/portlet-definition/apply-for-housing.portlet-definition.xml
 data/cpp/portlet-definition/asi-campus-rec-portal.portlet-definition.xml
 data/cpp/portlet-definition/ati-review.portlet-definition.xml
