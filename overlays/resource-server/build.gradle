@@ -10,18 +10,26 @@
 dependencies {
     runtime "org.jasig.resourceserver:resource-server-webapp:${resourceServer13Version}@war"
 
-    // Webjars included with resource-server
-    runtime "org.webjars.npm:uportal__content-carousel:${contentCarouselVersion}@jar"
-    runtime "org.webjars.npm:uportal__esco-content-menu:${escoContentMenuVersion}@jar"
-    runtime "org.webjars.npm:uportal__dashboard-carousel:${dashboardCarouselVersion}@jar"
-    runtime "org.webjars.npm:uportal__waffle-menu:${waffleMenuVersion}@jar"
     runtime "org.webjars.npm:vue:${vueVersion}@jar"
 
+    // uPortal Web Components Webjars
+    runtime "org.webjars.npm:uportal__api-template-vue:${uPortalWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__content-carousel:${uPortalWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__esco-content-menu:${uPortalWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__user-profile-menu:${uPortalWebComponentsVersion}"
+    runtime "org.webjars.npm:uportal__waffle-menu:${uPortalWebComponentsVersion}@jar"
+
+    // Notification Webjars
+    runtime "org.webjars.npm:uportal__notification-banner:${notificationWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__notification-icon:${notificationWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__notification-list:${notificationWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__notification-modal:${notificationWebComponentsVersion}@jar"
+
+    // CPP Web Components Webjars
     runtime "edu.cpp.mobwebapps:communication-preferences-component:${communicationPrefsComponentVersion}"
     runtime "edu.cpp.mobwebapps:class-schedule-web-component:${classScheduleWebComponent}"
     runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}"
     runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}"
-    runtime "org.webjars.npm:uportal__user-profile-menu:${userProfileMenuVersion}"
 }
 
 war {
