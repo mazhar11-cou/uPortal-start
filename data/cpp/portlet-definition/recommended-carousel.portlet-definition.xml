@@ -132,29 +132,8 @@
               .slick-item .slick-image {
                 margin: 0px;
               }
-
-              @media only screen and (max-width: 479px) {
-                .slick-item .slick-image {
-                  min-height: 16rem;
-                }
-              }
-
-              @media only screen and (min-width: 1200px) {
-                .slick-item .slick-image {
-                  min-height: 10rem;
-                }
-              }
-
-              @media only screen and (min-width: 1440px) {
-                .slick-item .slick-image {
-                  min-height: 12rem;
-                }
-              }
-
-              @media only screen and (min-width: 1920px) {
-                .slick-item .slick-image {
-                  min-height: 16rem;
-                }
+              .slick-item.has-image .slick-image > img {
+                height: auto;
               }
               </style>
             </div>

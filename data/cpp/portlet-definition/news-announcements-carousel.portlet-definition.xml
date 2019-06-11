@@ -121,6 +121,10 @@
                     margin: 0px;
                   }
 
+                  .slick-item.has-image .slick-image > img {
+                    height: auto;
+                  }
+
                   @media only screen and (max-width: 479px) {
                     .slick-item .slick-image {
                       min-height: 16rem;
