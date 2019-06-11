@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+
     <title>To Do List</title>
     <name>To Do List</name>
     <fname>cpp-notifications-to-dos</fname>
@@ -73,6 +74,7 @@
     <portlet-preference>
         <name>RestfulJsonNotificationService.serviceUrls</name>
         <readOnly>false</readOnly>
-        <value>{cpp.esbURL}/to-dos?application=notification-portlet&amp;broncoNumber={broncoNumber}</value>
+        <value>https://api.cpp.edu:9093/getTodos?broncoNumber={broncoNumber}</value>
     </portlet-preference>
+
 </portlet-definition>

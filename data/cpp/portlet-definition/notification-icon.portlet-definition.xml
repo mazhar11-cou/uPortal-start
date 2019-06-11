@@ -20,6 +20,7 @@
 
 -->
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.3" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.3.xsd">
+
     <title>Notification Icon</title>
     <name>Notification Icon</name>
     <fname>notification-icon</fname>
@@ -98,8 +99,8 @@
     <portlet-preference>
         <name>RestfulJsonNotificationService.serviceUrls</name>
         <readOnly>false</readOnly>
-        <value>{cpp.esbURL}/holds?application=notification-portlet&amp;broncoNumber={broncoNumber}</value>
-        <value>{cpp.esbURL}/to-dos?application=notification-portlet&amp;broncoNumber={broncoNumber}</value>
+        <value>https://api.cpp.edu:9093/getHolds?broncoNumber={broncoNumber}</value>
+        <value>https://api.cpp.edu:9093/getTodos?broncoNumber={broncoNumber}</value>
     </portlet-preference>
 
 </portlet-definition>
