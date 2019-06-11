@@ -15,6 +15,7 @@ dependencies {
     // uPortal Web Components Webjars
     runtime "org.webjars.npm:uportal__api-template-vue:${uPortalWebComponentsVersion}@jar"
     runtime "org.webjars.npm:uportal__content-carousel:${uPortalWebComponentsVersion}@jar"
+    runtime "org.webjars.npm:uportal__dashboard-carousel:${uPortalWebComponentsVersion}@jar"
     runtime "org.webjars.npm:uportal__esco-content-menu:${uPortalWebComponentsVersion}@jar"
     runtime "org.webjars.npm:uportal__user-profile-menu:${uPortalWebComponentsVersion}"
     runtime "org.webjars.npm:uportal__waffle-menu:${uPortalWebComponentsVersion}@jar"
