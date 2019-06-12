@@ -80,7 +80,7 @@
     <portlet-preference>
         <name>RestfulJsonNotificationService.serviceUrls</name>
         <readOnly>false</readOnly>
-        <value>https://api.cpp.edu:9093/getHolds?broncoNumber={broncoNumber}</value>
+        <value>https://api.cpp.edu:9093/ws/simple/getServiceIndicators?broncoNumber={broncoNumber}</value>
     </portlet-preference>
 
 </portlet-definition>
