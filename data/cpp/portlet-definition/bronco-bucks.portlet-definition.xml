@@ -3,6 +3,7 @@
   <title>Bronco Bucks</title>
   <name>Bronco Bucks</name>
   <fname>bronco-bucks</fname>
+    <desc>A portal to add Bronco Bucks to your account</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

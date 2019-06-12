@@ -3,6 +3,7 @@
   <title>ASI Campus Recreation Portal</title>
   <name>ASI Campus Recreation Portal</name>
   <fname>asi-campus-rec-portal</fname>
+    <desc>Information regarding the recreational opportunities provided by ASI.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

@@ -3,6 +3,7 @@
   <title>Blackboard</title>
   <name>Blackboard</name>
   <fname>blackboard</fname>
+    <desc>Online portal for course information and assignments.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

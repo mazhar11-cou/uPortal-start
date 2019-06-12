@@ -3,6 +3,7 @@
     <title>Bronco Direct View Charges/Make Payment</title>
     <name>Bronco Direct View Charges/Make Payment</name>
     <fname>broncodirect-view-charges</fname>
+    <desc>View your Bronco Direct account summary</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

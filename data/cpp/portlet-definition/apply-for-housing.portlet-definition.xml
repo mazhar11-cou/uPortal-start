@@ -3,7 +3,7 @@
   <title>Apply for Housing</title>
   <name>Apply for Housing</name>
   <fname>apply-for-housing</fname>
-  <desc>Information to assit you in completing the housing application process</desc>
+  <desc>Information to assist you in completing the housing application process.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

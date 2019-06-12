@@ -3,6 +3,7 @@
     <title>Bronco Bookstore</title>
     <name>Bronco Bookstore</name>
     <fname>bronco-bookstore</fname>
+    <desc>The Bronco Bookstore provides students with academic supplies.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
