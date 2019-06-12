@@ -3,6 +3,7 @@
     <title>Bronco Direct View Charges/Make Payment</title>
     <name>Bronco Direct View Charges/Make Payment</name>
     <fname>broncodirect-view-charges</fname>
+    <desc>View your Bronco Direct account summary</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -18,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSF_SS_ACCT_SUMM.GBL?Page=SSF_SS_ACCT_SUMM?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID</value>
+        <value>https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSF_SS_ACCT_SUMM.GBL?1=1</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

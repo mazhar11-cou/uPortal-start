@@ -3,6 +3,7 @@
     <title>Bronco Interactive Dashboards (BID) and DataWarehouse</title>
     <name>Bronco Interactive Dashboards (BID) and DataWarehouse</name>
     <fname>bronco-interactive-dashboards-and-datawarehouse</fname>
+    <desc></desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

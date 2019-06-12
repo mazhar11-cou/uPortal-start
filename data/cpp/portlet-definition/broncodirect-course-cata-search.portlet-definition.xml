@@ -18,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/ESTABLISH_COURSES.CATALOG_SEARCH.GBL?pslnkid=POM_BD_ADV_LM_CCS&FolderPath=PORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_ASV.POM_BD_ADV_LM.POM_BD_ADV_LM_CCS&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder?cmd=start&languageCd=ENG&userid=PS&pwd=z&calstateEduPersonEmplID</value>
+        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/ESTABLISH_COURSES.CATALOG_SEARCH.GBL?1=1</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

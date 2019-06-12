@@ -3,6 +3,7 @@
   <title>Blackboard</title>
   <name>Blackboard</name>
   <fname>blackboard</fname>
+    <desc>Online portal for course information and assignments.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -18,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//blackboard.cpp.edu/webapps/bb-auth-provider-cas-bb_bb60/execute/casLogin?cmd=login&authProviderId=_164_1&redirectUrl=https%3A%2F%2Fblackboard.cpp.edu%2Fwebapps%2Fportal%2Fframeset.jsp</value>
+        <value>https://blackboard.cpp.edu/auth-saml/saml/login?apId=_172_1&amp;redirectUrl=https%3A%2F%2Fblackboard.cpp.edu%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
