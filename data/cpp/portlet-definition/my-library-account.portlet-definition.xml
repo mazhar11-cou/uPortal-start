@@ -3,6 +3,7 @@
     <title>My Library Account</title>
     <name>My Library Account</name>
     <fname>my-library-account</fname>
+    <desc>Checkout out and request books, view your loans, and pay fines.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

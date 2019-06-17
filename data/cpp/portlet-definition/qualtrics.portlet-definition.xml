@@ -3,6 +3,7 @@
     <title>Qualtrics</title>
     <name>Qualtrics</name>
     <fname>qualtrics</fname>
+    <desc>Survey tools.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

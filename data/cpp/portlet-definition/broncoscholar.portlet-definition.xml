@@ -3,6 +3,7 @@
     <title>BroncoScholar</title>
     <name>BroncoScholar</name>
     <fname>broncoscholar</fname>
+    <desc>Reliable access to the scholarly and creative outputs of Cal Poly Pomona students, faculty, and staff. </desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

@@ -3,6 +3,7 @@
     <title>We Are CPP</title>
     <name>We Are CPP</name>
     <fname>we-are-cpp</fname>
+    <desc>Explore our Campus Community.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

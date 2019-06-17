@@ -3,6 +3,7 @@
     <title>Reserve Study Room</title>
     <name>Reserve Study Room</name>
     <fname>reserve-study-room</fname>
+    <desc>Reserve a private study room for you and your group at the library.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

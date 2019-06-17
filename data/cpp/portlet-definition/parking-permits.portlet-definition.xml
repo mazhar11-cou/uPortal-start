@@ -3,6 +3,7 @@
     <title>Parking</title>
     <name>Parking</name>
     <fname>parking-permits</fname>
+    <desc>Order parking permits or pay citations.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

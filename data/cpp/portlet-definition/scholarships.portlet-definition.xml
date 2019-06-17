@@ -3,6 +3,7 @@
     <title>Scholarships</title>
     <name>Scholarships</name>
     <fname>scholarships</fname>
+    <desc>Online application that allows newly admitted and currently enrolled students to apply for institutional scholarships.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

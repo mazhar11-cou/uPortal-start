@@ -3,6 +3,7 @@
     <title>Wi-Fi - Switch to eduroam</title>
     <name>Wi-Fi - Switch to eduroam</name>
     <fname>wifi-eduroam</fname>
+    <desc>Wireless access set-up.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

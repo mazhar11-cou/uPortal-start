@@ -3,6 +3,7 @@
     <title>IT Service Desk</title>
     <name>IT Service Desk</name>
     <fname>it-service-desk</fname>
+    <desc>Find out the answer to all your IT related questions.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

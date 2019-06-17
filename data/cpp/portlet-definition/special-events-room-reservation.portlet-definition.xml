@@ -3,6 +3,7 @@
     <title>Special Events Room Reservation</title>
     <name>Special Events Room Reservation</name>
     <fname>special-events-room-reservation</fname>
+    <desc>Reserve your professional event at the library.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

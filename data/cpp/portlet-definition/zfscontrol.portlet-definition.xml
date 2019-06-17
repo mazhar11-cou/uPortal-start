@@ -3,6 +3,7 @@
     <title>ZFSControl</title>
     <name>ZFSControl</name>
     <fname>zfscontrol</fname>
+    <desc>Control access to files and directories.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

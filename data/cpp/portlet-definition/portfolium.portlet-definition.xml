@@ -3,6 +3,7 @@
     <title>Portfolium</title>
     <name>Portfolium</name>
     <fname>portfolium</fname>
+    <desc>Prove your skills and launch your career using Portfolium.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

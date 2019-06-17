@@ -3,6 +3,7 @@
     <title>BroncoDirect Faculty Center</title>
     <name>BroncoDirect Faculty Center - OS</name>
     <fname>broncodirect-faculty-center</fname>
+    <desc>Provides orientation for new faculty, pedagogical resources, collaborative opportunities, and confidential consultations.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

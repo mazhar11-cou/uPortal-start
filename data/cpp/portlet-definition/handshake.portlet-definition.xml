@@ -3,6 +3,7 @@
     <title>Handshake</title>
     <name>Handshake</name>
     <fname>handshake</fname>
+    <desc>Career Center's powerful recruiting platform.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

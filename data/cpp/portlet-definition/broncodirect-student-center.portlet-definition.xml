@@ -3,6 +3,7 @@
     <title>BroncoDirect Student Center</title>
     <name>BroncoDirect Student Center - OS</name>
     <fname>broncodirect-student-center</fname>
+    <desc>Access all of the features related to student enrollment, fee payment, financial aid, and application status.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -58,7 +59,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/student_center-square.png</value>
+        <value>//www.cpp.edu/~it_apps_assets/img/500/student_center-square.png</value>
     </parameter>
     <parameter>
         <name>printable</name>

@@ -3,6 +3,7 @@
     <title>Telecom Work Order</title>
     <name>Telecom Work Order</name>
     <fname>telecom-work-order</fname>
+    <desc>IT Service Order.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

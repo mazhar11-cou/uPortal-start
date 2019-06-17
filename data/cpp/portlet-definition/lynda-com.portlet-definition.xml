@@ -5,6 +5,7 @@
     <fname>lynda-com</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
+    <desc>Learn software, creative, and business skills to achieve your personal and professional goals.</desc>
     <portlet-descriptor>
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>

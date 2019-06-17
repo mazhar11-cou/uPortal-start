@@ -3,6 +3,7 @@
     <title>SumTotal</title>
     <name>SumTotal</name>
     <fname>sumtotal</fname>
+    <desc>Our Learning Management System to access CSU Learn and other Cal Poly Pomona training programs and resources.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

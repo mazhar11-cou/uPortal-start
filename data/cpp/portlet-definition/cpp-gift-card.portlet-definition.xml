@@ -3,6 +3,7 @@
     <title>CPP Gift Card</title>
     <name>CPP Gift Card</name>
     <fname>cpp-gift-card</fname>
+    <desc>Purchase a gift card for your Cal Poly Pomona student.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
