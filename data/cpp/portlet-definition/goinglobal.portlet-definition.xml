@@ -3,6 +3,7 @@
     <title>GoinGlobal</title>
     <name>GoinGlobal</name>
     <fname>goinglobal</fname>
+    <desc>Comprehensive career and employment resources tool kit filled with everything you need to find jobs and internships at home and abroad.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

@@ -3,7 +3,7 @@
     <title>Bronco Scholarship Application</title>
     <name>Bronco Scholarship Application</name>
     <fname>bronco-scholarship-application</fname>
-    <desc>Application portal for scholarships</desc>
+    <desc>Application portal for scholarships.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

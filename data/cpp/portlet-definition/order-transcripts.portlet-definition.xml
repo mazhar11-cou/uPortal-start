@@ -3,6 +3,7 @@
     <title>Order Transcripts</title>
     <name>Order Transcripts</name>
     <fname>order-transcripts</fname>
+    <desc>Order your official transcript here.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

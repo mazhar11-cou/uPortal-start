@@ -3,6 +3,7 @@
     <title>Update Display Name</title>
     <name>Update Display Name</name>
     <fname>update-display-name</fname>
+    <desc>Login in here to update your display name.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

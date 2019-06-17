@@ -3,6 +3,7 @@
     <title>Interfolio</title>
     <name>Interfolio</name>
     <fname>interfolio</fname>
+    <desc>Academic faculty management software.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

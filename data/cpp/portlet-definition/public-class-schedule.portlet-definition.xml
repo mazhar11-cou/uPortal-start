@@ -3,6 +3,7 @@
     <title>Public Class Schedule</title>
     <name>Public Class Schedule</name>
     <fname>public-class-schedule</fname>
+    <desc>Discover current and future coures offerings.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

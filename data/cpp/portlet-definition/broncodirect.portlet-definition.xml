@@ -3,7 +3,7 @@
     <title>BroncoDirect</title>
     <name>BroncoDirect</name>
     <fname>broncodirect</fname>
-    <desc>Student portal to access class and account information</desc>
+    <desc>Student portal to access class and account information.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

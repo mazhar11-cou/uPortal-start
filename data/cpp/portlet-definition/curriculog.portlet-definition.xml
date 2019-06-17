@@ -3,6 +3,7 @@
     <title>Curriculog</title>
     <name>Curriculog</name>
     <fname>curriculog</fname>
+    <desc>Curriculum development, revision, and approval process (the workflow) software.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

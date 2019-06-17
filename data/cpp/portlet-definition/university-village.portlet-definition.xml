@@ -3,6 +3,7 @@
     <title>University Village</title>
     <name>University Village</name>
     <fname>university-village</fname>
+    <desc>Apply to live at the village today!</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

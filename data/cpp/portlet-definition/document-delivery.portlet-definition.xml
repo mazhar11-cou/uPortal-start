@@ -3,6 +3,7 @@
     <title>Document Delivery</title>
     <name>Document Delivery</name>
     <fname>document-delivery</fname>
+    <desc>Order books, periodical articles, conference proceedings, theses, and reports.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

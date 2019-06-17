@@ -3,6 +3,7 @@
     <title>DRC Online Services</title>
     <name>DRC Online Services</name>
     <fname>drc-online-services</fname>
+    <desc>Integrated online system for students to access their accommodations</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

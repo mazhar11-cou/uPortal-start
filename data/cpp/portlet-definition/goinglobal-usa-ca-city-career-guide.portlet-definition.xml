@@ -3,6 +3,7 @@
     <title>GoinGlobal - USA/Canada City Career Guide</title>
     <name>GoinGlobal - USA/Canada City Career Guide</name>
     <fname>goinglobal-usa-canada-city-career-guide</fname>
+    <desc>Learn how to advance your career in the U.S./Canada area.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

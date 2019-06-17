@@ -3,7 +3,7 @@
     <title>MyPlanner</title>
     <name>MyPlanner</name>
     <fname>myplanner</fname>
-    <desc>Week 11</desc>
+    <desc>Handy tool that helps you plan out your time to degree.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

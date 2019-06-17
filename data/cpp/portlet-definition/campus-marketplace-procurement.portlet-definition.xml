@@ -3,6 +3,7 @@
     <title>Campus Marketplace (Procurement)</title>
     <name>Campus Marketplace (Procurement)</name>
     <fname>campus-marketplace-procurement</fname>
+    <desc>Online marketplace portal for businesses selling products and/or services to the State.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

@@ -3,6 +3,7 @@
     <title>Identity Management Services </title>
     <name>Identity Management Services </name>
     <fname>identity-management-services</fname>
+    <desc>Access all of your identity management services; such as, changing and resetting passwords and account claiming.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

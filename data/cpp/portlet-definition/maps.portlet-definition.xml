@@ -3,6 +3,7 @@
     <title>Maps</title>
     <name>Maps</name>
     <fname>maps</fname>
+    <desc>Get detailed information, directions, and view of all campus buildings.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

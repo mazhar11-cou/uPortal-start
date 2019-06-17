@@ -3,6 +3,7 @@
     <title>University Catalog</title>
     <name>University Catalog</name>
     <fname>university-catalog</fname>
+    <desc>Explore our University catalog.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

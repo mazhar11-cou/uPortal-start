@@ -3,7 +3,7 @@
     <title>Bronco Health Manager</title>
     <name>Bronco Health Manager</name>
     <fname>bronco-health-manager</fname>
-    <desc>A portal to view your health portal information</desc>
+    <desc>A portal to view your health portal information.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

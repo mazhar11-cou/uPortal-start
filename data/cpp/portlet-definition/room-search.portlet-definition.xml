@@ -3,6 +3,7 @@
     <title>Room Search</title>
     <name>Room Search</name>
     <fname>room-search</fname>
+    <desc>Displays information about instructional spaces at Cal Poly Pomona.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

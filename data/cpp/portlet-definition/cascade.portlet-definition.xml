@@ -3,6 +3,7 @@
     <title>Cascade</title>
     <name>Cascade</name>
     <fname>cascade</fname>
+    <desc>The web content management system (CMS) that manages the CPP website.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

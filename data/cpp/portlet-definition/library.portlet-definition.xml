@@ -3,6 +3,7 @@
     <title>Library</title>
     <name>Library</name>
     <fname>library</fname>
+    <desc>Discover all of our university library's online services.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

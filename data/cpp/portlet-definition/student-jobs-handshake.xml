@@ -3,6 +3,7 @@
     <title>Student Jobs - Handshake</title>
     <name>Student Jobs - Handshake</name>
     <fname>student-jobs-handshake</fname>
+    <desc>Handshake is the Career Center's job posting board.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

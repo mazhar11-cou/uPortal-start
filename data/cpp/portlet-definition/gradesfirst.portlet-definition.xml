@@ -3,6 +3,7 @@
     <title>GradesFirst</title>
     <name>GradesFirst</name>
     <fname>gradesfirst</fname>
+    <desc>Specialized technology and software for the collegiate academic advisor.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

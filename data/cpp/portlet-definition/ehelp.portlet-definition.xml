@@ -3,6 +3,7 @@
     <title>eHelp</title>
     <name>eHelp - OS</name>
     <fname>ehelp</fname>
+    <desc>Find answers to all your IT related questions.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

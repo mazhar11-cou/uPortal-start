@@ -3,6 +3,7 @@
     <title>BroncoDirect Course Catalog Search</title>
     <name>BroncoDirect Course Catalog Search</name>
     <fname>broncodirect-course-catalog-search</fname>
+    <desc>View course details, description, and enrollment information of any CPP class.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
