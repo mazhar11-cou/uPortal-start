@@ -3,6 +3,7 @@
     <title>PeopleSoft Human Resources</title>
     <name>PeopleSoft Human Resources</name>
     <fname>peoplesoft-human-resources</fname>
+    <desc>View/update time, view personal information, view benefits, and view job openings.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
