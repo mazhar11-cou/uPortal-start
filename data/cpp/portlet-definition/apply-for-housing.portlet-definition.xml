@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~housing/housing-options/apply-housing.shtml/</value>
+        <value>//www.cpp.edu/~housing/housing-options/apply-housing.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

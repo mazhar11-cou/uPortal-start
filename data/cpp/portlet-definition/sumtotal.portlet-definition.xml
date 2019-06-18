@@ -3,7 +3,7 @@
     <title>SumTotal</title>
     <name>SumTotal</name>
     <fname>sumtotal</fname>
-    <desc>Our Learning Management System to access CSU Learn and other Cal Poly Pomona training programs and resources.</desc>
+    <desc>Learning Management System (LMS) for training and development.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//ds.calstate.edu/?entityID=https%3A%2F%2Fidp.calstate.edu%2Fproxy%2Fsaml%2Fsp%2Fsumtotal&amp;return=https%3A%2F%2Fidp.calstate.edu%2Fsumtotal%2FShibboleth.sso%2FLogin%3FSAMLDS%3D1%26target%3Dss%253Amem%253Aba9d2ccc8e0ef159b4005d407c18723be9125860e492cfd3906c75c1f2de2dd6</value>
+        <value>https://csu.sumtotal.host/core/dash/home/Home_Pomona</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

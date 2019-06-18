@@ -3,6 +3,7 @@
     <title>PeopleSoft Human Resources</title>
     <name>PeopleSoft Human Resources</name>
     <fname>peoplesoft-human-resources</fname>
+    <desc>View/update time, view personal information, view benefits, and view job openings.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -18,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>https://idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/h/?tab=DEFAULT&amp;1=1</value>
+        <value><![CDATA[https://idp.cpp.edu/idp/profile/cas/login?service=https://cmshr.hr.cpp.edu/psp/HPOMPRDF/EMPLOYEE/HRMS/h/?tab=DEFAULT&1=1]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
