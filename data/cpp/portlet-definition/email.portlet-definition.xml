@@ -3,7 +3,7 @@
     <title>Email</title>
     <name>Email</name>
     <fname>email</fname>
-    <desc>Sign into your cpp email acount.</desc>
+    <desc>Sign into your CPP email acount.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

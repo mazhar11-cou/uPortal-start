@@ -3,7 +3,7 @@
     <title>ATI Review</title>
     <name>ATI Review</name>
     <fname>ati-review</fname>
-    <desc></desc>
+    <desc>Accessibility/ATI Test Request or ATI/IT Procurement Review.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

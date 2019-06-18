@@ -3,7 +3,7 @@
     <title>Telecom Work Order</title>
     <name>Telecom Work Order</name>
     <fname>telecom-work-order</fname>
-    <desc>IT Service Order.</desc>
+    <desc>Install a new wall jack, enable network access, new phone, fax, or modem.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

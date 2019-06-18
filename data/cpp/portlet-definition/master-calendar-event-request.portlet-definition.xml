@@ -3,7 +3,7 @@
     <title>Master Calendar Event Request</title>
     <name>Master Calendar Event Request</name>
     <fname>master-calendar-event-request</fname>
-    <desc>View highlights of all upcoming campus events.</desc>
+    <desc>View all CPP events, activities and observances.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
