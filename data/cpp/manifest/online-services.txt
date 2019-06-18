@@ -31,7 +31,6 @@ data/cpp/portlet-definition/ehelp.portlet-definition.xml
 data/cpp/portlet-definition/email-alumni.portlet-definition.xml
 data/cpp/portlet-definition/email.portlet-definition.xml
 data/cpp/portlet-definition/goinglobal-country-career-guide.portlet-definition.xml
-data/cpp/portlet-definition/goinglobal.portlet-definition.xml
 data/cpp/portlet-definition/goinglobal-usa-ca-city-career-guide.portlet-definition.xml
 data/cpp/portlet-definition/gradesfirst.portlet-definition.xml
 data/cpp/portlet-definition/handshake.portlet-definition.xml
