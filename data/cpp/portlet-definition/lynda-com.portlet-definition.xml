@@ -3,9 +3,9 @@
     <title>Lynda.com</title>
     <name>Lynda.com</name>
     <fname>lynda-com</fname>
+    <desc>Learn software, creative, and business skills to achieve your personal and professional goals.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
-    <desc>Learn software, creative, and business skills to achieve your personal and professional goals.</desc>
     <portlet-descriptor>
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://idp.cpp.edu/idp/shibboleth&amp;target=https://shib.lynda.com/InCommon</value>
+        <value><![CDATA[//shib.lynda.com/Shibboleth.sso/InCommon?providerId=https://idp.cpp.edu/idp/shibboleth&target=https://shib.lynda.com/InCommon]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
