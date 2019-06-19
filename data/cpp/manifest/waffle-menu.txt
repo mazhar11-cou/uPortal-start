@@ -1,0 +1,12 @@
+data/waffle-menu/Quicklinks.group-membership.xml
+data/cpp/portlet-definition/blackboard.portlet-definition.xml
+data/cpp/portlet-definition/peoplesoft-human-resources.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-advisor-center.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-faculty-center.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-student-center.portlet-definition.xml
+data/cpp/portlet-definition/conversion-guide.portlet-definition.xml
+data/cpp/portlet-definition/myplanner.portlet-definition.xml
+data/cpp/portlet-definition/email.portlet-definition.xml
+data/cpp/portlet-definition/lynda-com.portlet-definition.xml
+data/cpp/portlet-definition/waffle-menu.portlet-definition.xml
