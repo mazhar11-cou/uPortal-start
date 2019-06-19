@@ -3,6 +3,7 @@
     <title>Bronco Bookstore</title>
     <name>Bronco Bookstore</name>
     <fname>bronco-bookstore</fname>
+    <desc>The Bronco Bookstore provides students with academic supplies and books.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -13,7 +14,9 @@
         <entry name="PUBLISHED" user="system">2019-01-10T14:44:48.894-08:00</entry>
         <entry name="EXPIRED" user="jinahyoung">2019-02-07T07:31:30.476-08:00</entry>
     </lifecycle>
+    <category>Online Services</category>
     <category>Recommended</category>
+    <group>Authenticated Users</group>
     <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>

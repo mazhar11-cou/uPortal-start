@@ -3,7 +3,7 @@
     <title>MyPlanner</title>
     <name>MyPlanner</name>
     <fname>myplanner</fname>
-    <desc>Week 11</desc>
+    <desc>Handy tool that helps you plan out your time to degree.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -15,6 +15,7 @@
         <entry name="CREATED" user="jinahyoung">2018-08-28T13:57:27.783-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <category>Online Services</category>
     <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>

@@ -29,7 +29,6 @@
         <name>javax.portlet.escapeXml</name>
         <value>false</value>
     </container-runtime-option>
-
     <portlet>
         <portlet-name>AttributeSwapperPortlet</portlet-name>
         <display-name xml:lang="en">Attribute Swapper Portlet</display-name>

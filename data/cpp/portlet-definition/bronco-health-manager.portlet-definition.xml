@@ -3,6 +3,7 @@
     <title>Bronco Health Manager</title>
     <name>Bronco Health Manager</name>
     <fname>bronco-health-manager</fname>
+    <desc>A portal to view your health portal information.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -14,7 +15,9 @@
         <entry name="EXPIRED" user="jinahyoung">2019-03-25T12:48:34.213-07:00</entry>
     </lifecycle>
     <category>Favorites Starter Pack</category>
+    <category>Online Services</category>
     <category>Recommended</category>
+    <group>Authenticated Users</group>
     <group>Recommended Content Curators</group>
     <group>Students</group>
     <permissions>

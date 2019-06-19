@@ -3,6 +3,7 @@
     <title>Handshake</title>
     <name>Handshake</name>
     <fname>handshake</fname>
+    <desc>Career Center's powerful recruiting platform.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -11,6 +12,7 @@
     </portlet-descriptor>
     <category>Favorites Starter Pack</category>
     <category>Recommended</category>
+    <category>Online Services</category>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
@@ -19,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~career/handshake.shtml</value>
+        <value>//cpp.joinhandshake.com/login</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

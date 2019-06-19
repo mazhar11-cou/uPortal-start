@@ -3,6 +3,7 @@
     <title>Wi-Fi - Switch to eduroam</title>
     <name>Wi-Fi - Switch to eduroam</name>
     <fname>wifi-eduroam</fname>
+    <desc>Wireless access set-up.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -13,6 +14,7 @@
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
+    <category>Online Services</category>
     <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">

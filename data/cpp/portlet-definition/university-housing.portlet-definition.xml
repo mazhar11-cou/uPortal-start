@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd" xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <title>Housing Portal</title>
-    <name>Housing Portal</name>
-    <fname>housing-portal</fname>
-    <desc>Complete your housing applications and contracts and see your messages from university housing services.</desc>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+    <title>University Housing Portal</title>
+    <name>University Housing Portal</name>
+    <fname>university-housing-portal</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <category>Favorites Starter Pack</category>
-    <category>Recommended</category>
     <category>Online Services</category>
-    <group>Students</group>
+    <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Students</group>
+            <group>Authenticated Users</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//cpp.starrezhousing.com/StarRezPortal/Login</value>
+        <value>//cpp.starrezhousing.com/StarRezPortal</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -61,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/bric_climbing-gastelum2-resize.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/housing-resize.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>

@@ -3,6 +3,7 @@
     <title>Bronco Scholarship Application</title>
     <name>Bronco Scholarship Application</name>
     <fname>bronco-scholarship-application</fname>
+    <desc>Application portal for scholarships.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -17,6 +18,7 @@
         <entry name="PUBLISHED" user="jmt">2019-03-18T07:53:19.047-07:00</entry>
         <entry name="EXPIRED" user="jinahyoung">2019-03-25T12:48:48.402-07:00</entry>
     </lifecycle>
+    <category>Online Services</category>
     <category>Recommended</category>
     <group>Recommended Content Curators</group>
     <group>Students</group>

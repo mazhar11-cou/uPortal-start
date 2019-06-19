@@ -3,6 +3,7 @@
     <title>University Catalog</title>
     <name>University Catalog</name>
     <fname>university-catalog</fname>
+    <desc>Explore our University catalog.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -11,6 +12,7 @@
     </portlet-descriptor>
     <category>Favorites Starter Pack</category>
     <category>Recommended</category>
+    <category>Online Services</category>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
