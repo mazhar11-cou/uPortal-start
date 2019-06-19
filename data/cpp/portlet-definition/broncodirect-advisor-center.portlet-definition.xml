@@ -3,7 +3,7 @@
     <title>BroncoDirect Advisor Center</title>
     <name>BroncoDirect Advisor Center - OS</name>
     <fname>broncodirect-advisor-center</fname>
-    <desc>Schedule an appointment for general academic advising, graduation pledge, class registration, or other.</desc>
+    <desc/>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
