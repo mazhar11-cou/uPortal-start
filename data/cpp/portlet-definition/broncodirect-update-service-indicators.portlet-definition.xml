@@ -3,7 +3,7 @@
     <title>BroncoDirect Update Service Indicators</title>
     <name>BroncoDirect Update Service Indicators</name>
     <fname>broncodirect-update-service-indicators</fname>
-    <desc>Provide or limit access to services at your institution for an individual or organization.</desc>
+    <desc/>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -11,10 +11,10 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <category>Online Services</category>
-    <group>Authenticated Users</group>
+    <group>Advisors</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Advisors</group>
         </permission>
     </permissions>
     <parameter>
