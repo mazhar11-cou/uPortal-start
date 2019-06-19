@@ -57,7 +57,6 @@ data/cpp/portlet-definition/reserve-study-room.portlet-definition.xml
 data/cpp/portlet-definition/room-search.portlet-definition.xml
 data/cpp/portlet-definition/scholarships.portlet-definition.xml
 data/cpp/portlet-definition/special-events-room-reservation.portlet-definition.xml
-data/cpp/portlet-definition/student-jobs-handshake.xml
 data/cpp/portlet-definition/sumtotal.portlet-definition.xml
 data/cpp/portlet-definition/telecom-work-order.portlet-definition.xml
 data/cpp/portlet-definition/university-catalog.portlet-definition.xml
