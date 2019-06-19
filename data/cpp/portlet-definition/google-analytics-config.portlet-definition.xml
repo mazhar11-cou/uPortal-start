@@ -82,90 +82,34 @@
     <portlet-preference>
         <name>config</name>
         <readOnly>false</readOnly>
-		<value>
+        <value>
 {
-	"defaultConfig":{
-		"name":"",
-		"propertyId":"",
-		"config":[
-			{
-				"name":"name",
-				"value":"localhost"
-			}
-		]
-	},
-	"hosts":[
-		{
-			"name":"MyCPP Test",
-			"propertyId":"UA-4659236-13",
-			"config":[
-				{
-					"name":"name",
-					"value":"my-tst.cpp.edu"
-				}
-			],
-			"dimensionGroups":[
-				{"name":"1","value":"Administrators"},
-				{"name":"2","value":"Student"},
-				{"name":"3","value":"Staff"},
-				{"name":"4","value":"Applicant"},
-				{"name":"5","value":"Employee"},
-				{"name":"6","value":"Instructor"},
-				{"name":"8","value":"Advisor"},
-				{"name":"9","value":"Authenticated Users"},
-				{"name":"10","value":"Financial Aid Recipients"},
-				{"name":"11","value":"Past Students"},
-				{"name":"12","value":"Pending Students"}
-			]
-		},
-		{
-			"name":"MyCPP Stage",
-			"propertyId":"UA-4659236-14",
-			"config":[
-				{
-					"name":"name",
-					"value":"my-stg.cpp.edu"
-				}
-			],
-			"dimensionGroups":[
-				{"name":"1","value":"Administrators"},
-				{"name":"2","value":"Student"},
-				{"name":"3","value":"Staff"},
-				{"name":"4","value":"Applicant"},
-				{"name":"5","value":"Employee"},
-				{"name":"6","value":"Instructor"},
-				{"name":"8","value":"Advisor"},
-				{"name":"9","value":"Authenticated Users"},
-				{"name":"10","value":"Financial Aid Recipients"},
-				{"name":"11","value":"Past Students"},
-				{"name":"12","value":"Pending Students"}
-			]
-		},
-		{
-			"name":"MyCPP Production",
-			"propertyId":"UA-4659236-15",
-			"config":[
-				{
-					"name":"name",
-					"value":"my.cpp.edu"
-				}
-			],
-			"dimensionGroups":[
-				{"name":"1","value":"Administrators"},
-				{"name":"2","value":"Student"},
-				{"name":"3","value":"Staff"},
-				{"name":"4","value":"Applicant"},
-				{"name":"5","value":"Employee"},
-				{"name":"6","value":"Instructor"},
-				{"name":"8","value":"Advisor"},
-				{"name":"9","value":"Authenticated Users"},
-				{"name":"10","value":"Financial Aid Recipients"},
-				{"name":"11","value":"Past Students"},
-				{"name":"12","value":"Pending Students"}
-			]
-		}
-	]
+  "defaultConfig": {
+    "name": "",
+    "propertyId": "UA-4659236-15",
+    "config": [
+      {
+        "name": "name",
+        "value": "my.cpp.edu"
+      }
+    ],
+    "dimensionGroups": [
+      { "name": "1", "value": "Applicants" },
+      { "name": "2", "value": "Students" },
+      { "name": "3", "value": "Employees" },
+      { "name": "4", "value": "Faculty" },
+      { "name": "5", "value": "Instructors" },
+      { "name": "6", "value": "Auxiliary Employees (PAGS)" },
+      { "name": "7", "value": "Guests" },
+      { "name": "8", "value": "Advisors" },
+      { "name": "9", "value": "Authenticated Users" },
+      { "name": "10", "value": "Financial Aid Recipients" },
+      { "name": "11", "value": "Past Students" },
+      { "name": "12", "value": "Pending Students" }
+    ]
+  },
+  "hosts": []
 }
-		</value>
+        </value>
     </portlet-preference>
 </portlet-definition>
