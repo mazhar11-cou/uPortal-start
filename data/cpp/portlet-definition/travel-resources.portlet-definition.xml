@@ -64,8 +64,8 @@
         <value>
         <![CDATA[
             <p>
-                <a href="https://www.cpp.edu/~fas/university-accounting-services/travel" target="_blank">University Accounting Services - Travel</a><br />
-                <a href="https://idp.cpp.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=https://www.concursolutions.com" target="_blank">Concur e-Travel</a>
+                <a href="https://www.cpp.edu/~fas/university-accounting-services/travel" target="_blank" rel="noopener noreferrer">University Accounting Services - Travel</a><br />
+                <a href="https://idp.cpp.edu/idp/profile/SAML2/Unsolicited/SSO?providerId=https://www.concursolutions.com" target="_blank" rel="noopener noreferrer">Concur e-Travel</a>
             </p>
         ]]>
         </value>
