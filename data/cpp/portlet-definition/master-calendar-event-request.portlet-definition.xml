@@ -3,7 +3,7 @@
     <title>Master Calendar Event Request</title>
     <name>Master Calendar Event Request</name>
     <fname>master-calendar-event-request</fname>
-    <desc>View all CPP events, activities and observances.</desc>
+    <desc>Request to announce your event on the Master Calendar.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -59,7 +59,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/MasterCalendarIcon.png</value>
+        <value>//www.cpp.edu/~mycpp/img/MasterCalendarEventRequest.png</value>
     </parameter>
     <parameter>
         <name>printable</name>

@@ -3,7 +3,7 @@
     <title>BroncoDirect Update Service Indicators</title>
     <name>BroncoDirect Update Service Indicators</name>
     <fname>broncodirect-update-service-indicators</fname>
-    <desc/>
+    <desc><desc/>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -59,7 +59,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/wi-fi.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/ServiceIndicators.png</value>
     </parameter>
     <parameter>
         <name>printable</name>

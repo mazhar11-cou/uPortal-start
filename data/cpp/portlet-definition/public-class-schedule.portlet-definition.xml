@@ -60,7 +60,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/room-search.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/PublicClassSchedule.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
