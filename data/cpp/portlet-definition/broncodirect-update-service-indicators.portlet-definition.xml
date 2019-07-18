@@ -3,7 +3,7 @@
     <title>BroncoDirect Update Service Indicators</title>
     <name>BroncoDirect Update Service Indicators</name>
     <fname>broncodirect-update-service-indicators</fname>
-    <desc><desc/>
+    <desc/>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
