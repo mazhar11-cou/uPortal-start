@@ -26,6 +26,7 @@ data/cpp/portlet-definition/bronco-interactive-dashboards-and-datawarehouse.port
 data/cpp/portlet-definition/broncoscholar.portlet-definition.xml
 data/cpp/portlet-definition/bronco-scholarship-application.portlet-definition.xml
 data/cpp/portlet-definition/campus-marketplace-procurement.portlet-definition.xml
+data/cpp/portlet-definition/campus-spotlight-carousel.portlet-definition.xml
 data/cpp/portlet-definition/cascade.portlet-definition.xml
 data/cpp/portlet-definition/change-broncopassword.portlet-definition.xml
 data/cpp/portlet-definition/change-network-password.portlet-definition.xml
@@ -78,3 +79,4 @@ data/cpp/portlet-definition/zfscontrol.portlet-definition.xml
 data/cpp/portlet-definition/online-services.portlet-definition.xml
 data/cpp/portlet-definition/waffle-menu.portlet-definition.xml
 data/cpp/fragment-layout/authenticated-lo.fragment-layout.xml
+data/cpp/fragment-layout/home-lo.fragment-layout.xml

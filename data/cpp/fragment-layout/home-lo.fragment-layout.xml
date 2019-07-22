@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Next ID: 99 -->
+<!-- Next ID: 100 -->
 <layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn" username="home-lo">
   <folder ID="s1" hidden="false" immutable="false" name="Root folder" type="root" unremovable="true">
     <!--
@@ -21,7 +21,10 @@
         <value>home</value>
       </structure-attribute>
       <folder ID="s92" hidden="false" immutable="true" type="pre-content" unremovable="true">
+        <channel fname="campus-spotlight-carousel" unremovable="true" hidden="false" immutable="false" ID="n99" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false"/>
+        <!--
         <channel fname="popular-online-services" unremovable="true" hidden="false" immutable="false" ID="n88"/>
+        -->
         <channel fname="recommended-carousel" unremovable="true" hidden="false" immutable="false" ID="n95" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false"/>
         <channel fname="news-announcements-carousel" unremovable="false" hidden="false" immutable="false" ID="n98" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
