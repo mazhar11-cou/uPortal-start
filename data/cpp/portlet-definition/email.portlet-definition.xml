@@ -10,6 +10,7 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
+    <category>Quicklinks</category>
     <category>Online Services</category>
     <group>Authenticated Users</group>
     <permissions>
@@ -60,6 +61,10 @@
     <parameter>
         <name>iconUrl</name>
         <value>//www.cpp.edu/~mycpp/img/sq-Email.png</value>
+    </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
+        <value>//www.cpp.edu/mycpp/img/waffle/email.png</value>
     </parameter>
     <parameter>
         <name>printable</name>

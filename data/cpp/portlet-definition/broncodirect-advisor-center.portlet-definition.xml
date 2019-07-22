@@ -11,10 +11,11 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <category>Online Services</category>
-    <group>Authenticated Users</group>
+    <category>Quicklinks</category>
+    <group>Advisors</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Advisors</group>
         </permission>
     </permissions>
     <parameter>
@@ -64,5 +65,9 @@
     <parameter>
         <name>printable</name>
         <value>false</value>
+    </parameter>
+    <parameter>
+        <name>waffleLabel</name>
+        <value>Advisor Center</value>
     </parameter>
 </portlet-definition>

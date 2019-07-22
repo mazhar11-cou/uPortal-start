@@ -11,10 +11,15 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <category>Online Services</category>
-    <group>Authenticated Users</group>
+    <category>Quicklinks</category>
+    <group>Applicants</group>
+    <group>Pending Students</group>
+    <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Applicants</group>
+            <group>Pending Students</group>
+            <group>Students</group>
         </permission>
     </permissions>
     <parameter>
@@ -64,5 +69,9 @@
     <parameter>
         <name>printable</name>
         <value>false</value>
+    </parameter>
+    <parameter>
+        <name>waffleLabel</name>
+        <value>Student Center</value>
     </parameter>
 </portlet-definition>
