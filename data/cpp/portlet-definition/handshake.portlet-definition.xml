@@ -13,15 +13,15 @@
     <category>Favorites Starter Pack</category>
     <category>Recommended</category>
     <category>Online Services</category>
-    <group>Students</group>
+    <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Students</group>
+            <group>Authenticated Users</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//cpp.joinhandshake.com/login</value>
+        <value>//cpp.joinhandshake.com/</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

@@ -3,6 +3,7 @@
     <title>University Housing Portal</title>
     <name>University Housing Portal</name>
     <fname>university-housing-portal</fname>
+    <desc>Complete your housing applications and contracts and see your messages from university housing services.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

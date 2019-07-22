@@ -3,7 +3,7 @@
     <title>BroncoDirect Advisor Center</title>
     <name>BroncoDirect Advisor Center - OS</name>
     <fname>broncodirect-advisor-center</fname>
-    <desc>Schedule an appointment for general academic advising, graduation pledge, class registration, or other.</desc>
+    <desc/>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -20,7 +20,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https%3A%2F%2Fcmsweb.cms.cpp.edu%2Fpsp%2FCPOMPRDF%2FEMPLOYEE%2FHRMS%2Fc%2FSSR_ADVISEE_OVRD.SSS_ADVISEE_LIST.GBL%3Fpslnkid%3DPOM_BD_ADV_LM_AC%26PORTALPARAM_PTCNAV%3DPOM_BD_ADV_LM_AC%26EOPP.SCNode%3DHRMS%26EOPP.SCPortal%3DEMPLOYEE%26EOPP.SCName%3DPOM_BD_ASV%26EOPP.SCLabel%3DAdvisor%2520Self%2520Services%26EOPP.SCPTfname%3DPOM_BD_ASV%26FolderPath%3DPORTAL_ROOT_OBJECT.POM_BD_SS.POM_BD_ASV.POM_BD_ADV_LM.POM_BD_ADV_LM_AC%26IsFolder%3Dfalse%3Fcmd%3Dstart%26languageCd%3DENG%26userid%3DPS%26pwd%3Dz%26calstateEduPersonEmplID</value>
+        <value>https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/SSR_ADVISEE_OVRD.SSS_ADVISEE_LIST.GBL?1=1</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
