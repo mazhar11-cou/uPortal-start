@@ -58,7 +58,9 @@
         <readOnly>false</readOnly>
         <value>
         <![CDATA[
-        <script src="/resource-server/webjars/class-schedule-web-component/js/class-schedule-web-component.min.js"></script>
+        <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
+        <script src="/resource-server/webjars/class-schedule-web-component/js/class-schedule-web-component.min.js" defer></script>
+
         <class-schedule events-url="/sis/api/v0/class-schedule"></class-schedule>
         ]]>
         </value>
