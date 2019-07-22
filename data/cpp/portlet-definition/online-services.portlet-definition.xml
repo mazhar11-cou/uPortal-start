@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
     <title>Online Services</title>
     <name>Online Services</name>
     <fname>online-services</fname>
     <desc>List of single sign-on applications and other services available outside of MyCPP.</desc>
-    <type>Portlet</type>
+    <type>Advanced CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
-        <ns2:webAppName>/OnlineServices</ns2:webAppName>
-        <ns2:portletName>Online Services</ns2:portletName>
+        <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+        <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <group>Authenticated Users</group>
-    <permissions>
-        <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
-        </permission>
-    </permissions>
+    <parameter>
+        <name>alternate</name>
+        <value>false</value>
+    </parameter>
     <parameter>
         <name>blockImpersonation</name>
         <value>false</value>
@@ -53,32 +52,51 @@
         <value>false</value>
     </parameter>
     <parameter>
+        <name>highlight</name>
+        <value>false</value>
+    </parameter>
+    <parameter>
+        <name>iconUrl</name>
+        <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/status/dialog-warning.png</value>
+    </parameter>
+    <parameter>
+        <name>mobileIconUrl</name>
+        <value>/uPortal/media/skins/icons/mobile/bullhorn.png</value>
+    </parameter>
+    <parameter>
         <name>printable</name>
         <value>false</value>
     </parameter>
+    <parameter>
+        <name>showChrome</name>
+        <value>false</value>
+    </parameter>
     <portlet-preference>
-        <name>authType</name>
+        <name>cleanContent</name>
         <readOnly>false</readOnly>
-        <value>NONE</value>
+        <value>true</value>
     </portlet-preference>
     <portlet-preference>
-        <name>contentService</name>
+        <name>content</name>
         <readOnly>false</readOnly>
-        <value>httpContentService</value>
-    </portlet-preference>
-    <portlet-preference>
-        <name>filters</name>
-        <readOnly>false</readOnly>
-        <value>urlRewritingFilter</value>
-    </portlet-preference>
-    <portlet-preference>
-        <name>location</name>
-        <readOnly>false</readOnly>
-        <value>https://www.cpp.edu/online-services-feeds/portal-page.shtml</value>
-    </portlet-preference>
-    <portlet-preference>
-        <name>preInterceptors</name>
-        <readOnly>false</readOnly>
-        <value>userInfoUrlParameterizingPreInterceptor</value>
+        <value>
+        <![CDATA[
+        <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
+        <script
+          src="/resource-server/webjars/uportal__esco-content-menu/dist/esco.min.js"
+          defer
+        ></script>
+
+        <esco-content-grid
+          portlet-card-size="gridPortletCardSize"
+          portlet-api-url="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Online Services"
+          hide-action="true"
+        >
+          <h2 slot="header-left">Online Services</h1>
+        </esco-content-grid>
+
+        <p>Is there a service missing from the list? Please use this form to notify our team. <a href="https://www.cpp.edu/online-services-request.shtml" target="_blank" rel="noopener noreferrer">Request a service addition</a>.</p>
+        ]]>
+        </value>
     </portlet-preference>
 </portlet-definition>
