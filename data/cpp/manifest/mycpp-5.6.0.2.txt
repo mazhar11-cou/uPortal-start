@@ -1,1 +1,0 @@
-data/cpp/portlet-definition/class-schedule.portlet-definition.xml
