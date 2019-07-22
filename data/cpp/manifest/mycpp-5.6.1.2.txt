@@ -77,3 +77,4 @@ data/cpp/portlet-definition/wifi-eduroam.portlet-definition.xml
 data/cpp/portlet-definition/zfscontrol.portlet-definition.xml
 data/cpp/portlet-definition/online-services.portlet-definition.xml
 data/cpp/portlet-definition/waffle-menu.portlet-definition.xml
+data/cpp/fragment-layout/authenticated-lo.fragment-layout.xml

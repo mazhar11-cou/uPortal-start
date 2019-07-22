@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- LAST ID = 19 -->
+<!-- LAST ID = 21 -->
 <!--
 
     Licensed to Jasig under one or more contributor license
@@ -33,9 +33,9 @@
       <channel fname="fragment-admin-exit" unremovable="false" hidden="false" immutable="false" ID="n4"/>
     </folder>
     <folder ID="s12" hidden="false" immutable="true" name="Header Right folder" type="header-right" unremovable="true">
+      <channel fname="waffle-menu" unremovable="false" hidden="false" immutable="false" ID="n20"/>
       <channel fname="notification-icon" unremovable="false" hidden="false" immutable="false" ID="n6"/>
       <channel fname="portal-greeting" unremovable="false" hidden="false" immutable="false" ID="n7"/>
-      <channel fname="it-support-chatter" unremovable="false" hidden="false" immutable="false" ID="n16"/>
       <channel fname="search-launcher-icon" unremovable="false" hidden="false" immutable="false" ID="n18"/>
       <channel fname="logout-launcher" unremovable="false" hidden="false" immutable="false" ID="n8"/>
       <channel fname="session-timeout" unremovable="false" hidden="false" immutable="false" ID="n11"/>
@@ -44,8 +44,8 @@
       <channel fname="personalization-gallery" unremovable="false" hidden="false" immutable="false" ID="n10"/>
     </folder>
     <folder ID="s13" hidden="false" immutable="true" name="Eyebrow folder" type="eyebrow" unremovable="true">
+      <channel fname="waffle-menu" unremovable="false" hidden="false" immutable="false" ID="n21"/>
       <channel fname="notification-icon" unremovable="false" hidden="false" immutable="false" ID="n15"/>
-      <channel fname="it-support-chatter" unremovable="false" hidden="false" immutable="false" ID="n17"/>
       <channel fname="search-launcher-icon" unremovable="false" hidden="false" immutable="false" ID="n19"/>
       <channel fname="logout-launcher" unremovable="false" hidden="false" immutable="false" ID="n14"/>
     </folder>
