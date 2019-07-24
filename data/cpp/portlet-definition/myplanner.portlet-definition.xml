@@ -10,17 +10,11 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <lifecycle>
-        <entry name="CREATED" user="jinahyoung">2018-08-28T10:08:41.374-07:00</entry>
-        <entry name="CREATED" user="jinahyoung">2018-08-28T13:57:27.783-07:00</entry>
-    </lifecycle>
-    <category>Recommended</category>
     <category>Online Services</category>
-    <group>Recommended Content Curators</group>
+    <category>Quicklinks</category>
     <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Recommended Content Curators</group>
             <group>Students</group>
         </permission>
     </permissions>
@@ -71,5 +65,9 @@
     <parameter>
         <name>printable</name>
         <value>false</value>
+    </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
+        <value>//www.cpp.edu/~it_apps_assets/img/500/my_planner-square.png</value>
     </parameter>
 </portlet-definition>

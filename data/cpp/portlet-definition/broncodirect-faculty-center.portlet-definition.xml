@@ -70,4 +70,8 @@
         <name>waffleLabel</name>
         <value>Faculty Center</value>
     </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
+        <value>//www.cpp.edu/~it_apps_assets/img/500/faculty_center-square.png</value>
+    </parameter>
 </portlet-definition>

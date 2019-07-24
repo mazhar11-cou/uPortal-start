@@ -70,4 +70,8 @@
         <name>waffleLabel</name>
         <value>Advisor Center</value>
     </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
+        <value>//www.cpp.edu/~it_apps_assets/img/500/advisor_center-square.png</value>
+    </parameter>
 </portlet-definition>

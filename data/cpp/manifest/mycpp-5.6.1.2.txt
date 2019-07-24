@@ -1,6 +1,7 @@
 data/cpp/group_membership/Quicklinks.group-membership.xml
 data/cpp/group_membership/Online_Services.group-membership.xml
 data/cpp/group_membership/All_categories.group-membership.xml
+data/cpp/portlet-definition/advising-resources.portlet-definition.xml
 data/cpp/portlet-definition/apply-for-housing.portlet-definition.xml
 data/cpp/portlet-definition/asi-campus-rec-portal.portlet-definition.xml
 data/cpp/portlet-definition/ati-review.portlet-definition.xml
@@ -10,14 +11,10 @@ data/cpp/portlet-definition/bronco411.portlet-definition.xml
 data/cpp/portlet-definition/bronco-bookstore.portlet-definition.xml
 data/cpp/portlet-definition/bronco-bucks.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-advisor-center.portlet-definition.xml
-data/cpp/portlet-definition/broncodirect-advisor-center.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-class-schedule-search.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-course-cata-search.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-faculty-center.portlet-definition.xml
-data/cpp/portlet-definition/broncodirect-faculty-center.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect.portlet-definition.xml
-data/cpp/portlet-definition/broncodirect.portlet-definition.xml
-data/cpp/portlet-definition/broncodirect-student-center.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-student-center.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-update-service-indicators.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-view-charges.portlet-definition.xml
@@ -31,7 +28,7 @@ data/cpp/portlet-definition/cascade.portlet-definition.xml
 data/cpp/portlet-definition/change-broncopassword.portlet-definition.xml
 data/cpp/portlet-definition/change-network-password.portlet-definition.xml
 data/cpp/portlet-definition/class-schedule.portlet-definition.xml
-data/cpp/portlet-definition/conversion-guide.portlet-definition.xml
+data/cpp/portlet-definition/concur.portlet-definition.xml
 data/cpp/portlet-definition/cpp-gift-card.portlet-definition.xml
 data/cpp/portlet-definition/curriculog.portlet-definition.xml
 data/cpp/portlet-definition/document-delivery.portlet-definition.xml
@@ -49,13 +46,11 @@ data/cpp/portlet-definition/interfolio.portlet-definition.xml
 data/cpp/portlet-definition/it-service-desk.portlet-definition.xml
 data/cpp/portlet-definition/library.portlet-definition.xml
 data/cpp/portlet-definition/lynda-com.portlet-definition.xml
-data/cpp/portlet-definition/lynda-com.portlet-definition.xml
 data/cpp/portlet-definition/maps.portlet-definition.xml
 data/cpp/portlet-definition/master-calendar-event-request.portlet-definition.xml
 data/cpp/portlet-definition/master-calendar.portlet-definition.xml
 data/cpp/portlet-definition/mybar.portlet-definition.xml
 data/cpp/portlet-definition/my-library-account.portlet-definition.xml
-data/cpp/portlet-definition/myplanner.portlet-definition.xml
 data/cpp/portlet-definition/myplanner.portlet-definition.xml
 data/cpp/portlet-definition/order-transcripts.portlet-definition.xml
 data/cpp/portlet-definition/parking-permits.portlet-definition.xml
@@ -67,6 +62,7 @@ data/cpp/portlet-definition/public-class-schedule.portlet-definition.xml
 data/cpp/portlet-definition/qualtrics.portlet-definition.xml
 data/cpp/portlet-definition/reserve-study-room.portlet-definition.xml
 data/cpp/portlet-definition/room-search.portlet-definition.xml
+data/cpp/portlet-definition/semester-conversion.portlet-definition.xml
 data/cpp/portlet-definition/special-events-room-reservation.portlet-definition.xml
 data/cpp/portlet-definition/sumtotal.portlet-definition.xml
 data/cpp/portlet-definition/telecom-work-order.portlet-definition.xml
