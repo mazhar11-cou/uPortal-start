@@ -12,10 +12,10 @@
     </portlet-descriptor>
     <category>Recommended</category>
     <category>Online Services</category>
-    <group>Authenticated Users</group>
+    <group>Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Students</group>
         </permission>
     </permissions>
     <parameter>

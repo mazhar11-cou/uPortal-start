@@ -19,7 +19,7 @@ data/cpp/portlet-definition/broncodirect-student-center.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-update-service-indicators.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-view-charges.portlet-definition.xml
 data/cpp/portlet-definition/bronco-health-manager.portlet-definition.xml
-data/cpp/portlet-definition/bronco-interactive-dashboards-and-datawarehouse.portlet-definition.xml
+data/cpp/portlet-definition/bronco-interactive-dashboards-datawarehouse.portlet-definition.xml
 data/cpp/portlet-definition/broncoscholar.portlet-definition.xml
 data/cpp/portlet-definition/bronco-scholarship-application.portlet-definition.xml
 data/cpp/portlet-definition/campus-marketplace-procurement.portlet-definition.xml
@@ -29,9 +29,10 @@ data/cpp/portlet-definition/change-broncopassword.portlet-definition.xml
 data/cpp/portlet-definition/change-network-password.portlet-definition.xml
 data/cpp/portlet-definition/class-schedule.portlet-definition.xml
 data/cpp/portlet-definition/concur.portlet-definition.xml
+data/cpp/portlet-definition/conversion-guide.portlet-definition.xml
 data/cpp/portlet-definition/cpp-gift-card.portlet-definition.xml
 data/cpp/portlet-definition/curriculog.portlet-definition.xml
-data/cpp/portlet-definition/document-delivery.portlet-definition.xml
+data/cpp/portlet-definition/library-document-delivery.portlet-definition.xml
 data/cpp/portlet-definition/drc-online-services.portlet-definition.xml
 data/cpp/portlet-definition/ehelp.portlet-definition.xml
 data/cpp/portlet-definition/email-alumni.portlet-definition.xml

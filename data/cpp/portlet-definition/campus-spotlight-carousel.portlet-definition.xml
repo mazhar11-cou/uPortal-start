@@ -81,20 +81,52 @@
         <readOnly>false</readOnly>
         <value>
         <![CDATA[
+        <style>.campus-spotlight-carousel .up-portlet-titlebar { display: none }</style>
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
         <script src="/resource-server/webjars/uportal__content-carousel/dist/content-carousel.min.js" defer></script>
 
         <content-carousel
-            type="rss"
-            source="/Announcements/getRssFeed?topic=476977"
-            slick-options='{ "slidesToShow": 1, "infinite": true, "arrows": true, "autoplay": true }'
-            fit-to-container="true">
-            <div slot="header">
-                <style type="text/css">
-                    .slick-prev:before, .slick-next:before { color: #000; }
-                    .slick-container.hero .slick-hero-text { width: initial !important; bottom: 20px !important; left: 15%; right: 15%; font-size: 1.5em; text-shadow: 1px 1px 3px #000 }
-                </style>
-            </div>
+          type="rss"
+          source="/Announcements/getRssFeed?topic=476977"
+          slick-options='{ "slidesToShow": 1, "infinite": true, "arrows": true, "autoplay": true }'
+          carousel-height="30rem"
+          fit-to-container="true"
+        >
+          <div slot="header">
+            <style>
+            :root {
+              --cc-slick-arrow-fg-color: #666;
+              --cc-slick-arrow-position: .50%;
+            }
+            .sr-only {
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              padding: 0;
+              margin: -1px;
+              overflow: hidden;
+              clip: rect(0,0,0,0);
+              border: 0;
+            }
+            .slick-list { height: 30rem; }
+            .slick-controls { margin-left: 1px; }
+            .slick-controls button svg {
+              min-width: 1rem;
+              max-width: 1rem;
+            }
+            @media (min-width: 768px) {
+              .slick-container.hero .slick-hero-text {
+                width: initial !important;
+                bottom: 20px !important;
+                left: 15%;
+                right: 15%;
+                font-size: 1.5em;
+                text-shadow: 1px 1px 3px #000;
+              }
+            }
+            </style>
+            <h3 class="sr-only">Campus Spotlight</h3>
+          </div>
         </content-carousel>
         ]]>
         </value>

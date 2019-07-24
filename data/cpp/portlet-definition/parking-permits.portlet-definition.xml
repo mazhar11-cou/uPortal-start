@@ -13,11 +13,11 @@
     <category>Online Services</category>
     <category>Recommended</category>
     <group>Recommended Content Curators</group>
-    <group>Students</group>
+    <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
             <group>Recommended Content Curators</group>
-            <group>Students</group>
+            <group>Authenticated Users</group>
         </permission>
     </permissions>
     <parameter>

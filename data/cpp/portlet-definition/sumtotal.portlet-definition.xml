@@ -11,10 +11,12 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <category>Online Services</category>
-    <group>Authenticated Users</group>
+    <group>Faculty</group>
+    <group>Staff</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Faculty</group>
+            <group>Staff</group>
         </permission>
     </permissions>
     <parameter>
