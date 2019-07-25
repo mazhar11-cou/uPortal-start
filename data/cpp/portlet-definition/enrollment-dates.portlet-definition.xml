@@ -86,8 +86,10 @@
         <readOnly>false</readOnly>
         <value>
         <![CDATA[
-        <script src="/resource-server/webjars/enrollment-appointments-webcomponent/js/enrollment-appointments-webcomponent.min.js"></script>
-        <x-enrollment-appointments></x-enrollment-appointments>
+        <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
+        <script src="/resource-server/webjars/enrollment-appointments-webcomponent/js/enrollment-appointments-webcomponent.min.js?v=0.2.0" defer></script>
+
+        <enrollment-appointments></enrollment-appointments>
         ]]>
         </value>
     </portlet-preference>
