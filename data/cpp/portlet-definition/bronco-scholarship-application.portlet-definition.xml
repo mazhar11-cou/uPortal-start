@@ -70,7 +70,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/scholarship.png</value>
+        <value>//www.cpp.edu/~mycpp/img/scholarship-16x9.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
