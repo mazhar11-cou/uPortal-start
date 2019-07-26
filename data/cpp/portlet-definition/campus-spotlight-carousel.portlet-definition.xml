@@ -83,7 +83,7 @@
         <![CDATA[
         <style>.campus-spotlight-carousel .up-portlet-titlebar { display: none }</style>
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
-        <script src="/resource-server/webjars/uportal__content-carousel/dist/content-carousel.min.js" defer></script>
+        <script src="/resource-server/webjars/cpp__content-carousel/dist/content-carousel.min.js" defer></script>
 
         <content-carousel
           type="rss"

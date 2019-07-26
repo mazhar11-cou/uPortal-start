@@ -93,7 +93,7 @@
         <![CDATA[
         <style>.recommended-carousel .up-portlet-titlebar { display: none }</style>
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
-        <script src="/resource-server/webjars/uportal__content-carousel/dist/content-carousel.min.js?v=1.30.1" defer></script>
+        <script src="/resource-server/webjars/cpp__content-carousel/dist/content-carousel.min.js?v=1.30.1" defer></script>
 
         <content-carousel
             type="portlet"
@@ -113,8 +113,8 @@
                   font-weight: normal;
                   font-style: normal;
 
-                  src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot');
-                  src: url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/uportal__content-carousel/dist/fonts/slick.svg#slick') format('svg');
+                  src: url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.eot');
+                  src: url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.svg#slick') format('svg');
               }
 
               .slick-prev {

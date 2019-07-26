@@ -53,6 +53,7 @@ data/cpp/portlet-definition/master-calendar.portlet-definition.xml
 data/cpp/portlet-definition/mybar.portlet-definition.xml
 data/cpp/portlet-definition/my-library-account.portlet-definition.xml
 data/cpp/portlet-definition/myplanner.portlet-definition.xml
+data/cpp/portlet-definition/news-announcements-carousel.portlet-definition.xml
 data/cpp/portlet-definition/order-transcripts.portlet-definition.xml
 data/cpp/portlet-definition/parking-permits.portlet-definition.xml
 data/cpp/portlet-definition/peoplesoft-human-resources.portlet-definition.xml
@@ -61,6 +62,7 @@ data/cpp/portlet-definition/polydoc.portlet-definition.xml
 data/cpp/portlet-definition/portfolium.portlet-definition.xml
 data/cpp/portlet-definition/public-class-schedule.portlet-definition.xml
 data/cpp/portlet-definition/qualtrics.portlet-definition.xml
+data/cpp/portlet-definition/recommended-carousel.portlet-definition.xml
 data/cpp/portlet-definition/reserve-study-room.portlet-definition.xml
 data/cpp/portlet-definition/room-search.portlet-definition.xml
 data/cpp/portlet-definition/semester-conversion.portlet-definition.xml

@@ -19,7 +19,7 @@
     under the License.
 
 -->
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-4.0.xsd">
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
     <title>Waffle Menu</title>
     <name>Waffle Menu</name>
     <fname>waffle-menu</fname>
@@ -75,16 +75,18 @@
         <name>showChrome</name>
         <value>true</value>
     </parameter>
-<portlet-preference>
-    <name>content</name>
-    <readOnly>false</readOnly>
-    <value>
+    <portlet-preference>
+        <name>content</name>
+        <readOnly>false</readOnly>
+        <value>
         <![CDATA[
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
-        <script src="/resource-server/webjars/uportal__waffle-menu/dist/waffle-menu.min.js" defer></script>
+        <script src="/resource-server/webjars/cpp__waffle-menu/dist/waffle-menu.min.js" defer></script>
         <waffle-menu
-                url="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Quicklinks"
-                style="position: relative; top: 0.25rem;">
+          url="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Quicklinks"
+          style="position: relative; top: 0.25rem;"
+          button-label="Popular online services"
+        >
             <div slot="header">
                 <style>
                     li.waffle-dropdown-header { display: none }
@@ -96,6 +98,6 @@
             </div>
         </waffle-menu>
         ]]>
-    </value>
-</portlet-preference>
+        </value>
+    </portlet-preference>
 </portlet-definition>
