@@ -18,7 +18,6 @@ dependencies {
     runtime "org.webjars.npm:uportal__dashboard-carousel:${uPortalWebComponentsVersion}@jar"
     runtime "org.webjars.npm:uportal__esco-content-menu:${uPortalWebComponentsVersion}@jar"
     runtime "org.webjars.npm:uportal__user-profile-menu:${uPortalWebComponentsVersion}@jar"
-    runtime "org.webjars.npm:uportal__waffle-menu:${uPortalWebComponentsVersion}@jar"
 
     // Notification Webjars
     runtime "org.webjars.npm:uportal__notification-banner:${notificationWebComponentsVersion}@jar"
@@ -27,10 +26,11 @@ dependencies {
     runtime "org.webjars.npm:uportal__notification-modal:${notificationWebComponentsVersion}@jar"
 
     // CPP Web Components Webjars
-    runtime "edu.cpp.mobwebapps:communication-preferences-component:${communicationPrefsComponentVersion}"
     runtime "edu.cpp.mobwebapps:class-schedule-web-component:${classScheduleWebComponent}"
+    runtime "edu.cpp.mobwebapps:communication-preferences-component:${communicationPrefsComponentVersion}"
     runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}"
     runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}"
+    runtime "edu.cpp.mobwebapps:cpp__waffle-menu:${waffleMenuVersion}@jar"
 }
 
 war {
