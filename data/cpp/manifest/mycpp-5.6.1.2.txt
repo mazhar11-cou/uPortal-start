@@ -46,7 +46,7 @@ data/cpp/portlet-definition/identity-management-services.portlet-definition.xml
 data/cpp/portlet-definition/interfolio.portlet-definition.xml
 data/cpp/portlet-definition/it-service-desk.portlet-definition.xml
 data/cpp/portlet-definition/library.portlet-definition.xml
-data/cpp/portlet-definition/lynda-com.portlet-definition.xml
+data/cpp/portlet-definition/linkedin-learning.portlet-definition.xml
 data/cpp/portlet-definition/maps.portlet-definition.xml
 data/cpp/portlet-definition/master-calendar-event-request.portlet-definition.xml
 data/cpp/portlet-definition/master-calendar.portlet-definition.xml
@@ -56,7 +56,6 @@ data/cpp/portlet-definition/myplanner.portlet-definition.xml
 data/cpp/portlet-definition/news-announcements-carousel.portlet-definition.xml
 data/cpp/portlet-definition/order-transcripts.portlet-definition.xml
 data/cpp/portlet-definition/parking-permits.portlet-definition.xml
-data/cpp/portlet-definition/peoplesoft-human-resources.portlet-definition.xml
 data/cpp/portlet-definition/peoplesoft-human-resources.portlet-definition.xml
 data/cpp/portlet-definition/polydoc.portlet-definition.xml
 data/cpp/portlet-definition/portfolium.portlet-definition.xml
