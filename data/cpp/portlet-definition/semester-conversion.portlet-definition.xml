@@ -11,10 +11,10 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <category>Quicklinks</category>
-    <group>Authenticated Users</group>
+    <group>Advisors</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>Advisors</group>
         </permission>
     </permissions>
     <parameter>
