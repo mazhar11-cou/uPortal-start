@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>https://polydoc.cpp.edu/AppNet/Login.aspx</value>
+        <value>https://polydoc.cpp.edu</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -61,7 +61,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/peoplesoft-hr.png</value>
+        <value>//www.cpp.edu/mycpp/img/polydoc-16x9.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
