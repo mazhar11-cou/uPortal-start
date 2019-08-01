@@ -81,3 +81,4 @@ data/cpp/portlet-definition/waffle-menu.portlet-definition.xml
 data/cpp/fragment-layout/authenticated-lo.fragment-layout.xml
 data/cpp/fragment-layout/home-lo.fragment-layout.xml
 data/cpp/group_membership/Campus_Spotlight_Announcements_Editors.group-membership.xml
+data/cpp/group_membership/Announcements_Editors.group-membership.xml

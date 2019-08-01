@@ -6,8 +6,9 @@
   <description>Announcements editors</description>
   <children>
     <group>Campus Information Announcements Editors</group>
+    <group>Campus Spotlight Announcements Editors</group>
     <group>Employee Announcements Editors</group>
-    <group>Student Information Announcements Editors</group>
     <group>IT Service Notice Announcements Editors</group>
+    <group>Student Information Announcements Editors</group>
   </children>
 </group>
