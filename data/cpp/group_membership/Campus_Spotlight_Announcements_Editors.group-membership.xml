@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <group script="classpath://org/jasig/portal/io/import-group_membership_v3-2.crn">
-  <name>Student Information Announcements Editors</name>
+  <name>Campus Spotlight Announcements Editors</name>
   <entity-type>org.jasig.portal.security.IPerson</entity-type>
   <creator>system</creator>
-  <description>Student information announcements topic editors</description>
+  <description>Campus spotlight announcements topic editors</description>
   <children>
-    <literal>bpeake</literal>
     <literal>zllance</literal>
   </children>
 </group>
