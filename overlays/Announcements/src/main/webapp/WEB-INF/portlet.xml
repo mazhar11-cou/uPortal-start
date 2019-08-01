@@ -273,7 +273,7 @@
             <preference>
                 <name>AdminAnnouncementController.tinyMceInitializationOptions</name>
                 <value>
-                    selector: ".announcements-container textarea#message", inline: false,
+                    selector: ".announcements-container #message.mceEditor", inline: false,
                     plugins: ["advlist autolink lists link image charmap print preview anchor searchreplace visualblocks visualchars code fullscreen insertdatetime media table contextmenu paste visualchars textcolor colorpicker"],
                     toolbar1: "insertfile undo redo | stylesheet link image | code",
                     toolbar2: "bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent",
