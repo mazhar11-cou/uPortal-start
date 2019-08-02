@@ -238,7 +238,7 @@
         <portlet-preferences>
             <preference>
                 <name>AdminAnnouncementController.useAttachments</name>
-                <value>false</value>
+                <value>true</value>
                 <read-only>false</read-only>
             </preference>
             <preference>
