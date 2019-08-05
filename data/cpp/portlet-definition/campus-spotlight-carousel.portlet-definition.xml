@@ -84,18 +84,17 @@
         <style>.campus-spotlight-carousel .up-portlet-titlebar { display: none }</style>
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
         <script src="/resource-server/webjars/cpp__content-carousel/dist/content-carousel.min.js" defer></script>
-
         <content-carousel
           type="rss"
           source="/Announcements/getRssFeed?topic=476977"
-          slick-options='{ "slidesToShow": 1, "infinite": true, "arrows": true, "autoplay": true }'
+          slick-options='{"slidesToShow":1,"infinite":true,"arrows":true,"autoplay":true,"prevArrow":"<button class=\"arrow prev-arrow\"><span aria-hidden=\"true\">&#x2190;</span><span class=\"sr-only\">Previous</span></button>","nextArrow":"<button class=\"arrow next-arrow\"><span aria-hidden=\"true\">&#x2192;</span><span class=\"sr-only\">Next</span></button>"}'
           carousel-height="30rem"
           fit-to-container="true"
         >
           <div slot="header">
             <style>
             :root {
-              --cc-slick-arrow-fg-color: #666;
+              --cc-slick-arrow-fg-color: #fff;
               --cc-slick-arrow-position: .50%;
             }
             .sr-only {
@@ -113,6 +112,28 @@
             .slick-controls button svg {
               min-width: 1rem;
               max-width: 1rem;
+            }
+            .arrow {
+              background: none;
+              border: 0;
+              width: 24px;
+              height: 24px;
+              z-index: 2;
+              padding: 0;
+              position: absolute;
+              top: 50%;
+            }
+            .arrow span {
+              font-family: slick;
+              font-size: 24px;
+              color: var(--cc-slick-arrow-fg-color, #fff);
+              display: flex;
+            }
+            .prev-arrow {
+              left: var(--cc-slick-arrow-position, -24px);
+            }
+            .next-arrow {
+              right: var(--cc-slick-arrow-position, -24px);
             }
             @media (min-width: 768px) {
               .slick-container.hero .slick-hero-text {
