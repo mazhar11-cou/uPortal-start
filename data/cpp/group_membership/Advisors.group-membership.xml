@@ -26,6 +26,7 @@
   <description>All advisor members</description>
   <children>
     <group>Academic Advisors (PAGS)</group>
+    <group>PS Self-Service Advisor (PAGS)</group>
     <literal>advisor</literal>
   </children>
 </group>
