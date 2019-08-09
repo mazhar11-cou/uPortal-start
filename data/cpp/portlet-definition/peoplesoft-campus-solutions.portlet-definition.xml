@@ -12,10 +12,10 @@
     </portlet-descriptor>
     <category>Online Services</category>
     <category>Quicklinks</category>
-    <group>CPP Employees</group>
+    <group>PeopleSoft CS Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>CPP Employees</group>
+            <group>PeopleSoft CS Users</group>
         </permission>
     </permissions>
     <parameter>

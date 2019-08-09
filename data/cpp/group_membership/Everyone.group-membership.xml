@@ -25,20 +25,27 @@
   <creator>system</creator>
   <description>All Users</description>
   <children>
-    <group>Advisors</group>
-    <group>Applicants</group>
     <group>Authenticated Users</group>
-    <group>Content Curators</group>
-    <group>Financial Aid Recipients</group>
     <group>PAGS Root</group>
-    <group>Instructors</group>
     <group>Faculty</group>
-    <group>Employees</group>
     <group>Guests</group>
-    <group>Past Students</group>
-    <group>Pending Students</group>
     <group>Portal System</group>
     <group>Staff</group>
     <group>Students</group>
+    <group>Tenant Administrators</group>
+    <group>Tenants</group>
+    <!-- CPP's additions -->
+    <group>Advisors</group>
+    <group>Applicants</group>
+    <group>Content Curators</group>
+    <group>Financial Aid Recipients</group>
+    <group>Employees</group>
+    <group>Faculty</group>
+    <group>Guests</group>
+    <group>Instructors</group>
+    <group>Past Students</group>
+    <group>Pending Students</group>
+    <group>PeopleSoft CS Users</group>
+    <group>Portal System</group>
   </children>
 </group>

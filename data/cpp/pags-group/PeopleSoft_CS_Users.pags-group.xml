@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>PeopleSoft CS Users (PAGS)</name>
+  <description/>
+  <selection-test>
+    <test-group>
+      <test>
+        <attribute-name>psRole</attribute-name>
+        <tester-class>org.jasig.portal.groups.pags.testers.RegexTester</tester-class>
+        <test-value><![CDATA[^(SS_.+|SR_Requisite|HCM SOA Services Portal Access)$]]></test-value>
+      </test>
+    </test-group>
+  </selection-test>
+</pags-group>

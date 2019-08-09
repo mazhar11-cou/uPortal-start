@@ -51,6 +51,7 @@
     <member-name>Pending Instructor (PAGS)</member-name>
     <member-name>Pending Students (PAGS)</member-name>
     <member-name>PeopleSoft Based Roles (PAGS)</member-name>
+    <member-name>PeopleSoft CS Users (PAGS)</member-name>
     <member-name>Students (PAGS)</member-name>
   </members>
 </pags-group>
