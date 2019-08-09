@@ -87,7 +87,7 @@
         <content-carousel
           type="rss"
           source="/Announcements/getRssFeed?topic=476977"
-          slick-options='{"slidesToShow":1,"infinite":true,"arrows":true,"autoplay":true,"prevArrow":"<button class=\"arrow prev-arrow\"><span aria-hidden=\"true\">&#x2190;</span><span class=\"sr-only\">Previous</span></button>","nextArrow":"<button class=\"arrow next-arrow\"><span aria-hidden=\"true\">&#x2192;</span><span class=\"sr-only\">Next</span></button>"}'
+          slick-options='{"slidesToShow":1,"infinite":true,"arrows":true,"autoplay":true,"autoplaySpeed":8000,"prevArrow":"<button class=\"arrow prev-arrow\"><span aria-hidden=\"true\">&#x2190;</span><span class=\"sr-only\">Previous</span></button>","nextArrow":"<button class=\"arrow next-arrow\"><span aria-hidden=\"true\">&#x2192;</span><span class=\"sr-only\">Next</span></button>"}'
           carousel-height="30rem"
           fit-to-container="true"
         >
