@@ -89,8 +89,10 @@
         >
             <div slot="header">
                 <style>
-                    li.waffle-dropdown-header { display: none }
-                    li.waffle-menu-item a span { font-size: 1.2rem }
+                .waffle-dropdown-footer a { color: #000 !important; }
+                .waffle-dropdown-footer a:hover { color: inherit; }
+                li.waffle-dropdown-header { display: none; }
+                li.waffle-menu-item a span { font-size: 1.2rem; }
                 </style>
             </div>
             <div slot="footer" style="text-align: center">
