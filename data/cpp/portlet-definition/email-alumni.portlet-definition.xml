@@ -3,7 +3,7 @@
     <title>Email for Alumni</title>
     <name>Email for Alumni</name>
     <fname>email-alumni</fname>
-    <desc>No new accounts</desc>
+    <desc>No new accounts.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
