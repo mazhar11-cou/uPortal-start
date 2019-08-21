@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Bronco Health Manager</title>
-    <name>Bronco Health Manager</name>
-    <fname>bronco-health-manager</fname>
-    <desc>A portal to view your health portal information.</desc>
+    <title>My Health Portal</title>
+    <name>My Health Portal</name>
+    <fname>my-health-portal</fname>
+    <desc>Make limited medical appointments, send questions about medical issues, medical records, and more.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <lifecycle>
-        <entry name="PUBLISHED" user="system">2019-03-18T09:29:16.633-07:00</entry>
-        <entry name="EXPIRED" user="jinahyoung">2019-03-25T12:48:34.213-07:00</entry>
-    </lifecycle>
-    <category>Favorites Starter Pack</category>
     <category>Online Services</category>
-    <category>Recommended</category>
     <group>Authenticated Users</group>
     <group>Recommended Content Curators</group>
     <group>Students</group>
@@ -28,7 +22,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//myhealthportal.cpp.edu/login_directory.aspx</value>
+        <value>//myhealthportal.cpp.edu</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
