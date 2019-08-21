@@ -10,6 +10,7 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
+    <category>Favorites Starter Pack</category>
     <category>Online Services</category>
     <category>Quicklinks</category>
     <group>Students</group>
