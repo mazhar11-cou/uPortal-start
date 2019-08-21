@@ -60,6 +60,10 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
+        <value>//www.cpp.edu/~mycpp/img/broncodirect-16x9.png</value>
+    </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
         <value>//www.cpp.edu/~mycpp/img/broncodirect-square.png</value>
     </parameter>
     <parameter>

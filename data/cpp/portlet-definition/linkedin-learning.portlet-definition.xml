@@ -60,7 +60,11 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>https://www.cpp.edu/~mycpp/img/linkedin_learning-os.png</value>
+        <value>https://www.cpp.edu/~mycpp/img/linkedin_learning-16x9.png</value>
+    </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
+        <value>https://www.cpp.edu/~mycpp/img/linkedin_learning-square.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
