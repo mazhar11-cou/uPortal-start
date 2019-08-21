@@ -60,7 +60,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/MyPlannerscreen-resize.jpg</value>
+        <value>//www.cpp.edu/mycpp/img/myplanner-16x9.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
@@ -68,6 +68,6 @@
     </parameter>
     <parameter>
         <name>waffleIconUrl</name>
-        <value>//www.cpp.edu/~it_apps_assets/img/500/my_planner-square.png</value>
+        <value>//www.cpp.edu/it_apps_assets/img/500/my_planner-square.png</value>
     </parameter>
 </portlet-definition>
