@@ -10,7 +10,6 @@ data/cpp/portlet-definition/myplanner.portlet-definition.xml
 data/cpp/portlet-definition/peoplesoft-campus-solutions.portlet-definition.xml
 data/cpp/portlet-definition/peoplesoft-human-resources.portlet-definition.xml
 data/cpp/portlet-definition/advising-academic-resources.portlet-definition.xml
-data/cpp/portlet-definition/bronco-health-manager.portlet-definition.xml
 data/cpp/portlet-definition/class-search.portlet-definition.xml
 data/cpp/portlet-definition/csu-fully-online.portlet-definition.xml
 data/cpp/portlet-definition/degree-progress-report.portlet-definition.xml
