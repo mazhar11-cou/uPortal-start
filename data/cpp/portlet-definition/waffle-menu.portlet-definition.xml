@@ -89,10 +89,13 @@
         >
             <div slot="header">
                 <style>
-                .waffle-dropdown-footer a { color: #000 !important; }
-                .waffle-dropdown-footer a:hover { color: inherit; }
-                li.waffle-dropdown-header { display: none; }
-                li.waffle-menu-item a span { font-size: 1.2rem; }
+                .waffle-triangle, .waffle-triangle-black { right: 5px; }
+                .waffle-dropdown { width: 245px; }
+                .waffle-dropdown .waffle-dropdown-header { display: none; }
+                .waffle-dropdown .waffle-menu-item { flex: 0 1 33%; margin: 0px; }
+                .waffle-dropdown .waffle-menu-item a span { font-size: 1.25rem; }
+                .waffle-dropdown .waffle-dropdown-footer a { color: #000 !important; }
+                .waffle-dropdown .waffle-dropdown-footer a:hover { color: inherit; }
                 </style>
             </div>
             <div slot="footer" style="text-align: center">
