@@ -93,6 +93,7 @@
                 .waffle-dropdown { width: 245px; }
                 .waffle-dropdown .waffle-dropdown-header { display: none; }
                 .waffle-dropdown .waffle-menu-item { flex: 0 1 33%; margin: 0px; }
+                .waffle-dropdown .waffle-menu-item a { padding: 3px; }
                 .waffle-dropdown .waffle-menu-item a span { font-size: 1.25rem; }
                 .waffle-dropdown .waffle-dropdown-footer a { color: #000 !important; }
                 .waffle-dropdown .waffle-dropdown-footer a:hover { color: inherit; }
