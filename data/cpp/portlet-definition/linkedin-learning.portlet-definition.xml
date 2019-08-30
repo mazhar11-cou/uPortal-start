@@ -3,7 +3,7 @@
     <title>LinkedIn Learning</title>
     <name>LinkedIn Learning</name>
     <fname>linkedin-learning</fname>
-    <desc>Learn software, creative, and business skills to achieve your personal and professional goals. Formally Lynda.com</desc>
+    <desc>Learn software, creative, and business skills to achieve your personal and professional goals. Formerly Lynda.com</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
