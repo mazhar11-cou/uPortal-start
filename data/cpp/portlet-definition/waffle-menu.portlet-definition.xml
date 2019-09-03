@@ -96,7 +96,7 @@
                 </style>
             </div>
             <div slot="footer" style="text-align: center">
-                <a href="/uPortal/f/online-services">View all online services</a>
+                <a href="/uPortal/f/online-services">View all online services/links</a>
             </div>
         </waffle-menu>
         ]]>
