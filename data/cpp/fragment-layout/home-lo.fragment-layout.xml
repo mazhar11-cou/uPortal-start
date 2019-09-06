@@ -21,6 +21,7 @@
         <value>home</value>
       </structure-attribute>
       <folder ID="s92" hidden="false" immutable="true" type="pre-content" unremovable="true">
+        <channel fname="favorites-carousel" unremovable="true" hidden="false" immutable="false" ID="n100" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="campus-spotlight-carousel" unremovable="true" hidden="false" immutable="false" ID="n99" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false"/>
         <!--
         <channel fname="popular-online-services" unremovable="true" hidden="false" immutable="false" ID="n88"/>
