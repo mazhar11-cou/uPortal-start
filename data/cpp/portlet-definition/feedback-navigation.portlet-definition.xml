@@ -82,7 +82,7 @@
 
             <div style="display: flex; flex-wrap: wrap">
               <div class="popular-online-services-moved" style="flex-grow: 1;">
-                <p style="color: red; font-weight: bold">The Popular Links (including BroncoDirect) has moved to a new location. Please refer to the waffle menu (<i class="fa fa-th" aria-hidden="true"></i>) in the upper right corner.</p>
+                <p style="color: #800000; font-weight: bold">The Popular Links (including BroncoDirect) has moved to a new location. Please refer to the waffle menu (<i class="fa fa-th" aria-hidden="true"></i>) in the upper right corner.</p>
               </div>
               <div style="flex-grow: 1; text-align: right">
                 <a href="/uPortal/p/feedback">Your feedback is important to us!</a> <i aria-hidden="true" class="material-icons" style="font-size:15px" alt="Feedback icon">feedback</i>
