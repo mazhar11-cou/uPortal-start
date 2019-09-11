@@ -65,7 +65,7 @@
     </parameter>
     <parameter>
         <name>waffleIconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/peoplesoft-hr-square.png</value>
+        <value>//www.cpp.edu/it_apps_assets/img/500/peoplesoft-square.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
