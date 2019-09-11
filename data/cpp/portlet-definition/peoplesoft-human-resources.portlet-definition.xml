@@ -61,7 +61,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/peoplesoft-hr-16x9.png</value>
+        <value>//www.cpp.edu/mycpp/img/peoplesoft-16x9.png</value>
     </parameter>
     <parameter>
         <name>waffleIconUrl</name>
