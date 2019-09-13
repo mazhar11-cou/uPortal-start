@@ -148,6 +148,9 @@
             </style>
             <h3 class="sr-only">Campus Spotlight</h3>
           </div>
+          <div slot="empty">
+            <p class="sr-only">There are no campus spotlight items at this time.</p>
+          </div>
         </content-carousel>
         ]]>
         </value>
