@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Wi-Fi - Switch to eduroam</title>
-    <name>Wi-Fi - Switch to eduroam</name>
-    <fname>wifi-eduroam</fname>
-    <desc>Wireless access set-up.</desc>
+    <title>CSU SumTotal Training</title>
+    <name>CSU SumTotal Training</name>
+    <fname>sumtotal-training</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -12,19 +11,19 @@
     </portlet-descriptor>
     <lifecycle>
         <entry name="PUBLISHED" user="jinahyoung">2018-08-28T13:39:04.264-07:00</entry>
+        <entry name="PUBLISHED" user="jmt">2019-09-18T14:10:21.781-07:00</entry>
     </lifecycle>
-    <category>Online Services</category>
     <category>Recommended</category>
     <category>Recommended Carousel</category>
-    <group>Authenticated Users</group>
+    <group>CPP Employees</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Authenticated Users</group>
+            <group>CPP Employees</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//cpp.service-now.com/ehelp?id=kb_article&amp;sys_id=8d0f854e6fe8e600e020f35d5d3ee4fa</value>
+        <value>//csu.sumtotal.host/core/dash/home/Home_Pomona</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -64,7 +63,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~mycpp/img/wi-fi.jpg</value>
+        <value>//www.cpp.edu/~mycpp/img/sumtotal.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
