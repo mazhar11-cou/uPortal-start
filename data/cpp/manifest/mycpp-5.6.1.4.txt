@@ -10,9 +10,9 @@ data/cpp/portlet-definition/broncodirect-myplanner.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-student-center.portlet-definition.xml
 data/cpp/portlet-definition/class-search.portlet-definition.xml
-data/cpp/portlet-definition/concur.portlet-definition.xml
 data/cpp/portlet-definition/csu-fully-online.portlet-definition.xml
 data/cpp/portlet-definition/degree-progress-report.portlet-definition.xml
+data/cpp/portlet-definition/e-travel.portlet-definition.xml
 data/cpp/portlet-definition/email.portlet-definition.xml
 data/cpp/portlet-definition/handshake.portlet-definition.xml
 data/cpp/portlet-definition/linkedin-learning.portlet-definition.xml
