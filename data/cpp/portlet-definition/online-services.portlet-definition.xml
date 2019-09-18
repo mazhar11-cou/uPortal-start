@@ -83,22 +83,36 @@
         <![CDATA[
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
         <script
-          src="/resource-server/webjars/uportal__esco-content-menu/dist/esco.min.js"
+          src="/resource-server/webjars/cpp__esco-content-menu/dist/esco.min.js"
           defer
         ></script>
         <style>.online-services .up-portlet-titlebar { display: none }</style>
-        <h2>Online Services</h2>
+        <h2>Online Services/Links</h2>
+        <p>To add an online service or link to your Favorites list, click on the star. Your Favorites will appear at the top of the MyCPP homepage.</p>
         <p>Note: All online services links/buttons open in a new tab/window</p>
         <esco-content-grid
           portlet-card-size="gridPortletCardSize"
           portlet-api-url="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Online Services"
-          hide-action="true"
+          hide-action="false"
         >
-          <div slot="header-left"></div>
+          <div slot="header-left">
+            <style>
+            .sr-only {
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              padding: 0;
+              margin: -1px;
+              overflow: hidden;
+              clip: rect(0,0,0,0);
+              border: 0;
+            }
+            </style>
+          </div>
           <div slot="header-right"></div>
         </esco-content-grid>
 
-        <p>Is there a service missing from the list? Please use this form to notify our team. <a href="https://www.cpp.edu/online-services-request.shtml" target="_blank" rel="noopener noreferrer">Request a service addition</a>.</p>
+        <p>If you would like to request a service or link that’s not on this list, <a href="https://www.cpp.edu/online-services-request.shtml" target="_blank" rel="noopener noreferrer">fill out this form</a>.</p>
         ]]>
         </value>
     </portlet-preference>

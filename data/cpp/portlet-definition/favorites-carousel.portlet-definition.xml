@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<portlet-definition
+    version="5.0"
+    xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition"
+    xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner"
+    xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment"
+    xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor"
+    xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user"
+    xmlns:ns2="https://source.jasig.org/schemas/uportal"
+    xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation"
+    xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition
+                        https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+    <title>Favorites Carousel</title>
+    <name>Favorites Carousel</name>
+    <fname>favorites-carousel</fname>
+    <desc/>
+    <type>Portlet</type>
+    <timeout>5000</timeout>
+    <portlet-descriptor>
+      <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
+      <ns2:portletName>cms</ns2:portletName>
+    </portlet-descriptor>
+    <group>Authenticated Users</group>
+    <parameter>
+      <name>disableDynamicTitle</name>
+      <value>true</value>
+    </parameter>
+    <parameter>
+      <name>chromeStyle</name>
+      <value>no-chrome</value>
+    </parameter>
+    <parameter>
+      <name>alternate</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>blockImpersonation</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>chromeStyle</name>
+      <value>no-chrome</value>
+    </parameter>
+    <parameter>
+      <name>configurable</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>disableDynamicTitle</name>
+      <value>true</value>
+    </parameter>
+    <parameter>
+      <name>disablePortletEvents</name>
+      <value>true</value>
+    </parameter>
+    <parameter>
+      <name>editable</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>hasAbout</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>hasHelp</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>hideFromMobile</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>highlight</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>iconUrl</name>
+      <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/status/dialog-warning.png</value>
+    </parameter>
+    <parameter>
+      <name>mobileIconUrl</name>
+      <value>/uPortal/media/skins/icons/mobile/bullhorn.png</value>
+    </parameter>
+    <parameter>
+      <name>printable</name>
+      <value>false</value>
+    </parameter>
+    <parameter>
+      <name>showChrome</name>
+      <value>false</value>
+    </parameter>
+    <portlet-preference>
+      <name>cleanContent</name>
+      <readOnly>false</readOnly>
+      <value>true</value>
+    </portlet-preference>
+    <portlet-preference>
+      <name>content</name>
+      <readOnly>false</readOnly>
+      <value>
+        <![CDATA[
+          <style>.favorites-carousel .up-portlet-titlebar { display: none }</style>
+          <div style="display: flex;">
+            <h3 style="flex: 1 0 auto">Favorites <sup>beta</sup></h3>&nbsp;
+            <div style="margin-top: 20px; margin-bottom: 10px; font-size: small">
+              <a href="/uPortal/p/online-services">
+                <i class="fa fa-gear" aria-hidden="true"></i> Customize Favorites
+              </a>
+            </div>
+          </div>
+
+          <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
+          <script src="/resource-server/webjars/cpp__content-carousel/dist/content-carousel.min.js" defer></script>
+          <content-carousel
+              type="portlet"
+              source="/uPortal/api/v4-3/dlm/portletRegistry.json?favorite=true"
+              slick-options='{"slidesToShow":6,"slidesToScroll":6,"infinite":true,"arrows":true,"prevArrow":"<button class=\"arrow prev-arrow\"><span aria-hidden=\"true\">&#x2190;</span><span class=\"sr-only\">Previous</span></button>","nextArrow":"<button class=\"arrow next-arrow\"><span aria-hidden=\"true\">&#x2192;</span><span class=\"sr-only\">Next</span></button>","responsive":[{"breakpoint":993,"settings":{"slidesToShow":4,"slidesToScroll":4}},{"breakpoint":769,"settings":{"slidesToShow":3,"slidesToScroll":3}}]}'
+          />
+            <div slot="header">
+              <style>
+              :root {
+                --cc-slick-item-height: auto;
+              }
+
+              @font-face {
+                font-family: 'slick';
+                font-weight: normal;
+                font-style: normal;
+
+                src: url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.eot');
+                src: url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.svg#slick') format('svg');
+              }
+
+              .sr-only {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0,0,0,0);
+                border: 0;
+              }
+              .arrow {
+                background: none;
+                border: 0;
+                width: 20px;
+                height: 20px;
+                z-index: 2;
+                padding: 0;
+                position: absolute;
+                top: 50%;
+              }
+              .arrow span {
+                font-family: slick;
+                font-size: 20px;
+                color: #000;
+                display: flex;
+              }
+              .prev-arrow {
+                left: -10px;
+              }
+              .next-arrow {
+                right: -13px;
+              }
+              .slick-prev {
+                left: -10px;
+              }
+
+              .slick-next {
+                right: -13px;
+              }
+
+              .slick-next::before, .slick-prev::before {
+                color: #000;
+              }
+
+              .slick-item .slick-image {
+                margin: 0px;
+              }
+
+              .slick-item .slick-image {
+                height: auto !important;
+              }
+
+              @media only screen and (max-width: 479px) {
+                .slick-item .slick-image {
+                  min-height: 16rem;
+                }
+                .slick-item .slick-title {
+                  font-size: 1rem;
+                }
+              }
+
+              @media only screen and (min-width: 1200px) {
+                .slick-item .slick-image {
+                  min-height: 10rem;
+                }
+              }
+
+              @media only screen and (min-width: 1440px) {
+                .slick-item .slick-image {
+                  min-height: 12rem;
+                }
+              }
+
+              @media only screen and (min-width: 1920px) {
+                .slick-item .slick-image {
+                  min-height: 16rem;
+                }
+              }
+            </style>
+            </div>
+            <div slot="empty">
+              <content-carousel
+                type="portlet"
+                source="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Favorites starter pack"
+                slick-options='{"slidesToShow":6,"slidesToScroll":6,"infinite":true,"arrows":true,"prevArrow":"<button class=\"arrow prev-arrow\"><span aria-hidden=\"true\">&#x2190;</span><span class=\"sr-only\">Previous</span></button>","nextArrow":"<button class=\"arrow next-arrow\"><span aria-hidden=\"true\">&#x2192;</span><span class=\"sr-only\">Next</span></button>","responsive":[{"breakpoint":993,"settings":{"slidesToShow":4,"slidesToScroll":4}},{"breakpoint":769,"settings":{"slidesToShow":3,"slidesToScroll":3}}]}'
+              >
+                <div slot="header">
+                  <style>
+                  :root {
+                    --cc-slick-item-height: auto;
+                  }
+
+                  @font-face {
+                    font-family: 'slick';
+                    font-weight: normal;
+                    font-style: normal;
+
+                    src: url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.eot');
+                    src: url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.woff') format('woff'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.ttf') format('truetype'), url('/resource-server/webjars/cpp__content-carousel/dist/fonts/slick.svg#slick') format('svg');
+                  }
+
+                  .sr-only {
+                    position: absolute;
+                    width: 1px;
+                    height: 1px;
+                    padding: 0;
+                    margin: -1px;
+                    overflow: hidden;
+                    clip: rect(0,0,0,0);
+                    border: 0;
+                  }
+                  .arrow {
+                    background: none;
+                    border: 0;
+                    width: 20px;
+                    height: 20px;
+                    z-index: 2;
+                    padding: 0;
+                    position: absolute;
+                    top: 50%;
+                  }
+                  .arrow span {
+                    font-family: slick;
+                    font-size: 20px;
+                    color: #000;
+                    display: flex;
+                  }
+                  .prev-arrow {
+                    left: -10px;
+                  }
+                  .next-arrow {
+                    right: -13px;
+                  }
+                  .slick-prev {
+                    left: -10px;
+                  }
+
+                  .slick-next {
+                    right: -13px;
+                  }
+
+                  .slick-next::before, .slick-prev::before {
+                    color: #000;
+                  }
+
+                  .slick-item .slick-image {
+                    margin: 0px;
+                  }
+
+                  .slick-item .slick-image {
+                    height: auto !important;
+                  }
+
+                  @media only screen and (max-width: 479px) {
+                    .slick-item .slick-image {
+                      min-height: 16rem;
+                    }
+                    .slick-item .slick-title {
+                      font-size: 1rem;
+                    }
+                  }
+
+                  @media only screen and (min-width: 1200px) {
+                    .slick-item .slick-image {
+                      min-height: 10rem;
+                    }
+                  }
+
+                  @media only screen and (min-width: 1440px) {
+                    .slick-item .slick-image {
+                      min-height: 12rem;
+                    }
+                  }
+
+                  @media only screen and (min-width: 1920px) {
+                    .slick-item .slick-image {
+                      min-height: 16rem;
+                    }
+                  }
+                </style>
+                </div>
+              </content-carousel>
+            </div>
+          </content-carousel>
+          ]]>
+      </value>
+    </portlet-preference>
+</portlet-definition>
