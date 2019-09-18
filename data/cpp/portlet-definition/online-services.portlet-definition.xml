@@ -83,7 +83,7 @@
         <![CDATA[
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
         <script
-          src="/resource-server/webjars/uportal__esco-content-menu/dist/esco.min.js"
+          src="/resource-server/webjars/cpp__esco-content-menu/dist/esco.min.js"
           defer
         ></script>
         <style>.online-services .up-portlet-titlebar { display: none }</style>
@@ -95,7 +95,20 @@
           portlet-api-url="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Online Services"
           hide-action="false"
         >
-          <div slot="header-left"></div>
+          <div slot="header-left">
+            <style>
+            .sr-only {
+              position: absolute;
+              width: 1px;
+              height: 1px;
+              padding: 0;
+              margin: -1px;
+              overflow: hidden;
+              clip: rect(0,0,0,0);
+              border: 0;
+            }
+            </style>
+          </div>
           <div slot="header-right"></div>
         </esco-content-grid>
 
