@@ -97,7 +97,7 @@
 
         <content-carousel
             type="portlet"
-            source="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Recommended"
+            source="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Recommended Carousel"
             slick-options='{ "slidesToShow": 6, "infinite": true, "arrows": true, "responsive":[{"breakpoint":993,"settings":{"slidesToShow":4}},{"breakpoint":769,"settings":{"slidesToShow":3}},{"breakpoint":481,"settings":{"slidesToShow":1}}] }'
         >
             <div slot="header">

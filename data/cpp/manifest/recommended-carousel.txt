@@ -1,0 +1,3 @@
+data/cpp/group_membership/Recommended_Carousel.group-membership.xml
+data/cpp/group_membership/All_categories.group-membership.xml
+data/cpp/portlet-definition/recommended-carousel.portlet-definition.xml
