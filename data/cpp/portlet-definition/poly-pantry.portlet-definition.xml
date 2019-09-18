@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Mobile Food Pantry</title>
-    <name>Mobile Food Pantry</name>
-    <fname>mobile-pantry</fname>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+    <title>Poly Pantry</title>
+    <name>Poly Pantry</name>
+    <fname>poly-pantry</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -14,6 +14,10 @@
         <entry name="PUBLISHED" user="jmt">2019-02-25T08:06:50.007-08:00</entry>
         <entry name="PUBLISHED" user="jmt">2019-03-08T10:04:46.846-08:00</entry>
         <entry name="EXPIRED" user="jmt">2019-03-10T12:00:00-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-06-06T09:07:24.799-07:00</entry>
+        <entry name="EXPIRED" user="jinahyoung">2019-08-07T13:55:21.011-07:00</entry>
+        <entry name="PUBLISHED" user="jinahyoung">2019-09-09T07:44:38.395-07:00</entry>
+        <entry name="EXPIRED" user="jinahyoung">2019-09-16T15:29:00.965-07:00</entry>
     </lifecycle>
     <category>Recommended</category>
     <group>Recommended Content Curators</group>
@@ -26,7 +30,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~basicneeds/food-resources/mobile-food-pantry.shtml</value>
+        <value>//www.cpp.edu/~basicneeds/food-resources/poly-pantry.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
