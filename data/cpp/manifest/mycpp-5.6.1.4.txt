@@ -1,7 +1,7 @@
 data/cpp/user/favorite-lo.user.xml
 data/cpp/fragment-definition/_favorite-lo.fragment-definition.xml
 data/cpp/fragment-layout/_favorite-lo.fragment-layout.xml
-data/cpp/permission-set/Authenticated_Users__FAVORITE.permission-set.xml
+data/cpp/permission-set/Authenticated_Users__FAVORITE__UP_SYSTEM.permission-set.xml
 data/cpp/portlet-definition/advising-academic-resources.portlet-definition.xml
 data/cpp/portlet-definition/blackboard.portlet-definition.xml
 data/cpp/portlet-definition/broncodirect-advisor-center.portlet-definition.xml
