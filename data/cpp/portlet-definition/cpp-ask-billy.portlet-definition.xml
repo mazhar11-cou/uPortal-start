@@ -78,35 +78,28 @@
         <name>content</name>
         <readOnly>false</readOnly>
         <value>
-            <![CDATA[
-				<table align="center" border="0" style="height:130px; width:95%">
-					<tbody>
-						<tr>
-							<td width="35%" align="center">
-                            	<img alt="Ask Billy" src="https://www.cpp.edu/common//resources/img/ask_billy.png" style="border-style: none; width: 100%;"></td><td style="width:20px;"></td>
-							<td style="text-align:left; vertical-align:middle">
-								<h3>Ask Billy Bronco!</h3>
-								<p style="font-size:12px; font-style: italic;">To get started, type a question in the box below. For Example: How do I apply?</p>
-								<form action="https://csupomona.intelliresponse.com/index.jsp" id="questionForm" method="post" target="_blank">
-									<input name="interfaceID" type="hidden" value="1">
-									<input name="id" type="hidden" value="-1">
-									<input name="requestType" type="hidden">
-									<input name="source" type="hidden" value="1">
-									<p>
-										<label class="acc_label" for="askq" style="margin-bottom:0;">Enter Question:</label>
-									</p>
-									<p>
-										<input style="width:95%;" id="askq" name="question" onblur="(this.value == '') &amp;&amp; (this.value = 'Type a question here')" onfocus="(this.value == 'Type a question here') &amp;&amp; (this.value = '')" title="Question" type="text" value="Type a question here">
-									</p>
-									<p>
-										<input class="btn" id="btnSubmit" name="NormalRequest" type="submit" value="Ask Now »">
-									</p>
-								</form>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			]]>
+        <![CDATA[
+        <div style="display: flex">
+          <div style="flex: 0 1 auto;">
+            <img src="//www.cpp.edu/mycpp/img/ask_billy.png" alt="Bronco with Ask Billy speech bubble" style="max-height: 180px; max-width: 180px;" />
+          </div>
+          <div style="flex: 1 0 auto;">
+            <p><strong>Ask Billy Bronco!</strong></p>
+            <p>To get started, type a question in the box below. For example: <em>How do I apply?</em></p>
+
+            <form action="https://cpp.service-now.com/askbilly" method="GET" target="_blank">
+              <input type="hidden" name="id" value="search" />
+              <input type="hidden" name="spa" value="1" />
+              <input type="hidden" name="t" value="ask_billy_kb" />
+
+              <p id="enter-question-label"><strong>Enter Question</strong></p>
+              <input type="text" name="q" aria-labelledby="enter-question-label" placeholder="Enter your question here" />
+
+              <input type="submit" class="btn" value="Ask &raquo;" />
+            </form>
+          </div>
+        </div>
+        ]]>
         </value>
     </portlet-preference>
 </portlet-definition>
