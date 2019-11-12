@@ -18,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.CLASS_SEARCH.GBL?1=1</value>
+        <value><![CDATA[//idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/SA_LEARNING_MANAGEMENT.CLASS_SEARCH.GBL?gsmobile=0&1=1]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

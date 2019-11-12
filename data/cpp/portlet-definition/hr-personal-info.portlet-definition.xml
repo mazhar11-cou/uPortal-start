@@ -66,7 +66,7 @@
         <value>
             <![CDATA[
             <ul class="list-unstyled">
-              <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/CC_PORTFOLIO.SSS_PRSNLDATA_SUMM.GBL?1=1" target="_blank" rel="noopener noreferrer">View/Update Personal Information</a></li>
+              <li><a href="https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/CC_PORTFOLIO.SSS_PRSNLDATA_SUMM.GBL?gsmobile=0&1=1" target="_blank" rel="noopener noreferrer">View/Update Personal Information</a></li>
             </ul>
             ]]>
         </value>

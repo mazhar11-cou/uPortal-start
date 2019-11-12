@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/MAINTAIN_SERVICE_INDICATORS.ACTIVE_SRVC_INDICA.GBL?1=1</value>
+        <value><![CDATA[https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/HRMS/c/MAINTAIN_SERVICE_INDICATORS.ACTIVE_SRVC_INDICA.GBL?gsmobile=0&1=1]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

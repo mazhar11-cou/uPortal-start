@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value><![CDATA[https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/POM_MENU_SA_SS.POM_SSS_ADM_APP_ST.USA?1=1]]></value>
+        <value><![CDATA[https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/POM_MENU_SA_SS.POM_SSS_ADM_APP_ST.USA?gsmobile=0&1=1]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
