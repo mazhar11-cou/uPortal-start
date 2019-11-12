@@ -13,6 +13,8 @@
     <category>Favorites Starter Pack</category>
     <category>Online Services</category>
     <category>Quicklinks</category>
+    <category>Recommended</category>
+    <category>Recommended Carousel</category>
     <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
