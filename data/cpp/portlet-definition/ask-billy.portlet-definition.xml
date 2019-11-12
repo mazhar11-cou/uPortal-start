@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
     <title>Ask Billy</title>
-    <name>Ask Billy (Legacy)</name>
-    <fname>cpp-ask-billy</fname>
+    <name>Ask Billy</name>
+    <fname>ask-billy</fname>
     <desc>Get answers to many questions from Billy Bronco</desc>
     <type>Advanced CMS</type>
     <timeout>5000</timeout>
@@ -10,13 +10,17 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <category>Information</category>
+    <category>Online Services</category>
     <group>Authenticated Users</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
             <group>Authenticated Users</group>
         </permission>
     </permissions>
+    <parameter>
+        <name>alternativeMaximizedLink</name>
+        <value>//www.cpp.edu/askbilly</value>
+    </parameter>
     <parameter>
         <name>alternate</name>
         <value>false</value>
@@ -59,7 +63,11 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>/ResourceServingWebapp/rs/tango/0.8.90/32x32/apps/help-browser.png</value>
+        <value>//www.cpp.edu/mycpp/img/16x9/ask-billy.jpg</value>
+    </parameter>
+    <parameter>
+        <name>waffleIconUrl</name>
+        <value>//www.cpp.edu/mycpp/img/waffle/ask-billy.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
