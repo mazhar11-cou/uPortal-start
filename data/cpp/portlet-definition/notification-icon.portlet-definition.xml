@@ -30,7 +30,9 @@
         <ns2:webAppName>/SimpleContentPortlet</ns2:webAppName>
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
-    <group>Authenticated Users</group>
+    <group>Applicants</group>
+    <group>Pending Students</group>
+    <group>Students</group>
     <parameter>
         <name>alternate</name>
         <value>false</value>
