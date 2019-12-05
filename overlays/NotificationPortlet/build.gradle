@@ -3,6 +3,7 @@ import org.apereo.portal.start.gradle.plugins.GradlePlutoPlugin
 apply plugin: GradlePlutoPlugin
 
 dependencies {
+    runtime "edu.cpp.mobwebapps:notification-portlet-enhancements:${notificationPortletEnhancements}@jar"
     runtime "org.jasig.portlet.notification:notification-portlet-webapp:${notificationPortletVersion}@war"
     compile configurations.jdbc
 }
