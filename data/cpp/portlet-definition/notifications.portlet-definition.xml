@@ -84,6 +84,7 @@
         <readOnly>false</readOnly>
         <value>
         <![CDATA[
+        <style>.notifications .up-portlet-titlebar { display: none }</style>
         <h2>All Notifications</h2>
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
         <script src="/resource-server/webjars/cpp__notification-list/dist/notification-list.min.js?v=1.0.4-cc831ba" defer></script>
