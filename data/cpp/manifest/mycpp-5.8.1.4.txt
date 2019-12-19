@@ -3,3 +3,4 @@ data/cpp/portlet-definition/favorites-carousel.portlet-definition.xml
 data/cpp/portlet-definition/feedback-navigation.portlet-definition.xml
 data/cpp/portlet-definition/notifications.portlet-definition.xml
 data/cpp/portlet-definition/notification-icon.portlet-definition.xml
+data/cpp/portlet-definition/servicenow.portlet-definition.xml
