@@ -103,7 +103,7 @@
         <![CDATA[
           <style>.favorites-carousel .up-portlet-titlebar { display: none }</style>
           <div style="display: flex;">
-            <h3 style="flex: 1 0 auto">Favorites <sup>beta</sup></h3>&nbsp;
+            <h3 style="flex: 1 0 auto">Favorites</h3>&nbsp;
             <div style="margin-top: 20px; margin-bottom: 10px; font-size: small">
               <a href="/uPortal/p/online-services">
                 <i class="fa fa-gear" aria-hidden="true"></i> Customize Favorites
