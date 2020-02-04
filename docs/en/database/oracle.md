@@ -1,22 +1,18 @@
 # Using uPortal with Oracle
 
-## Step 1: Obtain the Driver
+## Step 1: Identify the Driver Version
 
-Since the Oracle JDBC driver is not available in the central Maven repository, it must be placed into the local repository of each machine on which you wish to build uPortal.
+The Oracle drivers have been available in Maven Central since mid-2019.
+There are several un-official packages. Make sure to use the
+[official group](https://mvnrepository.com/artifact/com.oracle.ojdbc).
 
-As an alternative to this, you could set up a maven repository for use by multiple machines.
+There are also variants of OJDBC drivers. uPortal requires Java 8, so the Ojdbc8 variants are required.
 
-[Download](http://www.oracle.com/technetwork/database/features/jdbc/index-091264.html) the correct Oracle JDBC driver for your server. Once you have the jar, it needs to be installed into the local Maven repository using the following command
-
-```shell
-mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc -Dversion=<version> -Dpackaging=jar -DgeneratePom=true -Dfile=ojdbc.jar
-```
-
-The `groupId`, `artifactId` and `version` specified in this command are up to you, but they should match the JAR vendor, name and version to avoid confusion down the road.
+As of this writing, the current version of Ojdbc8 is `19.3.0.0`.
 
 ## Step 2: Configure the Database Connection Properties
 
-Configure the Database Connection in `etc/portal/global.properties`
+Configure the Database Connection in `etc/portal/global.properties`. For example:
 
 ```properties
 hibernate.connection.driver_class=oracle.jdbc.OracleDriver
@@ -27,14 +23,19 @@ hibernate.connection.validationQuery=select 1 from dual
 hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
 ```
 
-## Step 3: Add the database driver
+## Step 3: Add the Database Driver
 
-In `overlays/build.gradle` add the following line below the line for hsqldb
+In `gradle.properties` add a variable to manage the driver version:
+
 ```gradle
-jdbc "com.oracle:ojdbc:${oracleJdbcVersion}"
+oracleDriverVersion=19.3.0.0
 ```
 
-`${oracleJdbcVersion}` can be defined `gradle.properties`. Otherwise, substitute `${oracleJdbcVersion}` with the version number used in step 1.
+In `overlays/build.gradle` add the following line below the line for hsqldb:
+
+```gradle
+jdbc group: 'com.oracle.ojdbc', name: 'ojdbc8', version: "${oracleDriverVersion}"
+```
 
 ## Step 4: Build and Deploy
 
