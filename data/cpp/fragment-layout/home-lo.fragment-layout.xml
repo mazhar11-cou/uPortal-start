@@ -34,7 +34,6 @@
         </structure-attribute>
         <channel fname="welcome-to-mycpp" unremovable="true" hidden="false" immutable="false" ID="n89" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="cpp-important-dates" unremovable="true" hidden="false" immutable="false" ID="n79" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
-        <channel fname="cpp-email-preview" unremovable="false" hidden="false" immutable="false" ID="n21" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
       <folder ID="s20" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Column 2" type="regular" unremovable="false">
         <structure-attribute>
