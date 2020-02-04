@@ -54,7 +54,6 @@
         </structure-attribute>
         <channel fname="search-launcher" unremovable="false" hidden="false" immutable="false" ID="n90" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="class-schedule" unremovable="false" hidden="false" immutable="false" ID="n96" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
-        <channel fname="cpp-online-services-menu" unremovable="false" hidden="false" immutable="false" ID="n16" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
       <folder ID="s97" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" type="regular" unremovable="false">
         <structure-attribute>
