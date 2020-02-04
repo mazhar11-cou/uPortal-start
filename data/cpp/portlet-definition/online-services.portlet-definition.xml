@@ -83,7 +83,7 @@
         <![CDATA[
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
         <script
-          src="/resource-server/webjars/cpp__esco-content-menu/dist/esco.min.js"
+          src="/resource-server/webjars/cpp__esco-content-menu/dist/esco.min.js?v=1.34.0-2fc162b"
           defer
         ></script>
         <style>.online-services .up-portlet-titlebar { display: none }</style>
@@ -94,6 +94,8 @@
           portlet-card-size="gridPortletCardSize"
           portlet-api-url="/uPortal/api/v4-3/dlm/portletRegistry.json?category=Online Services"
           hide-action="false"
+          hide-dropdown="true"
+          autofocus="false"
         >
           <div slot="header-left">
             <style>
@@ -109,7 +111,6 @@
             }
             </style>
           </div>
-          <div slot="header-right"></div>
         </esco-content-grid>
 
         <p>If you would like to request a service or link that’s not on this list, <a href="https://www.cpp.edu/online-services-request.shtml" target="_blank" rel="noopener noreferrer">fill out this form</a>.</p>
