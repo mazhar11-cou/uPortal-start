@@ -24,21 +24,9 @@
         <channel fname="notification-banner" unremovable="true" hidden="false" immutable="false" ID="n101" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="favorites-carousel" unremovable="true" hidden="false" immutable="false" ID="n100" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="campus-spotlight-carousel" unremovable="true" hidden="false" immutable="false" ID="n99" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false"/>
-        <!--
-        <channel fname="popular-online-services" unremovable="true" hidden="false" immutable="false" ID="n88"/>
-        -->
         <channel fname="recommended-carousel" unremovable="true" hidden="false" immutable="false" ID="n95" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false"/>
         <channel fname="news-announcements-carousel" unremovable="false" hidden="false" immutable="false" ID="n98" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
       </folder>
-      <!--
-      <folder ID="s87" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="" type="regular" unremovable="false">
-        <structure-attribute>
-          <name>width</name>
-          <value>100%</value>
-        </structure-attribute>
-        <channel fname="popular-online-services" unremovable="true" hidden="false" immutable="false" ID="n88" dlm:moveAllowed="false"/>
-      </folder>
-      -->
       <folder ID="s8" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" name="Column 1" type="regular" unremovable="false">
         <structure-attribute>
           <name>width</name>
@@ -55,12 +43,6 @@
         </structure-attribute>
         <channel fname="search-launcher" unremovable="false" hidden="false" immutable="false" ID="n90" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
         <channel fname="class-schedule" unremovable="false" hidden="false" immutable="false" ID="n96" dlm:moveAllowed="false" dlm:deleteAllowed="false"/>
-      </folder>
-      <folder ID="s97" dlm:addChildAllowed="false" dlm:deleteAllowed="false" dlm:editAllowed="false" dlm:moveAllowed="false" hidden="false" immutable="false" type="regular" unremovable="false">
-        <structure-attribute>
-          <name>width</name>
-          <value>100%</value>
-        </structure-attribute>
       </folder>
     </folder>
   </folder>
