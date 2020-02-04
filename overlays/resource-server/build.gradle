@@ -32,6 +32,7 @@ dependencies {
     runtime "edu.cpp.mobwebapps:cpp__esco-content-menu:${escoContentMenuVersion}@jar"
     runtime "edu.cpp.mobwebapps:events-webcomponents:${eventsWebComponentVersion}@jar"
     runtime "edu.cpp.mobwebapps:enrollment-appointments-webcomponent:${enrollmentAppointmentsWebComponentVersion}@jar"
+    runtime "edu.cpp.mobwebapps:cpp__notification-banner:${notificationBannerVersion}@jar"
     runtime "edu.cpp.mobwebapps:cpp__notification-icon:${notificationIconVersion}@jar"
     runtime "edu.cpp.mobwebapps:cpp__notification-list:${notificationListVersion}@jar"
     runtime "edu.cpp.mobwebapps:cpp__waffle-menu:${waffleMenuVersion}@jar"
