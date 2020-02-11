@@ -629,7 +629,7 @@ var uportal = uportal || {};
         // initialize the portlet reorderer
         // checks to see if chrome toolbars exist on the layout
         // if so, initialize portlet reorderer
-        if ($('[id*=toolbar_]').length > 0) {
+        if (document.getElementsByTagName("body")[0].getAttribute("class").indexOf("up-layout-externalId-") === -1 && $('[id*=toolbar_]').length > 0) {
             that.components.portletReorderer = up.fluid.reorderLayout(
                 '#portalPageBodyColumns',
                 {
