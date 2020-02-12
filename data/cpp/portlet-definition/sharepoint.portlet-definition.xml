@@ -3,7 +3,7 @@
     <title>SharePoint</title>
     <name>SharePoint</name>
     <fname>sharepoint</fname>
-    <desc>Share and manage content, knowledge, and applications to empower teamwork. </desc>
+    <desc>Share and manage content, knowledge, and applications to empower teamwork.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>

@@ -3,7 +3,7 @@
     <title>Word</title>
     <name>Word</name>
     <fname>word</fname>
-    <desc>Bring out your best writing. </desc>
+    <desc>Bring out your best writing.</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
