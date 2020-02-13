@@ -81,7 +81,10 @@
             filter="minPriority=2&maxPriority=2&read=false"
             see-all-notifications-url="/uPortal/p/notifications"
         >
-          <h3 slot="header" class="sr-only">Notifications</h3>
+          <div slot="header">
+            <style>.notification-banner-carousel[data-v-03087ff8] .alert { border-radius: .5rem; }</style>
+            <h3 class="sr-only">Notifications</h3>
+          </div>
         </notification-banner-carousel>
         ]]>
         </value>
