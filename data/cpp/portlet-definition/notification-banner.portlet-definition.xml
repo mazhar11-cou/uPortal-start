@@ -69,9 +69,9 @@
 
         <style>
         :root {
-            --notif-banner-alert-info-bgcolor: #75A6DA;
+            --notif-banner-alert-info-bgcolor: #CCE5FF;
             --notif-banner-alert-info-color: #000;
-            --notif-banner-alert-info-bordercolor: transparent;
+            --notif-banner-alert-info-bordercolor: #4dabfb;
             --notif-banner-alert-info-link-color: #000;
         }
         .notification-banner .up-portlet-titlebar { display: none }
