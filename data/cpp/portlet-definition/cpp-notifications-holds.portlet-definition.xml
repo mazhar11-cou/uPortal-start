@@ -82,5 +82,4 @@
         <readOnly>false</readOnly>
         <value>https://api.cpp.edu:9093/ws/simple/getServiceIndicators?broncoNumber={broncoNumber}</value>
     </portlet-preference>
-
 </portlet-definition>

@@ -59,7 +59,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/~it_apps_assets/img/500/semester-conversion.png</value>
+        <value>//www.cpp.edu/it_apps_assets/img/500/semester-conversion.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
