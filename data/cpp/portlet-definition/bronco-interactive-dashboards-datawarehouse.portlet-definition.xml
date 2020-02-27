@@ -61,7 +61,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/mycpp/img/BID.png</value>
+        <value>//www.cpp.edu/mycpp/img/bid.png</value>
     </parameter>
     <parameter>
         <name>printable</name>
