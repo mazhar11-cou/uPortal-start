@@ -18,7 +18,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//www.cpp.edu/~advising/advisors/resources-for-advisors.shtml</value>
+        <value>//www.cpp.edu/advising/advisors/index.shtml</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
