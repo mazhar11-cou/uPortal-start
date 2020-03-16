@@ -652,6 +652,11 @@
             <xsl:text>up dashboard portal fl-theme-mist</xsl:text>
             <xsl:if test="$PORTAL_VIEW = 'focused'"> up-focused</xsl:if>
             <xsl:if test="$AUTHENTICATED != 'true'"> up-guest</xsl:if>
+            <xsl:if test="$PORTAL_VIEW != 'focused'">
+                <xsl:if test="//layout/navigation/tab[@activeTab='true']/@externalId != ''">
+                    <xsl:text> up-layout-externalId-<xsl:value-of select="//layout/navigation/tab[@activeTab='true']/@externalId"/></xsl:text>
+                </xsl:if>
+            </xsl:if>
           </xsl:attribute>
           <!-- <xsl:call-template name="skipnav" /> -->
           <!-- Apply the 'row-offcanvas' class, and also a second class that indicates when to switch to the tabs (from the hamburger menu), if ever -->
