@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//cpp.service-now.com/ehelp?id=kb_article&sys_id=c40f854e6fe8e600e020f35d5d3ee4d5</value>
+	<value><![CDATA[//cpp.service-now.com/ehelp?id=kb_article&sys_id=c40f854e6fe8e600e020f35d5d3ee4d5]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
