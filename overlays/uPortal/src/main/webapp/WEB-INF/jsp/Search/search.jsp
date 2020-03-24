@@ -84,7 +84,7 @@ request.setAttribute("tabKeys", modifiedTabKeys);
                                             </a>
                                             </c:when>
                                             <c:otherwise>
-                                            <a class="result_link" href="${result.second}" target="_blank">
+                                            <a class="result_link" href="${result.second}" target="_blank" rel="noopener noreferrer">
                                               <span class="result_title">${ result.first.title } <i class="fa fa-external-link"></i></span>
                                             </a>
                                             </c:otherwise>
