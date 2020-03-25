@@ -3,7 +3,7 @@
     <title>PolyDoc</title>
     <name>PolyDoc</name>
     <fname>polydoc</fname>
-    <desc/>
+    <desc>Powered by OnBase</desc>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
