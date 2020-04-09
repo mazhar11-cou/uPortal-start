@@ -35,6 +35,7 @@ dependencies {
     runtime "edu.cpp.mobwebapps:cpp__notification-banner:${notificationBannerVersion}@jar"
     runtime "edu.cpp.mobwebapps:cpp__notification-icon:${notificationIconVersion}@jar"
     runtime "edu.cpp.mobwebapps:cpp__notification-list:${notificationListVersion}@jar"
+    runtime "edu.cpp.mobwebapps:cpp__notification-modal:${notificationModalVersion}@jar"
     runtime "edu.cpp.mobwebapps:cpp__waffle-menu:${waffleMenuVersion}@jar"
 }
 
