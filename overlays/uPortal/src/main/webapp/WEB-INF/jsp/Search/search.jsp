@@ -78,7 +78,7 @@ request.setAttribute("tabKeys", modifiedTabKeys);
                                   <div class="panel panel-default">
                                       <div class="panel-heading">
                                           <c:choose>
-                                            <c:when test="${tabKey.equals(defaultTabKey)}">
+                                            <c:when test="${tabKey.equals(defaultTabKey) && !result.first.type.contains('Online Service/Link')}">
                                             <a class="result_link" href="${result.second}">
                                               <span class="result_title">${ result.first.title }</span>
                                             </a>

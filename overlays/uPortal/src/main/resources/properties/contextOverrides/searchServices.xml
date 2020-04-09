@@ -17,9 +17,7 @@
 
         <bean class="edu.cpp.campusapps.SearchServices.PortletRegistry.CustomPortletRegistrySearchService">
             <property name="excludedCategories">
-                <list>
-                    <value>Recommended</value>
-                </list>
+	        <list/>
             </property>
         </bean>
     </util:list>
