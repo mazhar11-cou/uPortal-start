@@ -23,7 +23,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>http://streaming.cpp.edu</value>
+        <value>https://streaming.cpp.edu</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
