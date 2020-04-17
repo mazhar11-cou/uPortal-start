@@ -64,12 +64,14 @@
         <readOnly>false</readOnly>
         <value><![CDATA[
             <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
-            <script src="/resource-server/webjars/cpp__notification-modal/dist/mycpp-notification-modal.min.js?v=0.1.2" defer></script>
+            <script src="/resource-server/webjars/cpp__notification-modal/dist/mycpp-notification-modal.min.js?v=0.1.3"></script>
             <style>section.notification-modal { display: none; }</style>
             <mycpp-notification-modal
                 filter="minPriority=1&amp;maxPriority=1&amp;read=false"
                 modal-props='{ "dismiss-btn": true }'
-                show-cancel-btn="false"
+                show-cancel-btn="true"
+                cancel-text="Close"
+                action-labels='[{ "clazz": "org.jasig.portlet.notice.action.read.ReadAction","label": "Don&#39;t Show Again" }]'
             ></mycpp-notification-modal>
         ]]></value>
     </portlet-preference>
