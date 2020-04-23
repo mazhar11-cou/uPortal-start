@@ -70,7 +70,7 @@
                 filter="minPriority=1&amp;maxPriority=1&amp;read=false"
                 modal-props='{ "dismiss-btn": true }'
                 show-cancel-btn="true"
-                cancel-text="Close"
+                cancel-text="Not Now"
                 action-labels='[{ "clazz": "org.jasig.portlet.notice.action.read.ReadAction","label": "Don&#39;t Show Again" }]'
             ></mycpp-notification-modal>
         ]]></value>
