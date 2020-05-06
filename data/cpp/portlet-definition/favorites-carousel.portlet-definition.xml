@@ -101,7 +101,11 @@
       <readOnly>false</readOnly>
       <value>
         <![CDATA[
-          <style>.favorites-carousel .up-portlet-titlebar { display: none }</style>
+          <style>
+          .favorites-carousel.no-chrome .up-portlet-titlebar { display: none }
+          .favorites-carousel.no-chrome .up-portlet-wrapper-inner h3 { margin: 0px; }
+          </style>
+
           <div style="display: flex;">
             <h3 style="flex: 1 0 auto">Favorites</h3>&nbsp;
             <div style="font-size: small">
@@ -143,6 +147,7 @@
                 clip: rect(0,0,0,0);
                 border: 0;
               }
+
               .arrow {
                 background: none;
                 border: 0;
@@ -153,18 +158,22 @@
                 position: absolute;
                 top: 50%;
               }
+
               .arrow span {
                 font-family: slick;
                 font-size: 20px;
                 color: #000;
                 display: flex;
               }
+
               .prev-arrow {
                 left: -10px;
               }
+
               .next-arrow {
                 right: -13px;
               }
+
               .slick-prev {
                 left: -10px;
               }
@@ -189,6 +198,7 @@
                 .slick-item .slick-image {
                   min-height: 16rem;
                 }
+
                 .slick-item .slick-title {
                   font-size: 1rem;
                 }
@@ -244,6 +254,7 @@
                     clip: rect(0,0,0,0);
                     border: 0;
                   }
+
                   .arrow {
                     background: none;
                     border: 0;
@@ -254,18 +265,22 @@
                     position: absolute;
                     top: 50%;
                   }
+
                   .arrow span {
                     font-family: slick;
                     font-size: 20px;
                     color: #000;
                     display: flex;
                   }
+
                   .prev-arrow {
                     left: -10px;
                   }
+
                   .next-arrow {
                     right: -13px;
                   }
+
                   .slick-prev {
                     left: -10px;
                   }
