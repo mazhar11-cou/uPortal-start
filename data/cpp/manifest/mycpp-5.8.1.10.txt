@@ -1,2 +1,5 @@
 data/cpp/portlet-definition/class-schedule.portlet-definition.xml
+data/cpp/portlet-definition/favorites-carousel.portlet-definition.xml
+data/cpp/portlet-definition/news-announcements-carousel.portlet-definition.xml
+data/cpp/portlet-definition/recommended-carousel.portlet-definition.xml
 data/cpp/fragment-layout/home-lo.fragment-layout.xml
