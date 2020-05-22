@@ -72,6 +72,7 @@
                 show-cancel-btn="true"
                 cancel-text="Not Now"
                 action-labels='[{ "clazz": "org.jasig.portlet.notice.action.read.ReadAction","label": "Don&#39;t Show Again" }]'
+                reformat-body-enabled="true"
             ></mycpp-notification-modal>
         ]]></value>
     </portlet-preference>
