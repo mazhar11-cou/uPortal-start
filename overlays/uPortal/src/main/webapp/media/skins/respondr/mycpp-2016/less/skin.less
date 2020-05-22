@@ -63,6 +63,21 @@ html {
     }
   }
 
+  #portalPageBody {
+    /**
+    * The following incantation targets no-chrome
+    * portlets to remove their bottom margins
+    */
+    .portal-page-column .portal-page-column-inner section {
+      &.up-portlet-wrapper.no-chrome:not(:last-child) {
+        margin-bottom: 0px;
+      }
+      .up-portlet-wrapper-inner.no-chrome {
+        margin: 0px;
+      }
+    }
+  }
+
   .up-portlet-titlebar.up-standard-chrome {
       background-image: none;
       background-color: @color1;
