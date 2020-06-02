@@ -47,7 +47,7 @@ subprojects {
          * do not remove the hsqldb driver jar that is already listed.
          */
         jdbc "org.hsqldb:hsqldb:${hsqldbVersion}"
-        jdbc "com.oracle:ojdbc:${oracleJdbcVersion}"
+        jdbc "com.oracle.database.jdbc:ojdbc8:${oracleJdbcVersion}"
 
         /*
          * These are nearly the same uPortal dependencies declared by uPortal-webapp;
