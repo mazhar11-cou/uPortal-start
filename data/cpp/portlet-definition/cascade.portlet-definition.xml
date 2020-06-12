@@ -19,7 +19,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//cascade.cpp.edu/</value>
+        <value>//www.cpp.edu/cascade</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>

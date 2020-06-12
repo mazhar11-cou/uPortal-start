@@ -64,7 +64,6 @@
         </style>
 
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
-        <script src="/resource-server/webjars/class-schedule-web-component/js/class-schedule.min.js?v=0.5.0" defer></script>
 
         <h3>My Class Schedule</h3>
         <class-schedule events-url="/sis/api/v0/class-schedule"></class-schedule>
