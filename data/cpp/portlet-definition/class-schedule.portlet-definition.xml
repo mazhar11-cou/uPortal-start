@@ -56,18 +56,27 @@
     <portlet-preference>
         <name>content</name>
         <readOnly>false</readOnly>
-        <value>
-        <![CDATA[
+        <value><![CDATA[
         <style>
         .class-schedule.no-chrome .up-portlet-titlebar { display: none }
         .class-schedule.no-chrome .up-portlet-wrapper-inner h3 { margin: 0px; }
         </style>
 
         <script src="/resource-server/webjars/vue/dist/vue.min.js"></script>
+        <script src="/resource-server/webjars/class-schedule-web-component/js/class-schedule.min.js?v=0.6.0" defer></script>
 
         <h3>My Class Schedule</h3>
-        <class-schedule events-url="/sis/api/v0/class-schedule"></class-schedule>
-        ]]>
-        </value>
+        <div style="margin-left: 20px; margin-right: 20px">
+            <class-schedule
+              events-url="/sis/api/v0/class-schedule"
+              fully-async-heading="Fully Asynchronous"
+              mode-sort="strict"
+            >
+                <div slot="fully-async-footer">
+                    <p>* Refer to BroncoDirect for the start date of your classes</p>
+                </div>
+            </class-schedule>
+        </div>
+        ]]></value>
     </portlet-preference>
 </portlet-definition>
