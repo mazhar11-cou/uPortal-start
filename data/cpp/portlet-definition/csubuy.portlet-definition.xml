@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
-    <title>Campus Marketplace (Procurement)</title>
-    <name>Campus Marketplace (Procurement)</name>
-    <fname>campus-marketplace-procurement</fname>
-    <desc>Online marketplace portal for businesses selling products and/or services to the State.</desc>
+<portlet-definition xmlns="https://source.jasig.org/schemas/uportal/io/portlet-definition" xmlns:ns2="https://source.jasig.org/schemas/uportal" xmlns:ns3="https://source.jasig.org/schemas/uportal/io/portlet-type" xmlns:ns4="https://source.jasig.org/schemas/uportal/io/event-aggregation" xmlns:ns5="https://source.jasig.org/schemas/uportal/io/subscribed-fragment" xmlns:ns6="https://source.jasig.org/schemas/uportal/io/permission-owner" xmlns:ns7="https://source.jasig.org/schemas/uportal/io/user" xmlns:ns8="https://source.jasig.org/schemas/uportal/io/stylesheet-descriptor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xsi:schemaLocation="https://source.jasig.org/schemas/uportal/io/portlet-definition https://source.jasig.org/schemas/uportal/io/portlet-definition/portlet-definition-5.0.xsd">
+    <title>CSUBuy</title>
+    <name>CSUBuy</name>
+    <fname>csubuy</fname>
     <type>CMS</type>
     <timeout>5000</timeout>
     <portlet-descriptor>
@@ -11,15 +10,15 @@
         <ns2:portletName>cms</ns2:portletName>
     </portlet-descriptor>
     <category>Online Services</category>
-    <group>Staff</group>
+    <group>Employees</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
-            <group>Staff</group>
+            <group>Employees</group>
         </permission>
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value>//eprocurement.esmsolutions.com/Shibboleth.sso/Login?id=https%3a%2f%2fidp.cpp.edu%2fidp%2fshibboleth</value>
+        <value>//ds.calstate.edu/?svc=csubuy</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
@@ -59,7 +58,7 @@
     </parameter>
     <parameter>
         <name>iconUrl</name>
-        <value>//www.cpp.edu/mycpp/img/campus-marketplace.png</value>
+        <value>//www.cpp.edu/mycpp/img/csubuy.jpg</value>
     </parameter>
     <parameter>
         <name>printable</name>
