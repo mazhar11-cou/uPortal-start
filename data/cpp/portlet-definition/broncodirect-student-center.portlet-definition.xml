@@ -16,11 +16,13 @@
     <group>Applicants</group>
     <group>Pending Students</group>
     <group>Students</group>
+    <group>Past Students</group>
     <permissions>
         <permission system="UP_PORTLET_SUBSCRIBE" activity="BROWSE">
             <group>Applicants</group>
             <group>Pending Students</group>
             <group>Students</group>
+            <group>Past Students</group>
         </permission>
     </permissions>
     <parameter>
