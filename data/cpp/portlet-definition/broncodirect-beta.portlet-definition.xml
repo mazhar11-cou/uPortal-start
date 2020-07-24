@@ -22,7 +22,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-        <value><![CDATA[https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDF/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?gsmobile=1&1=1]]></value>
+        <value><![CDATA[https://idp.cpp.edu/idp/profile/cas/login?service=https://cmsweb.cms.cpp.edu/psp/CPOMPRDM/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?1=1]]></value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
