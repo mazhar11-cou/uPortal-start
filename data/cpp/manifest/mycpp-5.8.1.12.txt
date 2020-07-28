@@ -1,0 +1,14 @@
+data/cpp/portlet-definition/broncodirect-admission-information.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-admission-status.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-advisor-center.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-class-schedule-search.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-course-catalog-search.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-faculty-center.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-my-planner.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-register-orientation.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-student-center.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-update-service-indicators.portlet-definition.xml
+data/cpp/portlet-definition/broncodirect-view-charges.portlet-definition.xml
+data/cpp/portlet-definition/hr-personal-info.portlet-definition.xml
+data/cpp/portlet-definition/peoplesoft-campus-solutions.portlet-definition.xml
