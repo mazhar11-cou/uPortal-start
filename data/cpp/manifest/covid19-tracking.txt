@@ -1,0 +1,4 @@
+data/cpp/pags-group/SA_HR_EMPL_WKSCHD_PAGS.pags-group.xml
+data/cpp/group_membership/SA_HR_EMPL_WKSCHD.group-membership.xml
+data/cpp/portlet-definition/covid19-tracking.portlet-definition.xml
+data/cpp/fragment-layout/cpp-employee-lo.fragment-layout.xml

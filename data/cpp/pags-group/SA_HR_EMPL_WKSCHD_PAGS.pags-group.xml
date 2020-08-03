@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pags-group script='classpath://org/jasig/portal/io/import-pags-group_v4-1.crn'>
+  <name>SA_HR_EMPL_WKSCHD (PAGS)</name>
+  <description>Users with psRole=SA_HR_EMPL_WKSCHD</description>
+  <selection-test>
+    <test-group>
+      <test>
+        <attribute-name>psRole</attribute-name>
+        <tester-class>org.jasig.portal.groups.pags.testers.StringEqualsTester</tester-class>
+        <test-value>SA_HR_EMPL_WKSCHD</test-value>
+      </test>
+    </test-group>
+  </selection-test>
+</pags-group>
