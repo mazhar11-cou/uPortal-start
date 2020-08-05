@@ -21,7 +21,7 @@
     </permissions>
     <parameter>
         <name>alternativeMaximizedLink</name>
-	<value>//cpp.az1.qualtrics.com/jfe/form/SV_exJ4nuRFhwTsoGp</value>
+	<value>//www.cpp.edu/employee-health-screener</value>
     </parameter>
     <parameter>
         <name>blockImpersonation</name>
