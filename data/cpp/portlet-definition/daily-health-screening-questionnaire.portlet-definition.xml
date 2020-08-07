@@ -69,7 +69,7 @@
     </parameter>
     <parameter>
         <name>waffleLabel</name>
-        <value>Daily Health Questionnaire</value>
+        <value>Employee Health Screener</value>
     </parameter>
     <parameter>
         <name>printable</name>
