@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- LAST ID = 80 -->
+<!-- LAST ID = 81 -->
 <layout xmlns:dlm="http://www.uportal.org/layout/dlm" script="classpath://org/jasig/portal/io/import-layout_v3-2.crn" username="cpp-employee-lo">
   <folder ID="s1" hidden="false" immutable="false" name="Root folder" type="root" unremovable="true">
     <folder ID="s2" hidden="true" immutable="true" name="Page Top folder" type="page-top" unremovable="true">
@@ -19,6 +19,7 @@
           <name>width</name>
           <value>50%</value>
         </structure-attribute>
+        <channel fname="covid19-tracking" unremovable="true" hidden="false" immutable="false" ID="n81" dlm:moveAllowed="false"/>
         <channel fname="cpp-hr-career-opportunities" unremovable="true" hidden="false" immutable="false" ID="n78" dlm:moveAllowed="false"/>
         <channel fname="cpp-hr-absence-management-am-manager" unremovable="false" hidden="false" immutable="false" ID="n76" dlm:moveAllowed="false"/>
         <channel fname="cpp-hr-absence-management-timekeeper" unremovable="false" hidden="false" immutable="false" ID="n77" dlm:moveAllowed="false"/>
