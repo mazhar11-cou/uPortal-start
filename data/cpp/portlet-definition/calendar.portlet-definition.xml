@@ -51,7 +51,7 @@
     </parameter>
     <parameter>
         <name>configurable</name>
-        <value>true</value>
+        <value>false</value>
     </parameter>
     <parameter>
         <name>disableDynamicTitle</name>
