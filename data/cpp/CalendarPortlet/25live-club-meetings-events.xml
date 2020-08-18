@@ -1,0 +1,11 @@
+<predefined-calendar script="classpath:/org/jasig/portlet/calendar/io/import-PredefinedCalendarDefinition_v1-0.crn.xml">
+    <fname>25live-club-meetings-events</fname>
+    <className>httpIcalAdapter</className>
+    <name>Club Meetings and Events</name>
+    <parameters>
+        <parameter name="url">https://25livepub.collegenet.com/calendars/club-events.ics</parameter>
+    </parameters>
+    <predefinedRoles>
+        <role>Everyone</role>
+    </predefinedRoles>
+</predefined-calendar>

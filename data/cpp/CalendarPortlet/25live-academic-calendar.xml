@@ -1,0 +1,11 @@
+<predefined-calendar script="classpath:/org/jasig/portlet/calendar/io/import-PredefinedCalendarDefinition_v1-0.crn.xml">
+    <fname>25live-academic-calendar</fname>
+    <className>httpIcalAdapter</className>
+    <name>Academic Calendar</name>
+    <parameters>
+        <parameter name="url">https://25livepub.collegenet.com/calendars/CPPacademic-calendar.ics</parameter>
+    </parameters>
+    <predefinedRoles>
+        <role>Everyone</role>
+    </predefinedRoles>
+</predefined-calendar>

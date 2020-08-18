@@ -1,0 +1,11 @@
+<predefined-calendar script="classpath:/org/jasig/portlet/calendar/io/import-PredefinedCalendarDefinition_v1-0.crn.xml">
+    <fname>25live-holidays</fname>
+    <className>httpIcalAdapter</className>
+    <name>Holidays</name>
+    <parameters>
+        <parameter name="url">https://25livepub.collegenet.com/calendars/cpp-holidays.ics</parameter>
+    </parameters>
+    <predefinedRoles>
+        <role>Everyone</role>
+    </predefinedRoles>
+</predefined-calendar>
